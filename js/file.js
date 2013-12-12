@@ -2696,7 +2696,8 @@ function setWidthCarr2(){
 					for(n=0;n < n_bullets_mobile;n++){
 							if(n==0)
 							{
-								lis_m = "<li class='background-color1 bg-corporativo'></li>"+lis_m;
+								//lis_m = "<li class='background-color1 bg-corporativo'></li>"+lis_m;
+                                lis_m = "<li class='background-color1'></li>"+lis_m;
 							}
 							else
 							{
