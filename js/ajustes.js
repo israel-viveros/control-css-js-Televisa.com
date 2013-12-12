@@ -77,6 +77,6 @@ $(window).load( function () {
 
 });
 
-$(function(){
-    $(".StageSliderMundial ul.StageContainterLarge li").find(".descriptionStageContainerLarge").find("a").removeClass("ui-link");
-});
+setTimeout(function(){
+            $(".StageSliderMundial ul.StageContainterLarge li").find(".descriptionStageContainerLarge").find("a").removeClass("ui-link");
+        },3000);
