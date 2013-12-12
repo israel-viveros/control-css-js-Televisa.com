@@ -8,11 +8,11 @@
 .ContainerSliderThumbs .StageContainerThumbs li.active img{border:3px solid gray;width:81px;height:59px;}
 .StageSliderMundial .StageContainterLarge li{max-width:624px;}
 .StageSliderMundial .StageContainterLarge li img{display:block;width:100%;height:auto;position:relative;transition:all 0.4s ease 0s;-webkit-transition:all 0.4s ease 0s;}
-.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{display:block;width:30%;height:90%;position:absolute;z-index:10;top:10%;right:0;}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{display:block;width:30%;/*height:90%;*/position:absolute;z-index:10;/*top:10%;*/right:0;width:92%;top:8%;}
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge a,.descriptionOutMundial .TitleEdiStageContainerLarge a,.buttonViewMoreNts a{text-decoration:none;color:#FFF;}
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleStageContainerLarge,.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge,.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge{/*width:90%;*/width:81%; color:gray;line-height:1.3em;max-height:3.2em;overflow:hidden;text-transform:uppercase;/*padding:5%;*/padding: 18px;font-size:16px;}
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge{max-height:4em;font-size:23px;line-height:1.5em;}
-.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge{font-weight:normal;font-size:13px;/*max-height:12em;*/max-height: 43px !important; overflow:hidden;line-height:1.2em;text-transform:capitalize;}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge{font-weight:normal;font-size:13px;/*max-height:12em;*/max-height: 50px !important; overflow:hidden;/*line-height:1.2em;*/line-height:17px;text-transform:capitalize;}
 .ContainerSliderThumbs{display:block;position:relative;width:70%;margin-top:-5%;z-index:20;}
 .contthumbslider{width:85%;height:auto;display:inline-block;vertical-align:top;}
 .ContainerSliderThumbs .StageContainerThumbs li{width:87px;overflow:hidden;height:65px;max-width:87px;margin:0 0 0 5px;cursor:pointer;float:left;}
@@ -145,7 +145,7 @@
     width: 20%;
     display: block;
     /*margin-left: 10px;*/margin-left: 18px;
-    /*margin-bottom: 160px;*/margin-bottom: 174px;
+    /*margin-bottom: 160px;*/margin-bottom: 179px;
     background: #fff;
     opacity: 0.6;
     height: 1px;
