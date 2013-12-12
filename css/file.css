@@ -6289,7 +6289,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         padding-left: 24px;
         font-weight: normal;
         padding-top: 19px;
-        /*padding-bottom: 18px;*/margin-bottom:18px;
+        /*padding-bottom: 18px;*/padding-bottom: 7px;
         padding-right: 15px; height:52px; overflow:hidden;
     }
     .ie8 .art_latestnews_01 .art_latestnews_01_list1 p  {
