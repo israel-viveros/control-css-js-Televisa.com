@@ -1578,10 +1578,10 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     border: 4px solid #08673C!important;
 }
 .bg-esmas, #dock-stage-mobile ul li.bg-esmas.active span, #dock-stage ul li.bg-esmas.active span{
-    background: #456FCB!important;
+    background: #6AA845!important;
 }
 #dock-stage li.bg-esmas a img{
-    border: 4px solid #456FCB!important;
+    border: 4px solid #6AA845!important;
 }
 
 .bg-ninos, #dock-stage-mobile ul li.bg-ninos.active span, #dock-stage ul li.bg-ninos.active span{
@@ -1597,10 +1597,10 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     border: 4px solid #E2B53A!important;
 }
 .bg-deportes, #dock-stage-mobile ul li.bg-deportes.active span, #dock-stage ul li.bg-deportes.active span{ 
-    background: #A31D21!important;
+    background: #A70A0B!important;
 }
 #dock-stage li.bg-deportes a img{
-    border: 4px solid #A31D21!important;
+    border: 4px solid #A70A0B!important;
 }
 #dock-stage ul li.bg-deportes, 
 #dock-stage-mobile ul li.bg-deportes, 
@@ -1635,19 +1635,19 @@ header
     color: #F7D031!important;
 }
 .bg-television-color_1{
-    color: #F78429!important;
+    color: #F68428!important;
 }
 .bg-television-color_2{
     color: #DCC224!important;
 }
 .bg-noticieros-color_1{
-    color: #0079C2!important;
+    color: #0078c0!important;
 }
 .bg-noticieros-color_2{
     color: #AFBF24!important;
 }
 .bg-esmas-color_1{
-    color: #456FCB!important;
+    color: #6AA845!important;
 }
 .bg-esmas-color_2{
     color: #999999!important;
@@ -1659,7 +1659,7 @@ header
     color: #F7D031!important;
 }
 .bg-entretenimiento-color_1{
-    color: #E2B53A!important;
+    color: #E2B528!important;
 }
 .bg-entretenimiento-color_2{
     color: #0DA598!important;
