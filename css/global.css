@@ -1845,7 +1845,7 @@ div.title h3 a {
     width: 16px;
 }
 .sprite.video-corner {
-    background-position: -131px -40px;
+    /*background-position: -131px -40px;*/background-position: -134px -40px;
     height: 43px;
     width: 43px;
 }
