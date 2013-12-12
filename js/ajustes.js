@@ -1,26 +1,26 @@
 $(function() {
 
-    $("#btn_follow").unbind("click").click(function() {
-
-        $("header.nav_header_01 div.mainnav nav.social ul li ul.sub-nav-social-twitter").css("display", "block");
-        $("header.nav_header_01 div.mainnav nav.social ul li ul.sub-nav-social-facebook").css("display", "none");
+    $("#btn_follow, #btn_like").click(function(event) {
+        event.preventDefault();        
+        if($(this).attr("id")=== "btn_follow"){
+            $("header.nav_header_01 div.mainnav nav.social ul li ul.sub-nav-social-facebook").css("display", "none");    
+        }else{
+            $("header.nav_header_01 div.mainnav nav.social ul li ul.sub-nav-social-twitter").css("display", "none");    
+        }
+        $(this).siblings('ul').toggle("slow");        
     });
-    $("#btn_like").unbind("click").click(function() {
 
-        $("header.nav_header_01 div.mainnav nav.social ul li ul.sub-nav-social-facebook").css("display", "block");
-        $("header.nav_header_01 div.mainnav nav.social ul li ul.sub-nav-social-twitter").css("display", "none");
-    });
-
-    $("#btn_mobile_twitter").unbind("click").click(function() {
-        $("header.nav_header_01 div.mobilenav nav ul li ul.sub-nav-social-twitter").css("display", "block");
-        $("header.nav_header_01 div.mobilenav nav ul li ul.sub-nav-social-facebook").css("display", "none");
+     $("#btn_mobile_facebook, #btn_mobile_twitter").click(function(event) {
+        event.preventDefault();        
+        if($(this).attr("id")=== "btn_mobile_twitter"){
+            $("header.nav_header_01 div.mobilenav nav ul li ul.sub-nav-social-facebook").css("display", "none");    
+        }else{
+            $("header.nav_header_01 div.mobilenav nav ul li ul.sub-nav-social-twitter").css("display", "none");    
+        }
         $("header.nav_header_01 div.mobilenav").css("height", "80px");
+        $(this).siblings('ul').toggle("slow");        
     });
-    $("#btn_mobile_facebook").unbind("click").click(function() {
-        $("header.nav_header_01 div.mobilenav nav ul li ul.sub-nav-social-facebook").css("display", "block");
-        $("header.nav_header_01 div.mobilenav nav ul li ul.sub-nav-social-twitter").css("display", "none");
-        $("header.nav_header_01 div.mobilenav").css("height", "80px");
-    });
+     
 });
 
 
