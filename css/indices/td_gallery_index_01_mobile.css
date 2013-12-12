@@ -1,0 +1,34 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_gallery_index_01 .header01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_gallery_index_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_gallery_index_01 .main > div{
+		/*clear:both;*/
+	}
+	/*Tamaño 100%*/
+	.td_gallery_index_01 .main .c5_1{
+		width: 100%;
+	}
+	.td_gallery_index_01 .main .banner_mobile{
+		text-align: center;
+		display: block;
+		margin-top: 5px;
+	}
+	.td_gallery_index_01 .main .c9 {
+		clear:both;
+	}
+	.td_gallery_index_01 .main .c2 .c2_1,
+	.td_gallery_index_01 .main .c3 .c3_1{
+		width: 100%
+	}
+	.td_gallery_index_01 .main .c3 .c3_3{
+		display: none;
+	}
+}
