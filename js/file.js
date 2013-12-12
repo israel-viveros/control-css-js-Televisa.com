@@ -2680,7 +2680,8 @@ function setWidthCarr2(){
 					var lis = "";
 					for(n=0;n < n_bullets_tablet;n++){
 							if(n==0){
-								lis = "<li class='background-color1 bg-corporativo'></li>"+lis;
+								//lis = "<li class='background-color1 bg-corporativo'></li>"+lis;
+                                lis = "<li class='background-color1'></li>"+lis;
 							}
 							else{
 								lis = "<li></li>"+lis;
