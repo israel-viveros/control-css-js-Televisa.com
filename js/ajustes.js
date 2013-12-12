@@ -25,7 +25,7 @@ $(function() {
 
 
 $(document).ready(function() {
-    /****** Inicia contador de notas mÃ¡s leÃ­das para RGA_top6_2013 *****/
+    /****** Inicia contador de notas m?s le?das para RGA_top6_2013 *****/
     var contador = $(".art_latestnews_01_list1").children().size();
 
     if (contador > 0) {
@@ -37,7 +37,7 @@ $(document).ready(function() {
         console.log("No existen notas priorizadas");
     }
     ;
-    /***** Final contador de notas mÃ¡s leÃ­das para RGA_top6_2013 *****/
+    /***** Final contador de notas m?s le?das para RGA_top6_2013 *****/
 });
 
 
@@ -72,7 +72,11 @@ $(window).load( function () {
         $(".wdg_twitt_02_carousel ul").empty().html(armaHTML);
         
     } else if ( cuentaTw < 6) {
-        console.log("No se pudo establecer comunicaciÃ³n con el servicio de Twitter.");
+        console.log("No se pudo establecer comunicacion con el servicio de Twitter.");
     }
 
+});
+
+$(function(){
+    $(".StageSliderMundial ul.StageContainterLarge li").find(".descriptionStageContainerLarge").find("a").removeClass("ui-link");
 });
