@@ -3702,7 +3702,8 @@ $(document).ready(function() {
 					}, 500);
             });
 	/*Swipe*/
-		$('.btn_6prog_03 .type1a .carrusel').bind('swipeleft',function(){
+		/*
+        $('.btn_6prog_03 .type1a .carrusel').bind('swipeleft',function(){
 				$(this).animate({
 						'scrollLeft': $(this).scrollLeft() + 328
 					}, 500);
@@ -3717,5 +3718,30 @@ $(document).ready(function() {
 	$('.btn_6prog_03 .carrusel').bind("touchmove",function(event){
     event.preventDefault();
     });
+
+    */
+
+     $(".btn_6prog_03 .type1a .carrusel").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount) {           
+           if (direction==="right") {            
+            $(this).animate({
+                        'scrollLeft': $(this).scrollLeft() - 328
+                    }, 500);
+           }//
+           if (direction==="left") {            
+            $(this).animate({
+                        'scrollLeft': $(this).scrollLeft() + 328
+                    }, 500);
+
+
+           }
+
+
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+
 
 });
