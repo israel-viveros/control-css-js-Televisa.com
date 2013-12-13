@@ -7383,7 +7383,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     .ie8 .mix_1arts_03,
     .ie7 .mix_1arts_03 {
         width: 625px;
-        margin-bottom:9px;
+        /*margin-bottom:9px;*/margin-bottom:7px;
     }
     .mix_1arts_03 .type2b {
         margin-bottom: 16px;
