@@ -13102,7 +13102,7 @@ and (orientation : portrait) {
         line-height: 31px;
     }
     .btn_6prog_03 .bullets{
-        display: block;
+        display: none;
         width: 100%;
         /*border-top: 1px solid #CCC;*/
 		margin-top:20px;
