@@ -966,6 +966,8 @@ function Carrusel_01() {
                     url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                     $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
+                    topic = $("#" + id_thumb + " a").attr('data-topic');
+                    $("#stage_carru_01 .galleryCaption_02 .topic a").text(topic);
                 }
                 else
                 {
@@ -1042,6 +1044,8 @@ function Carrusel_01() {
                         url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                         $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
+                        topic = $("#" + id_thumb + " a").attr('data-topic');
+                        $("#stage_carru_01 .galleryCaption_02 .topic a").text(topic);
                     }
                     else
                     {
@@ -1184,6 +1188,8 @@ function Carrusel_02() {
                     url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                     $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
+                    topic = $("#" + id_thumb + " a").attr('data-topic');
+                    $("#stage_carru_02 .galleryCaption_02 .topic a").text(topic);
                 }
                 else
                 {
@@ -1257,6 +1263,8 @@ function Carrusel_02() {
                         url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                         $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
+                        topic = $("#" + id_thumb + " a").attr('data-topic');
+                        $("#stage_carru_02 .galleryCaption_02 .topic a").text(topic);
                     }
                     else
                     {
@@ -1395,6 +1403,8 @@ function Carrusel_03() {
                     url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                     $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
+                    topic = $("#" + id_thumb + " a").attr('data-topic');
+                    $("#stage_carru_03 .galleryCaption_02 .topic a").text(topic);
                     
                 }
                 else
@@ -1471,6 +1481,8 @@ function Carrusel_03() {
                         url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                         $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
+                        topic = $("#" + id_thumb + " a").attr('data-topic');
+                        $("#stage_carru_03 .galleryCaption_02 .topic a").text(topic);
                     }
                     else
                     {
