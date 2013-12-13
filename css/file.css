@@ -1336,7 +1336,7 @@ header.nav_header_01 div.topnav {
 	/* small news */
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news
 		{
-		width: ￼￼￼￼￼￼￼￼￼￼84px !important;
+		width: 84px !important;
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a
 		{
@@ -1352,7 +1352,7 @@ header.nav_header_01 div.topnav {
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a img
 		{
-		width: ￼￼￼￼￼￼￼￼￼￼84px;
+		width: 84px;
 		height: 67px;
 		position: absolute;
 		left: -96px;
@@ -3264,7 +3264,7 @@ header.nav_header_01 div.topnav {
 		bottom:50px;
 	}
 	.wdg_goals_carru_01 > ul {
-	    height: 322px; /*tamaño original*/
+	    height: 322px; /*tama?o original*/
 /*	    height: 141px;*/
 	}
 	 .wdg_goals_carru_01 > div .full-timetable {
@@ -6285,9 +6285,9 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     .art_latestnews_01 .art_latestnews_01_list1 p  {
         float: left;
         width: 197px;
-        font-size: 13px;
+        font-size: 14px;
         padding-left: 24px;
-        font-weight: normal;
+        font-weight: bold;
         padding-top: 19px;
         /*padding-bottom: 18px;*/padding-bottom: 7px;
         padding-right: 15px; height:52px; overflow:hidden;
@@ -7477,7 +7477,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         color: #D9A961;
         margin-bottom: 15px;
     }
-		/*Categoría*/
+		/*Categor?a*/
 	    .mix_1arts_03 .floatRight h2 a {
         font-size: 14px;
         font-style: italic;
@@ -8613,7 +8613,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 		/*bottom:50px;*/bottom:22px;
 	}
 	.wdg_altasbajas_result_01 > ul {
-	    /*height: 478px;*//*tamaño original*/
+	    /*height: 478px;*//*tama?o original*/
 	    height: 372px;
 		overflow: hidden;
 	}
