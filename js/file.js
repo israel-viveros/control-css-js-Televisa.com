@@ -8,14 +8,14 @@
  * 
  * Open source under the BSD License. 
  * 
- * Copyright Ã‚Â© 2001 Robert Penner
+ * Copyright 2001 Robert Penner
  * All rights reserved.
  *
  * TERMS OF USE - jQuery Easing
  * 
  * Open source under the BSD License. 
  * 
- * Copyright Ã‚Â© 2008 George McGinley Smith
+ * Copyright  2008 George McGinley Smith
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -413,7 +413,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
                 $parent.animate({
                     'scrollLeft': $parent.scrollLeft() - 222
                 }, animationDelay,"linear",function(){
-					/*Verifico posición del scroll*/ 
+					/*Verifico posici??n del scroll*/ 
 					var large_tot = $('.wdg_matchesresult_01 ul.wdg_matchesresult_01_list').width();
 					large_tot = large_tot -220;
 					var position = $parent.scrollLeft();//alert("termine izq " + position +" "+ large_tot);
@@ -444,7 +444,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
                 $parent.animate({
                     'scrollLeft': $parent.scrollLeft() + 222
                 }, animationDelay,"linear",function(){
-					/*Verifico posición del scroll*/ 
+					/*Verifico posici??n del scroll*/ 
 					var large_tot = $('.wdg_matchesresult_01 ul.wdg_matchesresult_01_list').width();
 					large_tot = large_tot -220;
 					var position2 = $parent.scrollLeft();//alert("termine der " + position2);
@@ -570,7 +570,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
                 $parent.stop(true).animate({
                     'scrollLeft': $parent.scrollLeft() - 250
                 }, animationDelay,"linear",function(){ 
-				/*Verifico posición del scroll*/ 
+				/*Verifico posici??n del scroll*/ 
 					var large_tot = $(this).children().width();
 					var position = $parent.scrollLeft();
 					med = position + $(this).parent().width();
@@ -606,7 +606,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
                 $parent.animate({
                     'scrollLeft': $parent.scrollLeft() + 250
                 }, animationDelay,"linear",function(){ 
-				/*Verifico posición del scroll*/ 
+				/*Verifico posici??n del scroll*/ 
 					var large_tot = $(this).children().width();
 					var position = $parent.scrollLeft();
 					med = position + $(this).parent().width();
@@ -765,7 +765,7 @@ $(window).load(function(){
 });*/;jQuery(function($){ 
     (function($,T){
     	//Aggregate on : 16/Jun/2013, 04:02:15 PM
-        //Author     		 : Isaac Aarón Díaz Reveles    	
+        //Author     		 : Isaac Aar??n D??az Reveles    	
     	$('.wdg_goals_carru_01 .deg').scroll(function() {
     		if($(this).scrollTop()>=329){
     		 $('.wdg_goals_carru_01 .degraded').css("visibility","hidden");
@@ -890,7 +890,7 @@ if ($.browser.msie && parseInt($.browser.version, 10) <= 7){
  
  
  //$(document).ready(function() { //Html esencial y DOM
-$(window).load(function() {	 //Imágenes y demas HTML
+$(window).load(function() {	 //Im??genes y demas HTML
 
 
     Carrusel_01();
@@ -960,9 +960,12 @@ function Carrusel_01() {
                 id_thumb = $(this).attr("id");
                 if ("stage1thumb_" + index == id_thumb)
                 {
+                    $("#stage_carru_01 .galleryCaption_02 h2 a").text("");
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
+                    url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                     $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
+                    $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
                 }
                 else
                 {
@@ -1032,11 +1035,13 @@ function Carrusel_01() {
                     id_thumb = $(this).attr("id");
                     if ("stage1thumb_" + index == id_thumb)
                     {
+                        $("#stage_carru_01 .galleryCaption_02 h2 a").text("");
                         //alert(id_thumb);
                         $(this).addClass("active");
                         title_item = $("#stage_carru_01 #" + id_thumb + " a").attr('data-title');
-
+                        url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                         $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
+                        $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
                     }
                     else
                     {
@@ -1173,9 +1178,12 @@ function Carrusel_02() {
                 id_thumb = $(this).attr("id");
                 if ("thumb_" + index == id_thumb)
                 {
+                    $("#stage_carru_02 .galleryCaption_02 h2 a").text("");
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
+                    url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                     $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
+                    $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
                 }
                 else
                 {
@@ -1243,11 +1251,12 @@ function Carrusel_02() {
                     id_thumb = $(this).attr("id");
                     if ("thumb_" + index == id_thumb)
                     {
-
+                        $("#stage_carru_02 .galleryCaption_02 h2 a").text("");
                         $(this).addClass("active");
                         title_item = $("#stage_carru_02 #" + id_thumb + " a").attr('data-title');
-
+                        url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                         $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
+                        $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
                     }
                     else
                     {
@@ -1380,9 +1389,13 @@ function Carrusel_03() {
                 id_thumb = $(this).attr("id");
                 if ("thumb_" + index == id_thumb)
                 {
+                    $("#stage_carru_03 .galleryCaption_02 h2 a").text("");
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
+                    url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                     $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
+                    $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
+                    
                 }
                 else
                 {
@@ -1452,11 +1465,12 @@ function Carrusel_03() {
                     id_thumb = $(this).attr("id");
                     if ("thumb_" + index == id_thumb)
                     {
-
+                        $("#stage_carru_03 .galleryCaption_02 h2 a").text("");
                         $(this).addClass("active");
                         title_item = $("#stage_carru_03 #" + id_thumb + " a").attr('data-title');
-
+                        url_item = $("#" + id_thumb + " a").attr('data-urltitle');
                         $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
+                        $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
                     }
                     else
                     {
@@ -2383,7 +2397,7 @@ function scrollImages(distance, duration, carousel) {
 //	carousel.css({
 //		"-webkit-transition-duration": t + "s",		/* Chrome 1-25, Safari 3.2+ */
 //		"-moz-transition": t + "s",					/* Firefox 4-15 */
-//		"-o-transition": t + "s",					/* Opera 10.50–12.00 */
+//		"-o-transition": t + "s",					/* Opera 10.50???12.00 */
 //		"transition": t + "s"						/* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 //	});
 //	
@@ -2673,7 +2687,7 @@ function setWidthCarr2(){
 					
 					
 					
-					/*calculo número de bullets tablet*/
+					/*calculo n??mero de bullets tablet*/
 					n_bullets_tablet = elements / 2;
 					n_bullets_tablet = Math.ceil(n_bullets_tablet);
 					n_bullets_tablet = n_bullets_tablet;
@@ -2690,7 +2704,7 @@ function setWidthCarr2(){
 					}
 					$('.btn_carru_prog_02 #b_tablet').append("<ul>"+lis+"</ul>");
 					
-					/*calculo número de bullets mobile*/
+					/*calculo n??mero de bullets mobile*/
 					n_bullets_mobile = elements;
 					var lis_m = "";
 					for(n=0;n < n_bullets_mobile;n++){
@@ -2773,7 +2787,7 @@ function setWidthCarr2(){
                         $parent.animate({
                         	'scrollLeft': $parent.scrollLeft() - $parent.width() - 21
                         }, animationDelay,"linear",function(){
-						/*Verifico posición del scroll*/ 
+						/*Verifico posici??n del scroll*/ 
 						var large_tot = $(this).children().width();
 						var estoy = $(this).attr('class');
 						var position = $parent.scrollLeft();
@@ -2805,7 +2819,7 @@ function setWidthCarr2(){
                     	'scrollLeft': $parent.scrollLeft() + $parent.width() + 21
 									
                     }, animationDelay,"linear",function(){
-					/*Verifico posición del scroll*/ 
+					/*Verifico posici??n del scroll*/ 
 					var large_tot2 = $(this).children().width();
 					var estoy2 = $(this).attr('class');
 					var position2 = $parent.scrollLeft();
@@ -2845,7 +2859,7 @@ function setWidthCarr2(){
 							'scrollLeft': $parent.scrollLeft() + scrollL
 					}, animationDelay,"linear",function(){
 						
-						/*Verifico posición del scroll*/ 
+						/*Verifico posici??n del scroll*/ 
 						var large_tot2 = $(this).children().width();
 						var estoy2 = $(this).attr('class');
 						var position2 = $parent.scrollLeft();
@@ -2882,7 +2896,7 @@ function setWidthCarr2(){
                 }, animationDelay,"linear",function(){
 					
 					
-					/*Verifico posición del scroll*/ 
+					/*Verifico posici??n del scroll*/ 
 					var large_tot = $(this).children().width();
 					var estoy = $(this).attr('class');
 					var position = $parent.scrollLeft();
@@ -2924,7 +2938,7 @@ function setWidthCarr2(){
 		
 		/*Mobile*/
 		
-		//armar estructura dinámica según número de bullets
+		//armar estructura din??mica seg??n n??mero de bullets
 		typem = n_bullets_mobile; 
 		if(typem == 8)
 		{
@@ -2974,7 +2988,7 @@ function setWidthCarr2(){
 			
 		/*Tablet*/
 		
-		//armar estructura dinámica según número de bullets
+		//armar estructura din??mica seg??n n??mero de bullets
 		type = n_bullets_tablet%2; 
 			if(type != 0)
 			{
@@ -2984,7 +2998,7 @@ function setWidthCarr2(){
 			{
 				type = n_bullets_tablet;
 			}
-		//console.log("Cantidad de elementos: " + n_bullets_tablet +" Posición scroll" + scrollLeft + " type: " + type);
+		//console.log("Cantidad de elementos: " + n_bullets_tablet +" Posici??n scroll" + scrollLeft + " type: " + type);
 		if(type == 4)
 		{
 			if( scrollLeft < 625)
@@ -3262,7 +3276,7 @@ if ($.browser.msie && parseInt($.browser.version, 10) <= 7){
 		$elements = $('.wdg_sched_02 ul#deg li').size() + 1;
 		$altura =0;
 		
-		/*Tamaño de pantalla modificado*/
+		/*Tama??o de pantalla modificado*/
 		$(window).resize(function() {
 			if($.browser.msie && $.browser.version < 9){
 				if($(window).width()>947){
@@ -3454,7 +3468,7 @@ $(document).ready(function(e) {
 	/*Monitor flechas*/
 	$('.wdg_twitt_02 .tvsa-double-caret-left').addClass('inactive');
 	$('.wdg_twitt_02 .tvsa-double-caret-left').click(function() {
-		/*Verifico posición del scroll*/ 
+		/*Verifico posici??n del scroll*/ 
 					var large_tot = $(this).parent().parent().parent().parent().siblings('.wdg_twitt_02_carousel').children().width();
 					var position = $(this).parent().parent().parent().parent().siblings('.wdg_twitt_02_carousel').scrollLeft();
 					med = position + $(this).parent().parent().parent().parent().siblings('.wdg_twitt_02_carousel').width() + 201;
@@ -3479,7 +3493,7 @@ $(document).ready(function(e) {
 			if ($.browser.msie ){
 				$('.wdg_twitt_02 .wdg_twitt_02_carousel ul').attr('style', 'width: '+$large+'px !important');
 			}
-			/*Verifico posición del scroll*/ 
+			/*Verifico posici??n del scroll*/ 
 				var large_tot = $(this).parent().parent().parent().parent().siblings('.wdg_twitt_02_carousel').children().width();
 				var position = $(this).parent().parent().parent().parent().siblings('.wdg_twitt_02_carousel').scrollLeft();
 				med = position + $(this).parent().parent().parent().parent().siblings('.wdg_twitt_02_carousel').width() + 329;
@@ -3565,7 +3579,7 @@ $(window).load(function(){
 
 function showEmailText(){
     if($('.email-txt').val()==""){
-        $('.email-txt').val("Correo electrónico");
+        $('.email-txt').val("Correo electr??nico");
     }
 }
 $(document).ready(function() {	
