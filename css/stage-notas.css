@@ -7,7 +7,7 @@
 .StageSliderMundial .StageContainterLarge li,.ContainerSliderThumbs .StageContainerThumbs li{display:inline-block;list-style:none;width:100%;position:relative;overflow:hidden;}
 .ContainerSliderThumbs .StageContainerThumbs li.active img{border:3px solid gray;width:81px;height:59px;}
 .StageSliderMundial .StageContainterLarge li{max-width:624px;}
-.StageSliderMundial .StageContainterLarge li img{display:block;width:100%;height:auto;position:relative;transition:all 0.4s ease 0s;-webkit-transition:all 0.4s ease 0s;}
+.StageSliderMundial .StageContainterLarge li img{display:block;/*width:100%;*/height:auto;position:relative;transition:all 0.4s ease 0s;-webkit-transition:all 0.4s ease 0s;}
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{display:block;width:30%;height:443px;position:absolute;z-index:10;/*top:10%;*/right:0;width:192px;top:8%;}
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge a,.descriptionOutMundial .TitleEdiStageContainerLarge a,.buttonViewMoreNts a{text-decoration:none;color:#FFF;}
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleStageContainerLarge,.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge,.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge{/*width:90%;*/width:81%; color:gray;line-height:1.3em;max-height:3.2em;overflow:hidden;/*padding:5%;*/padding: 18px;font-size:16px;}
