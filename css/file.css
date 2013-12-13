@@ -13104,7 +13104,7 @@ and (orientation : portrait) {
     .btn_6prog_03 .bullets{
         display: block;
         width: 100%;
-        border-top: 1px solid #CCC;
+        /*border-top: 1px solid #CCC;*/
 		margin-top:20px;
         margin-bottom: 0px;
         height: 20px;
