@@ -3541,33 +3541,43 @@ $(document).ready(function(e) {
 		
 		});
 		/*Swipe*/
-		$('.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel').bind('swipeleft',function(){
-				$('.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel').animate({
-						'scrollLeft': $('.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel').scrollLeft() + 329
-					}, 500);
-			});
-		$('.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel').bind('swiperight',function(){
-				$('.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel').animate({
-						'scrollLeft': $('.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel').scrollLeft() - 329
-					}, 500);
-			});	
+		 $(".wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount) {           
+           if (direction==="right") {            
+            $(this).animate({
+                        'scrollLeft': $(this).scrollLeft() - 329
+                    }, 500);
+           }//
+           if (direction==="left") {            
+            $(this).animate({
+                        'scrollLeft': $(this).scrollLeft() + 329
+                    }, 500);
+
+
+           }
+
+
+        },        
+         threshold:0
+      });
 		/*Monitoreo scroll*/
 	$('.wdg_twitt_02 .wdg_twitt_02_carousel').scroll(function() {
-		var $wt2_position = $(this).scrollLeft();
-		var $wt2_med = $wt2_position;
-		if($wt2_position == 0){
-				$(this).parents('.wdg_twitt_02').children('.bullets').children().removeClass();
-				$(this).parents('.wdg_twitt_02').children('.bullets').children().eq(0).addClass('background-color1');
-		}
-		else{
-		$(this).parents('.wdg_twitt_02').children('.bullets').children().removeClass();
-		$(this).parents('.wdg_twitt_02').children('.bullets').children().eq(1).addClass('background-color1');
-		}
-		if($wt2_med > 350){
-		$(this).parents('.wdg_twitt_02').children('.bullets').children().removeClass();
-		$(this).parents('.wdg_twitt_02').children('.bullets').children().eq(2).addClass('background-color1');
-		} 
-	});
+        var $wt2_position = $(this).scrollLeft();
+        var $wt2_med = $wt2_position;
+        if($wt2_position == 0){
+                $(this).parents('.wdg_twitt_02').children('.bullets').children().removeClass('background-color1');
+                $(this).parents('.wdg_twitt_02').children('.bullets').children().eq(0).addClass('background-color1');
+        }
+        else{
+        $(this).parents('.wdg_twitt_02').children('.bullets').children().removeClass('background-color1');
+        $(this).parents('.wdg_twitt_02').children('.bullets').children().eq(1).addClass('background-color1');
+        }
+        if($wt2_med > 350){
+        $(this).parents('.wdg_twitt_02').children('.bullets').children().removeClass('background-color1');
+        $(this).parents('.wdg_twitt_02').children('.bullets').children().eq(2).addClass('background-color1');
+        } 
+    });
 	
 	$('.wdg_twitt_02').bind("touchmove",function(event){
     event.preventDefault();
