@@ -2696,7 +2696,7 @@ header.nav_header_01 div.topnav {
         position: relative;
         width: 110%;
         overflow-x: hidden;
-		margin-bottom: 18px;
+		/*margin-bottom: 18px;*/
     }
 
     .wdg_goals_carru_01 > ul li {
