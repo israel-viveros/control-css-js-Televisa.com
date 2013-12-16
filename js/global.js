@@ -14,7 +14,7 @@ head.js(
     PATH+"dropdown.js",
     PATH+"header.js",
     PATH+"footer.js",
-    PATH+"jquery.touchSwipe.js",
+    PATH+"jquery.touchSwipe.min.js",
     PATH+"swipe2.js"
     );
 // Quitamos la imagen que pone el script: http://comentarios.esmas.com/js/communities.js (redes sociales)
