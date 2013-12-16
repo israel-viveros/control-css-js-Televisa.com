@@ -4492,10 +4492,11 @@ and (orientation : portrait) {
 		width: 94%;
 	}
     .nav_corft_01 footer div .legal div.row div.left {
-        width:35%;
+        width:16%;
         float:left;
         margin-top:5px;
         padding-left:5px;
+        line-height: 13px;
     }
 
     .nav_corft_01 footer .blue-row ul li a {
@@ -5990,7 +5991,7 @@ header.nav_header_01 div.topnav {
 	/* small news */
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news
 		{
-		width: ￼￼￼￼￼￼￼￼￼￼84px !important;
+		width: 84px !important;
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a
 		{
@@ -6006,7 +6007,7 @@ header.nav_header_01 div.topnav {
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a img
 		{
-		width: ￼￼￼￼￼￼￼￼￼￼84px;
+		width: 84px;
 		height: 67px;
 		position: absolute;
 		left: -96px;
