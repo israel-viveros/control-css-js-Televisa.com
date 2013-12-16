@@ -1,7 +1,7 @@
 @media screen and (min-width: 948px){
     /*Wrap*/
     .td_home_main_01 .main{
-        width: 957px;
+        width: 955px;
     }
 	/* 100 porciento */
     .td_home_main_01 .main .c1{
@@ -21,6 +21,7 @@
 		float:left;
 		width: 624px;
 		clear:none;
+                margin-left: 4px;
 	}
 	/* Flotan a la der */
 	.td_home_main_01 .main .c3,
@@ -32,6 +33,7 @@
 		float:right;
 		width: 300px;
 		clear:none;
+                margin-right: 3px;
 	} 
 	/*bloques*/	
 	.td_home_main_01 .main .c3_1,
