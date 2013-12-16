@@ -963,7 +963,7 @@ function Carrusel_01() {
                     $("#stage_carru_01 .galleryCaption_02 h2 a").text("");
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
-                    url_item = $("#" + id_thumb + " a").attr('data-urltitle');
+                    url_item = $(this).find("a").attr('data-urltitle');
                     $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
                     topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1043,7 +1043,7 @@ function Carrusel_01() {
                         //alert(id_thumb);
                         $(this).addClass("active");
                         title_item = $("#stage_carru_01 #" + id_thumb + " a").attr('data-title');
-                        url_item = $("#" + id_thumb + " a").attr('data-urltitle');
+                        url_item = $(this).find("a").attr('data-urltitle');
                         $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
                         topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1189,7 +1189,7 @@ function Carrusel_02() {
                     $("#stage_carru_02 .galleryCaption_02 h2 a").text("");
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
-                    url_item = $("#" + id_thumb + " a").attr('data-urltitle');
+                    url_item = $(this).find("a").attr('data-urltitle');
                     $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
                     //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1267,7 +1267,7 @@ function Carrusel_02() {
                         $("#stage_carru_02 .galleryCaption_02 h2 a").text("");
                         $(this).addClass("active");
                         title_item = $("#stage_carru_02 #" + id_thumb + " a").attr('data-title');
-                        url_item = $("#" + id_thumb + " a").attr('data-urltitle');
+                        url_item = $(this).find("a").attr('data-urltitle');
                         $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
                         //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1410,7 +1410,7 @@ function Carrusel_03() {
                     $("#stage_carru_03 .galleryCaption_02 h2 a").text("");
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
-                    url_item = $("#" + id_thumb + " a").attr('data-urltitle');
+                    url_item = $(this).find("a").attr('data-urltitle');
                     $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
                     //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1491,7 +1491,7 @@ function Carrusel_03() {
                         $("#stage_carru_03 .galleryCaption_02 h2 a").text("");
                         $(this).addClass("active");
                         title_item = $("#stage_carru_03 #" + id_thumb + " a").attr('data-title');
-                        url_item = $("#" + id_thumb + " a").attr('data-urltitle');
+                        url_item = $(this).find("a").attr('data-urltitle');
                         $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
                         //topic = $("#" + id_thumb + " a").attr('data-topic');

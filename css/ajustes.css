@@ -102,6 +102,9 @@
     line-height: 35px;
     margin: 5px;
 }
+#right-ad01, #right-ad02, #right-ad03, #right-ad04{
+    display: none;
+}
 }
 
 @media screen and (min-width: 624px) {
@@ -117,6 +120,9 @@
     }
     .c11_2{
        /* margin-top: 60px;*/margin-top:0px;
+    }
+    #right-ad01, #right-ad02, #right-ad03, #right-ad04{
+    display: none;
     }
 }
 
@@ -135,6 +141,9 @@
     .c11_2{
         margin-top: 0;
     }
+    #right-ad01, #right-ad02, #right-ad03, #right-ad04{
+    display: block;
+}
 }
 @media screen and (min-width: 624px){
     .str_pleca_01_title .tvsa-caret-right_sin-content{
