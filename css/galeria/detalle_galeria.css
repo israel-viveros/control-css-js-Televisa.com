@@ -121,6 +121,7 @@
 
 	/* CARRUSEL  1 */
 	div.img_galry_02 div.carrusel1 {
+		background: url("http://i2.esmas.com/img/rga_televisa_2013/dotted-horizontal.png") repeat-x scroll center bottom rgba(0, 0, 0, 0) !important;
 		text-align: center;
 		margin: 0 20px;
 		padding-bottom: 10px;
