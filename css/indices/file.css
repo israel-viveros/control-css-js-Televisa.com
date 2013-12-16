@@ -1809,7 +1809,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
     }
     div.img_galry_04 .txt2,
     div.img_galry_04 .txt3{
-        float: right;
+        float: left;
         width: 263px;
     }
     div.img_galry_04 .txt2 h4 a, 
