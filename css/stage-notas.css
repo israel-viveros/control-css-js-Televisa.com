@@ -23,7 +23,7 @@
 .descriptionOutMundial,.descriptionOutMundial .TitleEdiStageContainerLarge{display:none;}
 .buttonViewMoreNts{position:absolute;max-width:30%;height:2em;background:gray;right:0;text-align:right;width:auto;line-height:1.5em;padding:0 0.3em;}
 #dock-stage-mobile{display: none;}
-#dock-stage{/*margin-bottom: 16px;*/ margin-bottom: 24px;}
+#dock-stage{ margin-bottom: 16px; }
 @media screen and (max-width:500px){.StageSliderMundial .TitleSectionStageSliderMundial div{display:block;width:100%;} .ContainerSliderThumbs .PrevCarouselMundial,.ContainerSliderThumbs .NextCarouselMundial{display:none!important;} .ContainerSliderThumbs,.contthumbslider{width:100%;margin-top:5%;} .contthumbslider{width:50%;margin-top:5%;margin-left:19%;} .ContainerSliderThumbs .StageContainerThumbs li img{display:none!important;} .ContainerSliderThumbs .StageContainerThumbs li{width:15px!important;height:15px!important;background:gray;} .ContainerSliderThumbs .StageContainerThumbs li.active{background:red;} .ContainerSliderThumbs .StageContainerThumbs li.active img{border:none;} .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{width:80%;height:30%;top:70%;} .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{display:none;} .descriptionOutMundial{display:block;position:relative;} .descriptionOutMundial .TitleEdiStageContainerLarge{position:absolute;display:block;background:#000;opacity:0.8;color:#FFF;width:80%;right:0;bottom: 0;max-height:75px;font-size:13px;line-height:1.4em;overflow:hidden;padding:0.5em;} .buttonViewMoreNts{margin-top:2em;}#dock-stage-mobile{display: block;}#dock-stage{display: none;}}
 
 
