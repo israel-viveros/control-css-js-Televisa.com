@@ -334,7 +334,7 @@
 				}else
 				{
 					$parent.animate({
-						'scrollLeft': $parent.scrollLeft() - 329
+						'scrollLeft': $parent.scrollLeft() - 300
 					}, animationDelay);
 					
 				}
@@ -350,7 +350,7 @@
 				}else
 				{
 					$parent.animate({
-                    'scrollLeft': $parent.scrollLeft() + 329
+                    'scrollLeft': $parent.scrollLeft() + 300
                 	}, 500);
 				}
             });
@@ -373,13 +373,13 @@
 		/*Swipe*/
 			/*horizontal*/
 		$('.vid_4vids_04 .wdg_mix_carrousa .general').bind('swipeleft',function(){
-			if($(window).width() > 624){$v4v4_move = 329;}else{$v4v4_move = 318;}
+			if($(window).width() > 624){$v4v4_move = 300;}else{$v4v4_move = 300;}
 				$(this).animate({
 						'scrollLeft': $(this).scrollLeft() + $v4v4_move
 					}, 500);
 			});
 		$('.vid_4vids_04 .wdg_mix_carrousa .general').bind('swiperight',function(){
-			if($(window).width() > 624){$v4v4_move = 329;}else{$v4v4_move = 318;}
+			if($(window).width() > 624){$v4v4_move = 300;}else{$v4v4_move = 300;}
 				$(this).animate({
 						'scrollLeft': $(this).scrollLeft() - $v4v4_move
 					}, 500);
