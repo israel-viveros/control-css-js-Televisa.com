@@ -360,13 +360,13 @@
 		/*Diferente ventana*/
 		$(window).resize(function() {
 			if( $(window).width() > 960  ){
-				$('.carrusel-sizes').width('956px');
+				$('.carrusel-sizes').width('900px');
 			}
 			if( $(window).width() > 624 && $(window).width() < 960  ){
-				$('.carrusel-sizes').width('956px');
+				$('.carrusel-sizes').width('900px');
 			}
 			if( $(window).width() < 624 ){
-				$('.carrusel-sizes').width('956px');
+				$('.carrusel-sizes').width('900px');
 				//$('.carrusel-sizes').width($(window).width());
 			}
 		});
