@@ -2412,7 +2412,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         padding-left:0 !important;
         display:inline;
         float:left;
-        padding-right: 0 !important;
+        padding-right: 1px !important;
         height: 30px;
         text-align: center;
     }
