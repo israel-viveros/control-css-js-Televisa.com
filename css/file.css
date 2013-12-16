@@ -2920,7 +2920,7 @@ header.nav_header_01 div.topnav {
     }
     .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul li{
         width: 100%;
-        height: 34px;
+        /*height: 34px;*/
         /*background-color: rgba(235,235,235,0.6);*/
         background-color: rgba(235,235,235,0.6);
         border-bottom: 1px solid #d3d3d3;
