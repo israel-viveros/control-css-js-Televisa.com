@@ -7274,12 +7274,15 @@ header.nav_header_01 div.topnav {
 }
 
 #gsa_television, #gsa_deportes, #gsa_noticieros, #gsa_entretenimiento, #gsa_esmas, #gsa_ninos{
-    width: 100%!important;
+    /*width: 100%!important;*/
 }
 *{
    outline:none;}
 
 @media screen and (max-width: 623px) {
+	.btn_6prog_03 .type1a .carrusel ul li:last-child{
+		margin-right: 0;
+	}
     .carrusel-sizes.showArrows{
         height: 322px;
     }
