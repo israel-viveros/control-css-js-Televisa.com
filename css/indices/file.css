@@ -7123,7 +7123,7 @@ header.nav_header_01 div.topnav {
             
     }
     .navegacion_fotos ul{
-        width: 100%;
+        width: 948px;
         height: 38px;
     }
     .navegacion_fotos ul li{
@@ -7134,8 +7134,51 @@ header.nav_header_01 div.topnav {
         background-position: top;
         background-repeat: no-repeat;
         float: left;
-        text-align: center;
-        
+        text-align: center;   
+    }
+	@media screen and (max-width: 623px) {
+       .navegacion_fotos ul li:first-child{
+            background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -o-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -ms-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+        }
+		.navegacion_fotos ul li:last-child{
+            background: -moz-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -o-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -ms-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+        }
+    }
+    @media screen and (min-width: 624px){ 
+       .navegacion_fotos ul li:first-child{
+            background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -o-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -ms-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+        }
+		.navegacion_fotos ul li:last-child{
+            background: -moz-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -o-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: -ms-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
+        }
+    }
+    @media screen and (min-width: 948px){
+        .navegacion_fotos ul li:first-child{
+            background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png);        
+        }
+		.navegacion_fotos ul li:last-child{
+            background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png);        
+        }
     }
     .navegacion_fotos ul li a{
         font-family: 'Trebuchet MS'!important;
@@ -7148,6 +7191,31 @@ header.nav_header_01 div.topnav {
     .navegacion_fotos ul li.television_nav.actived{
         background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png);
         background-position: top;
+    }
+	@media screen and (max-width: 623px) {
+        .navegacion_fotos ul li.television_nav.actived{
+            background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -webkit-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -o-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -ms-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+        }
+    }
+    @media screen and (min-width: 624px){ 
+        .navegacion_fotos ul li.television_nav.actived{
+            background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -webkit-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -o-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: -ms-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
+        }
+    }
+    @media screen and (min-width: 948px){
+        .navegacion_fotos ul li.television_nav.actived{{
+            background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png);        
+        }
     }
     .navegacion_fotos ul li.deportes_nav.actived{
         background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoDeportes.png);
@@ -7168,6 +7236,31 @@ header.nav_header_01 div.topnav {
     .navegacion_fotos ul li.ninos_nav.actived{
         background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png);
         background-position: top;
+    }
+	@media screen and (max-width: 623px) {
+		.navegacion_fotos ul li.ninos_nav.actived{
+            background: -moz-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -webkit-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -o-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -ms-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+        }
+    }
+    @media screen and (min-width: 624px){ 
+		.navegacion_fotos ul li.ninos_nav.actived{
+            background: -moz-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -webkit-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -o-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: -ms-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png) no-repeat;
+        }
+    }
+    @media screen and (min-width: 948px){
+		.navegacion_fotos ul li.ninos_nav.actived{
+            background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoNinos.png);        
+        }
     }
     .navegacion_fotos ul li.actived a{
         color: #fff;
