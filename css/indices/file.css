@@ -1172,6 +1172,7 @@
 		height:91%;
 		overflow:hidden;
 		width: 100%;
+                margin-left: 10px;
 	}
 	.ie7 .vid_4vids_04 .wdg_mix_carrousa .general {
 		position:relative;
@@ -1244,6 +1245,9 @@
 @media screen and (min-width: 948px){
     .vid_4vids_04{
 		margin-bottom: 12px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa .general {
+            margin-left: 0;
     }
     .vid_4vids_04 .bullets{
         display: none;
@@ -1382,11 +1386,12 @@
     }
     .img_galry_04 .txt1{
         height: auto;
-        margin-right: 24px;
+        /*margin-right: 24px;*/
         padding-bottom: 12px;
-        margin-left: 24px;
-        margin-bottom: 12px;
+        /*margin-left: 24px;*/
+        /*margin-bottom: 12px;*/
         padding-top: 4px;
+        margin: 14px;
     }
     .img_galry_04 .txt1 p{
         font-size: 11px;
