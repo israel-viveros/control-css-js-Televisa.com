@@ -376,12 +376,12 @@
         swipe:function(event, direction, distance, duration, fingerCount) {           
            if (direction==="right") {            
             $(this).animate({
-                        'scrollLeft': $(this).scrollLeft() - 325
+                        'scrollLeft': $(this).scrollLeft() - 300
                     }, 500);
            }//
            if (direction==="left") {            
             $(this).animate({
-                        'scrollLeft': $(this).scrollLeft() + 325
+                        'scrollLeft': $(this).scrollLeft() + 300
                     }, 500);
            }
         },        
