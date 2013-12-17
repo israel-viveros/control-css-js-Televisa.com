@@ -1172,10 +1172,11 @@
 		 display:none;		
     }
 	.vid_4vids_04 .wdg_mix_carrousa .general {
-		height:91%;
+		/*height:91%;*/
 		overflow:hidden;
 		width: 100%;
                 margin-left: 10px;
+                height: 322px;
 	}
 	.ie7 .vid_4vids_04 .wdg_mix_carrousa .general {
 		position:relative;
