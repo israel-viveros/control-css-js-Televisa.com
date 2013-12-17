@@ -1,4 +1,7 @@
 @media screen {
+	#tim_social_frame_container{
+		display: none;
+	}
 
 	/*START: carouseltype1a_ (Small)*/
 	.mix_4arts_02{
@@ -206,6 +209,9 @@
 
 /* only mobile */
 @media screen and (max-width: 623px) {
+	.wdg_social_01{
+		margin-top: 10px;
+	}
 	div#comm_div_num, a[href="#COMM_comments_social"]{
 		display: none;
 	}
@@ -1385,9 +1391,14 @@
     }
     .img_galry_04 #img_galry_04_txts{
         background-color: #fff;
-        margin-left: 24px;
+        margin-left: 0;
         padding-bottom: 24px;
+        max-width: 100%;
+        margin-left: 0;
+        width: 100%;
     }
+
+
     .img_galry_04 .txt1{
         height: auto;
         /*margin-right: 24px;*/
