@@ -9,7 +9,11 @@
         width:100%;
         clear:both;
         overflow:hidden;
-    }    
+        padding-top: 36px;
+    }
+    .c9_1{
+        padding-top: 36px;
+    }
     
     /* Flotan a la izq */
     .td_gallery_index_01 .main .c2,
