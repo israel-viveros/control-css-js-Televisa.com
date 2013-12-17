@@ -1244,7 +1244,7 @@
 
 @media screen and (min-width: 948px){
     .vid_4vids_04{
-		margin-bottom: 12px;
+		margin-bottom: 24px;
     }
     .vid_4vids_04 .wdg_mix_carrousa .general {
             margin-left: 0;
@@ -7287,25 +7287,8 @@ header.nav_header_01 div.topnav {
         border-bottom: 1px solid #d1d1d1;
         float: left;
     }
-    .mas_fotos{
-        width: 100%;
-        height: 14px;
-        font-family: 'Trebuchet MS'!important;
-        font-size: 14px;
-        color: #a0a0a0;
-        /*margin-top:   24px;*/
-        /*margin-bottom:  12px;*/
-        float: left;
-       
-    }
-    .mas_fotos a{
-        float: right;
-        font-family: 'Trebuchet MS'!important;
-        font-size: 14px;
-        font-weight: bold;
-        font-style: italic;
-        color: #a0a0a0;
-    }
+    
+    
 
     .mejores_fotos{
         display: none;
@@ -7328,3 +7311,68 @@ header.nav_header_01 div.topnav {
 }
 *{
    outline:none;}
+
+@media screen and (max-width: 623px) {
+    .carrusel-sizes.showArrows{
+        height: 322px;
+    }
+    .mas_fotos{
+        width: 100%;
+        height: 36px;
+        font-family: 'Trebuchet MS'!important;
+        font-size: 14px;
+        color: #a0a0a0;
+        
+        float: left;
+        background: #cccccc;
+
+    }
+    .mas_fotos a{
+            line-height: 36px;
+            text-align: center;
+            display: block;
+        }
+    
+}
+@media screen and (min-width: 624px) {
+        mas_fotos{
+            width: 100%;
+            height: 14px;
+            font-family: 'Trebuchet MS'!important;
+            font-size: 14px;
+            color: #a0a0a0;
+            margin-top:   24px;
+            margin-bottom:  12px;
+            float: left;
+
+        }
+     .mas_fotos a{
+        float: right;
+        font-family: 'Trebuchet MS'!important;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+        color: #a0a0a0;
+    }
+}
+@media screen and (min-width: 948px){
+    mas_fotos{
+            width: 100%;
+            height: 14px;
+            font-family: 'Trebuchet MS'!important;
+            font-size: 14px;
+            color: #a0a0a0;
+            margin-top:   24px;
+            margin-bottom:  12px;
+            float: left;
+
+        }
+     .mas_fotos a{
+        float: right;
+        font-family: 'Trebuchet MS'!important;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+        color: #a0a0a0;
+    }
+}
