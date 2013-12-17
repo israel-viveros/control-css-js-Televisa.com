@@ -7283,7 +7283,7 @@ header.nav_header_01 div.topnav {
     
 }
 @media screen and (min-width: 624px) {
-        mas_fotos{
+       .mas_fotos{
             width: 100%;
             height: 14px;
             font-family: 'Trebuchet MS'!important;
@@ -7304,7 +7304,7 @@ header.nav_header_01 div.topnav {
     }
 }
 @media screen and (min-width: 948px){
-    mas_fotos{
+    .mas_fotos{
             width: 100%;
             height: 14px;
             font-family: 'Trebuchet MS'!important;
