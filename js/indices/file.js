@@ -1361,3 +1361,19 @@ $(document).ready(function() {
     })
  
 });
+
+$(".navegacion_fotos").swipe( {        
+	swipe:function(event, direction, distance, duration, fingerCount) {           
+    	if (direction==="right") {            
+            $(this).animate({
+                        'scrollLeft': $(this).scrollLeft() - 158
+                    }, 500);
+        }//
+        if (direction==="left") {            
+            $(this).animate({
+                        'scrollLeft': $(this).scrollLeft() + 158
+                    }, 500);
+        }
+     },        
+     threshold:0
+});		
