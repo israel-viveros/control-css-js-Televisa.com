@@ -7152,7 +7152,7 @@ header.nav_header_01 div.topnav {
         float: left;
         text-align: center;   
     }
-	@media screen and (max-width: 623px) {
+	@media screen and (max-width: 948px) {
        .navegacion_fotos ul li:first-child{
             background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
             background: -webkit-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
@@ -7168,32 +7168,6 @@ header.nav_header_01 div.topnav {
             background: -o-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
             background: -ms-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
             background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-        }
-    }
-    @media screen and (min-width: 624px){ 
-       .navegacion_fotos ul li:first-child{
-            background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -webkit-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -o-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -ms-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-        }
-		.navegacion_fotos ul li:last-child{
-            background: -moz-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -webkit-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -o-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: -ms-linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
-        }
-    }
-    @media screen and (min-width: 948px){
-        .navegacion_fotos ul li:first-child{
-            background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png);        
-        }
-		.navegacion_fotos ul li:last-child{
-            background: url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png);        
         }
     }
     .navegacion_fotos ul li a{
