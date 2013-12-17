@@ -206,6 +206,9 @@
 
 /* only mobile */
 @media screen and (max-width: 623px) {
+	div#comm_div_num, a[href="#COMM_comments_social"]{
+		display: none;
+	}
     div.art_branch_01 a {
         margin:6px 0 18px 0;
     }
