@@ -7357,3 +7357,13 @@ header.nav_header_01 div.topnav {
         color: #a0a0a0;
     }
 }
+
+@media screen and (max-width: 624px){
+	.gsa-result{
+		height: 190px;
+	}
+	.c5_2, .c9_1{
+		margin-top: 65px;
+	}
+
+	}
