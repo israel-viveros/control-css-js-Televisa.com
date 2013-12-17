@@ -4793,8 +4793,9 @@ and (orientation : portrait) {
 	header.nav_header_01 div.mobilenav nav {
 		height: 40px;
 		line-height: 40px;
+		margin: 0 0 0 auto;
 		padding: 0;
-		margin: 0;
+		width: 40%;
 	}
 	header.nav_header_01 div.mobilenav nav ul {
 		height: 40px;
@@ -4802,12 +4803,16 @@ and (orientation : portrait) {
 		margin: 0;
 	}
 	header.nav_header_01 div.mobilenav nav ul li {
+		border-color: -moz-use-text-color #DADADA -moz-use-text-color -moz-use-text-color;
+		border-image: none;
+		border-style: none solid none none;
+		border-width: 0 1px 0 0;
 		display: inline-block;
-		height: 40px;
-		padding: 0;
-		margin: 0;
 		float: left;
-		width: 16.6666%;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+		width: 24%;
 	}
 	header.nav_header_01 div.mobilenav nav ul li a {
 		display: inline-block;
