@@ -1373,7 +1373,7 @@ $(document).ready(function() {
 						}, 500);
 			}
 		 },        
-		 threshold:0
+		 threshold:50
 	});	
  
 });	
