@@ -1,5 +1,6 @@
 $(function() {
 
+
     $("#btn_follow, #btn_like").click(function(event) {
         event.preventDefault();        
         if($(this).attr("id")=== "btn_follow"){
