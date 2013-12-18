@@ -964,12 +964,16 @@ function Carrusel_01() {
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
                     url_item = $(this).find("a").attr('data-urltitle');
+                    octopico_item = $(this).find("a").attr('data-octopico');
+                    octitulo_item = $(this).find("a").attr('data-octitulo');  
                     $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
                     topic = $("#" + id_thumb + " a").attr('data-topic');
                     $("#stage_carru_01 .galleryCaption_02 .topic a").text(topic);
                     $("#stage_carru_01 .galleryCaption_02 .topic a").attr("title",title_item);
                     $("#stage_carru_01 .galleryCaption_02 h2 a").attr("title",title_item);
+                    $("#stage_carru_01 .galleryCaption_02 .topic a").attr("onclick",octopico_item);
+                    $("#stage_carru_01 .galleryCaption_02 h2 a").attr("onclick",octitulo_item);
                 }
                 else
                 {
@@ -1044,12 +1048,16 @@ function Carrusel_01() {
                         $(this).addClass("active");
                         title_item = $("#stage_carru_01 #" + id_thumb + " a").attr('data-title');
                         url_item = $(this).find("a").attr('data-urltitle');
+                        octopico_item = $(this).find("a").attr('data-octopico');
+                        octitulo_item = $(this).find("a").attr('data-octitulo');  
                         $("#stage_carru_01 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_01 .galleryCaption_02 h2 a").attr("href",url_item);
                         topic = $("#" + id_thumb + " a").attr('data-topic');
                         $("#stage_carru_01 .galleryCaption_02 .topic a").text(topic);
                         $("#stage_carru_01 .galleryCaption_02 .topic a").attr("title",title_item);
                         $("#stage_carru_01 .galleryCaption_02 h2 a").attr("title",title_item);
+                        $("#stage_carru_01 .galleryCaption_02 .topic a").attr("onclick",octopico_item);
+                        $("#stage_carru_01 .galleryCaption_02 h2 a").attr("onclick",octitulo_item);
                     }
                     else
                     {
@@ -1190,6 +1198,8 @@ function Carrusel_02() {
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
                     url_item = $(this).find("a").attr('data-urltitle');
+                    octopico_item = $(this).find("a").attr('data-octopico');
+                    octitulo_item = $(this).find("a").attr('data-octitulo');  
                     $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
                     //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1197,6 +1207,8 @@ function Carrusel_02() {
                     $("#stage_carru_02 .galleryCaption_02 .topic a").text(topic);
                     $("#stage_carru_02 .galleryCaption_02 .topic a").attr("title",title_item);
                     $("#stage_carru_02 .galleryCaption_02 h2 a").attr("title",title_item);
+                    $("#stage_carru_02 .galleryCaption_02 .topic a").attr("onclick",octopico_item);
+                    $("#stage_carru_02 .galleryCaption_02 h2 a").attr("onclick",octitulo_item);
                 }
                 else
                 {
@@ -1268,6 +1280,8 @@ function Carrusel_02() {
                         $(this).addClass("active");
                         title_item = $("#stage_carru_02 #" + id_thumb + " a").attr('data-title');
                         url_item = $(this).find("a").attr('data-urltitle');
+                        octopico_item = $(this).find("a").attr('data-octopico');
+                        octitulo_item = $(this).find("a").attr('data-octitulo');  
                         $("#stage_carru_02 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_02 .galleryCaption_02 h2 a").attr("href",url_item);
                         //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1275,6 +1289,8 @@ function Carrusel_02() {
                         $("#stage_carru_02 .galleryCaption_02 .topic a").text(topic);
                         $("#stage_carru_02 .galleryCaption_02 .topic a").attr("title",title_item);
                         $("#stage_carru_02 .galleryCaption_02 h2 a").attr("title",title_item);
+                        $("#stage_carru_02 .galleryCaption_02 .topic a").attr("onclick",octopico_item);
+                        $("#stage_carru_02 .galleryCaption_02 h2 a").attr("onclick",octitulo_item);
                     }
                     else
                     {
@@ -1411,6 +1427,8 @@ function Carrusel_03() {
                     $(this).addClass("active");
                     title_item = $("#" + id_thumb + " a").attr('data-title');
                     url_item = $(this).find("a").attr('data-urltitle');
+                    octopico_item = $(this).find("a").attr('data-octopico');
+                    octitulo_item = $(this).find("a").attr('data-octitulo');  
                     $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
                     $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
                     //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1418,7 +1436,8 @@ function Carrusel_03() {
                     $("#stage_carru_03 .galleryCaption_02 .topic a").text(topic);
                     $("#stage_carru_03 .galleryCaption_02 .topic a").attr("title",title_item);
                     $("#stage_carru_03 .galleryCaption_02 h2 a").attr("title",title_item);
-                    
+                    $("#stage_carru_03 .galleryCaption_02 .topic a").attr("onclick",octopico_item);
+                    $("#stage_carru_03 .galleryCaption_02 h2 a").attr("onclick",octitulo_item);
                 }
                 else
                 {
@@ -1492,6 +1511,8 @@ function Carrusel_03() {
                         $(this).addClass("active");
                         title_item = $("#stage_carru_03 #" + id_thumb + " a").attr('data-title');
                         url_item = $(this).find("a").attr('data-urltitle');
+                        octopico_item = $(this).find("a").attr('data-octopico');
+                        octitulo_item = $(this).find("a").attr('data-octitulo');  
                         $("#stage_carru_03 .galleryCaption_02 h2 a").html(title_item);
                         $("#stage_carru_03 .galleryCaption_02 h2 a").attr("href",url_item);
                         //topic = $("#" + id_thumb + " a").attr('data-topic');
@@ -1499,6 +1520,8 @@ function Carrusel_03() {
                         $("#stage_carru_03 .galleryCaption_02 .topic a").text(topic);
                         $("#stage_carru_03 .galleryCaption_02 .topic a").attr("title",title_item);
                         $("#stage_carru_03 .galleryCaption_02 h2 a").attr("title",title_item);
+                        $("#stage_carru_03 .galleryCaption_02 .topic a").attr("onclick",octopico_item);
+                        $("#stage_carru_03 .galleryCaption_02 h2 a").attr("onclick",octitulo_item);
                     }
                     else
                     {
