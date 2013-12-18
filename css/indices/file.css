@@ -4804,7 +4804,7 @@ and (orientation : portrait) {
 		margin: 0;
 	}
 	header.nav_header_01 div.mobilenav nav ul li {
-		border-color: -moz-use-text-color #DADADA -moz-use-text-color -moz-use-text-color;
+		border-color: currentcolor #DADADA currentcolor currentcolor;
 		border-image: none;
 		border-style: none solid none none;
 		border-width: 0 1px 0 0;
