@@ -2441,6 +2441,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         height: 30px;
         text-align: center;
     }
+	.wdg_social_01 .social-icons li.social_icon:nth-child(3) { padding-top: 42px !important; }
 }
 @media screen and (max-width: 623px) {
 	.wdg_social_01 .social-icons li.social_icon { padding-right: 6px !important; }
