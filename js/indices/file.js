@@ -25,7 +25,7 @@
 	
 	
 	if ($(window).width()>624){
-		$(".btn_6prog_02 .carrusel").swipe( {        
+		$(".btn_6prog_02 .carrusel, .btn_6prog_05 .carrusel").swipe( {        
         swipe:function(event, direction, distance, duration, fingerCount) {           
            if (direction==="right") {            
             $(this).animate({
@@ -41,7 +41,7 @@
          threshold:0
       });		
  	}else{
- 		$(".btn_6prog_02 .carrusel").swipe( {        
+ 		$(".btn_6prog_02 .carrusel, .btn_6prog_05 .carrusel").swipe( {        
         swipe:function(event, direction, distance, duration, fingerCount) {           
            if (direction==="right") {            
             $(this).animate({
@@ -372,7 +372,7 @@
 		});
 		/*Swipe*/
 
-		$(".vid_4vids_04 .wdg_mix_carrousa .general").swipe( {        
+		$(".vid_4vids_04 .wdg_mix_carrousa .general, .vid_4vids_03 .wdg_mix_carrousa .general").swipe( {        
         swipe:function(event, direction, distance, duration, fingerCount) {           
            if (direction==="right") {            
             $(this).animate({
