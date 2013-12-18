@@ -4988,7 +4988,7 @@ header.nav_header_01 div.topnav {
         left: 24px;
         top: 0;
         background: #154C7B;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);*/
         height: 108px;
         width: 112px;
         text-align: center;
@@ -5024,7 +5024,7 @@ header.nav_header_01 div.topnav {
 		left: 24px;
 		top: 0;
 		background: #154C7B;
-		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		/*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);*/
 		height: 108px;
 		width: 112px;
 		text-align: center;
@@ -6256,7 +6256,7 @@ header.nav_header_01 div.topnav {
 
 	/* Televisa Logo */
 	header.nav_header_01 div.topnav a.televisa {
-		box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+		/*box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);*/
 		height: 112px;
 		width: 144px;
 	}
