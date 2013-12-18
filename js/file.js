@@ -3698,28 +3698,3 @@ $(document).ready(function() {
 
 
 });
-
-
-
-var LugarSite = new Object();
-
-LugarSite.where = function(){
-    var urlActual = document.URL;    
-    if(urlActual.indexOf('/videos')!=-1){        
-        $(".mainnav ul li").removeClass('active')
-        $(".mainnav ul li:nth-child(1), .mobilenav ul li:nth-child(1)").addClass('active');
-
-    }
-    if(urlActual.indexOf('/fotos')!=-1){        
-        $(".mainnav ul li").removeClass('active')
-        $(".mainnav ul li:nth-child(2), .mobilenav ul li:nth-child(2)").addClass('active');
-    }
-
-}
-
-$(function() {
-    if($(".mainnav").length || $(".mobilenav").length){
-        LugarSite.where();
-    }    
-});
-
