@@ -1549,7 +1549,7 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
 
 /*:::::::::: colores stage ::::::::::::::::*/
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .background-stage{
-    opacity: 0.6!important;
+    opacity: 0.85!important;
 }
 .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{
     background: none;
