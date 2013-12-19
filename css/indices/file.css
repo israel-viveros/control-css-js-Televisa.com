@@ -2070,6 +2070,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
     }
     .ads_combo_01 .tablet_banner_portrait{
         display:none;
+		overflow:hidden;
     }
     .ads_combo_01 .tablet_banner_landscape{
         display: none;
@@ -2098,7 +2099,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         display: none;
     }
     .ads_combo_01 .desktop_banner {
-        display: none;
+        display: block;
     }
     .ads_combo_01 .tablet_banner_landscape{
         display: none;
@@ -2271,6 +2272,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
     }
     .ads_combo_01 .desktop_banner {
         display: none;
+		overflow:hidden;
     }
     .ads_combo_01 .tablet_banner_portrait{
         display:none;
@@ -2302,7 +2304,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         display: none;
     }
     .ads_combo_01 .desktop_banner {
-        display: none;
+        display: block;
     }
     .ads_combo_01 .tablet_banner_landscape{
         display: none;
