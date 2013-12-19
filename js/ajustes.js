@@ -1,5 +1,37 @@
-$(function() {
+var headerFix = new Object();
 
+headerFix.iconsSearch = function(){
+    var objLink = $(".mainnav nav ul li.social:nth-child(1) a");
+    var clicLink = objLink.attr('href');
+    objLink.click(function(event) { 
+        window.open(clicLink,'_blank');
+    });
+
+    var objLink2 = $(".mainnav nav ul li.social:nth-child(2) a");
+    var clicLink2 = objLink2.attr('href');
+    objLink2.click(function(event) {    
+        window.open(clicLink2,'_blank');
+    });
+
+    var inputSearch = $("input.search_term");
+    inputSearch.keydown(function(tecla) {   
+        if (tecla.keyCode === 13) {     
+                window.open('http://result.televisa.com/universal/#'+inputSearch.val(),'_blank');
+                inputSearch.val("");
+        }
+    });
+
+    $("button.search_submit").click(function(event) {
+        console.log("cliked");
+        if(inputSearch.val() != ""){
+            window.open('http://result.televisa.com/universal/#'+inputSearch.val(),'_blank');
+            inputSearch.val("");
+        }
+    });
+}
+
+$(function() {    
+    headerFix.iconsSearch();
 
     $("#btn_follow, #btn_like").click(function(event) {
         event.preventDefault();        
