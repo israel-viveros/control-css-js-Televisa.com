@@ -7315,6 +7315,9 @@ header.nav_header_01 div.topnav {
    outline:none;}
 
 @media screen and (max-width: 623px) {
+	div.img_galry_04 div.image-container iframe {
+    	width: 100% !important;
+	}
 	.btn_6prog_03 .type1a .carrusel ul li:last-child{
 		margin-right: 0;
 	}
