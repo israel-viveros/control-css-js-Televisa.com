@@ -1285,6 +1285,7 @@
 		width: 300px;
 		margin:auto;
 		float:none;
+		height:auto;
 	}
     .img_galry_03 #imgContainer, .img_galry_03 #imgContainer img {
         width: 100%;
