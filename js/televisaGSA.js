@@ -5,32 +5,116 @@ $(window).load( function () {
     var num_elem = '8';			
     var cliente = 'televisa_com';
     var site = 'televisa_com';
-    var tag_incio=$("#tipo_envideo").attr("rel");
+    var rama=$("#program_envideo").attr("rel");
+    var tipo_tag= $("#tipo_envideo").attr("rel");
+    var tag=$("#program_envideo").attr("data-exclusivas");
     
-    var ramainicio=$("#program_envideo").attr("rel");
-    loadGsa('videos',ramainicio,num_elem,tag_incio,cliente,site);
+    var new_rama="";
+    valor = parseInt(tipo_tag); 
+        switch (valor){
+                case 0:
+                    new_rama="site:"+rama+tag;
+                break;
+                case 1:
+                   new_rama="site:"+rama+tag;
+                break;
+               
+                case 2:
+                   new_rama="site:"+rama+tag;
+                break;
+               
+                case 3:
+                   new_rama="site:"+rama+tag;
+                break;
+               
+        }
+   
+    loadGsa('videos',new_rama,num_elem,'',cliente,site);
     
     
     // programa
     $("#video_programa").find("li").find("p").unbind("click").click(function(){  
         var rama=$(this).attr("rel");
-        var programa=$("#program_envideo").attr("rel",rama);
-        var tag=$("#tipo_envideo").attr("rel");
-        //alert(rama);
+        var tag0=$(this).attr("data-exclusivas");
+        var tag1=$(this).attr("data-enterate");
+        var tag2=$(this).attr("data-entrevistas");
+        var tag3=$(this).attr("data-revive");
         
-        loadGsa('videos',rama,num_elem,tag,cliente,site);
+        $("#program_envideo").attr("rel",rama);
+        $("#program_envideo").attr("data-exclusivas",tag0);
+        $("#program_envideo").attr("data-enterate",tag1);
+        $("#program_envideo").attr("data-entrevistas",tag2);
+        $("#program_envideo").attr("data-revive",tag3);
+        var tipo_tag= $("#tipo_envideo").attr("rel");
+        
+        var new_rama="";
+        
+        valor = parseInt(tipo_tag); 
+        switch (valor){
+                case 0:
+                    new_rama="site:"+rama+tag0;
+                break;
+                case 1:
+                   new_rama="site:"+rama+tag1;
+                break;
+               
+                case 2:
+                   new_rama="site:"+rama+tag2;
+                break;
+               
+                case 3:
+                   new_rama="site:"+rama+tag3;
+                break;
+               
+        }
+        
+        loadGsa('videos',new_rama,num_elem,'',cliente,site);
         
     });
     
     //tipo
     $("#video_tag").find("li").find("p").unbind("click").click(function(){  
-        var tag=$(this).attr("rel");
-        $("#tipo_envideo").attr("rel",tag);
+        var tipo_tag=$(this).attr("rel");
+        $("#tipo_envideo").attr("rel",tipo_tag);
         var rama=$("#program_envideo").attr("rel");
+        var tag0=$("#program_envideo").attr("data-exclusivas");
+        var tag1=$("#program_envideo").attr("data-enterate");
+        var tag2=$("#program_envideo").attr("data-entrevistas");
+        var tag3=$("#program_envideo").attr("data-revive");
+        var new_rama="";
+        new_rama="site:"+rama+tag1;
         
-        //alert(rama);
         
-        loadGsa('videos',rama,num_elem,tag,cliente,site);
+        
+        valor = parseInt(tipo_tag); 
+        switch (valor){
+                case 0:
+                    new_rama="site:"+rama+tag0;
+                    
+                break;
+                
+                case 1:
+                   new_rama="site:"+rama+tag1;
+                    
+                break;
+               
+                case 2:
+                   new_rama="site:"+rama+tag2;
+                    
+                break;
+               
+                case 3:
+                   new_rama="site:"+rama+tag3;
+                    
+                break;
+               
+        }
+        
+        
+        
+       
+        
+        loadGsa('videos',new_rama,num_elem,'',cliente,site);
         
     });
     
