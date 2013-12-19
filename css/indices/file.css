@@ -1250,6 +1250,9 @@
 	.vid_4vids_04 .bullets{
 		margin-top:0
 	}
+	.vid_4vids_04 .wdg_mix_carrousa .general {
+		height:auto;
+    }
 }
 
 @media screen and (min-width: 948px){
