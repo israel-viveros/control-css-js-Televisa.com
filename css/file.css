@@ -2800,6 +2800,10 @@ header.nav_header_01 div.topnav {
         font-weight: bold;
         top: 8px;
         margin-bottom: 2px; 
+        white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 185px;
     }
     .wdg_goals_carru_01 > ul li.color a .textcolor-title4 {
         font-style: italic;
