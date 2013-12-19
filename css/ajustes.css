@@ -379,3 +379,6 @@ color: #a31d21;
 .btn_6prog_05 .type1a .carrusel ul {
        height: 118px !important;
 }
+.sprite.video-corner {
+       background-position: -131px -40px !important;
+}
