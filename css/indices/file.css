@@ -7943,6 +7943,12 @@ header.nav_header_01 div.topnav {
 	.vid_4vids_03 .wdg_mix_carrousa div:last-child .two {
 		margin-bottom: 16px;
 	}
+	.vid_4vids_03 .wdg_mix_carrousa div:last-child .two.videos {
+		margin-bottom: 13px;
+		display: block;
+		max-height: 37px;
+		line-height: 1em;
+	}
 	
 	.vid_4vids_03 .wdg_mix_carrousa{
 		border: none;
