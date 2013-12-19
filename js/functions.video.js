@@ -16,9 +16,10 @@ functionsVideo.getHeight = function(){
 functionsVideo.outVideo = function(){	
 	var parentTag = $(".VideoPlayerTelevisacom");
 	if(parentTag.length){		
-		var urlVideo = "http://tvolucion.esmas.com/embed/embed_ampp.php?id=";        
+		//var urlVideo = "http://tvolucion.esmas.com/embed/embed_ampp.php?id=";        
+		var urlVideo = "http://tvolucion.esmas.com/embed/embed.php?id=";        
         var idvideo = parentTag.data("id");        
-        var parametros = "&autoplay=false"
+        var parametros = "&w=620&h=345&autoplay=false"
         parentTag.attr('src', urlVideo+idvideo+parametros);
 	}
         
