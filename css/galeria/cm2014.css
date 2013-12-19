@@ -70,8 +70,8 @@
 }
 
 /* Mobile, Tablet y Desktop */
-body {background:#ededed;}
-body.inoficial {background:#FFF;}
+/* body {background:#ededed;}
+ body.inoficial {background:#FFF;} */
 
 div.content {
     margin:0 auto;

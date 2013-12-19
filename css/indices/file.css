@@ -1666,7 +1666,9 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         padding-top:12px;
         margin-left:24px;
         background:#FFF;
-        top:-4px;
+        top: -65px;
+		padding-top: 60px;
+		z-index: 0;
     }
     div.img_galry_04 .carrusel1 .arrowLeft,
     div.img_galry_04 .carrusel1 .arrowRight {
@@ -1963,6 +1965,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
 
     div.img_galry_04 div.image-container {
         position: relative;
+        z-index: 999;
     }
 
     div.img_galry_04 div.image-container .controls {

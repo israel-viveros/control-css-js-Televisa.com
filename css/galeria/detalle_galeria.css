@@ -579,8 +579,7 @@
 	}
 
 	div.img_galry_02 .overlay{
-		height: 45px;
-		bottom: -1px;
+		height: 45px;		
 	}
 	div.img_galry_02 div.image-container .controls{
 		bottom: 71px !important;
