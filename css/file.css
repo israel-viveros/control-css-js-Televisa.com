@@ -2701,7 +2701,7 @@ header.nav_header_01 div.topnav {
 
     .wdg_goals_carru_01 > ul li {
         display: block;
-		/*height: 45px;*/height:50px;
+		/*height: 45px;*/height:56px;
 		overflow: hidden;
         position: relative;
 		border-bottom:1px solid #CCC;
@@ -2773,7 +2773,8 @@ header.nav_header_01 div.topnav {
     .wdg_goals_carru_01 > ul li.color a {
         padding: 7px 27px;
         width: 100%;
-        border-bottom: 1px solid #D1D1D1;
+        height: 100%;
+        
     }
     
     @-moz-document url-prefix() {
