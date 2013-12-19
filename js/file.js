@@ -212,7 +212,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
             $("header.nav_header_01 div.mainnav nav.social li a").click(function(){
                 $(this).parents('div.mainnav').find('li').removeClass('active');                
                 $(this).parent().toggleClass('active');
-                return false;
+                //return false;
             });
             
             $('header.nav_header_01 div.mainnav nav.social a.toggle').click(function(){
