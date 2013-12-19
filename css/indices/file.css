@@ -7312,8 +7312,7 @@ header.nav_header_01 div.topnav {
 #gsa_television, #gsa_deportes, #gsa_noticieros, #gsa_entretenimiento, #gsa_esmas, #gsa_ninos{
     /*width: 100%!important;*/
 }
-*{
-   outline:none;}
+*{outline:none;}
 
 @media screen and (max-width: 623px) {
 	div.img_galry_04 div.image-container iframe {
@@ -7340,8 +7339,11 @@ header.nav_header_01 div.topnav {
             line-height: 36px;
             text-align: center;
             display: block;
-        }
-    
+    }
+	#gsa_television, #gsa_deportes, #gsa_noticieros, #gsa_entretenimiento, #gsa_esmas, #gsa_ninos{
+    	width: 320px!important;
+		margin: 0 auto!important;
+	} 
 }
 @media screen and (min-width: 624px) {
        .mas_fotos{
@@ -7363,6 +7365,10 @@ header.nav_header_01 div.topnav {
         font-style: italic;
         color: #a0a0a0;
     }
+	#gsa_television, #gsa_deportes, #gsa_noticieros, #gsa_entretenimiento, #gsa_esmas, #gsa_ninos{
+    	width: 100%!important;
+		margin: 0 auto!important;
+	} 
 }
 
 /*::::::::::::::::::::::::videos*/
