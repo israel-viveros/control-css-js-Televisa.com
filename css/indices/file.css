@@ -1058,7 +1058,7 @@
 	 /* BEGIN: Global (Medium) */
     .vid_4vids_04{
 		height:auto;
-        margin-bottom: 12px;
+        margin-bottom: 0px;
 		/*width:300px;*/
     }
     .vid_4vids_04 .wdg_mix_carrousa {
@@ -1254,7 +1254,7 @@
 
 @media screen and (min-width: 948px){
     .vid_4vids_04{
-		margin-bottom: 36px;
+		margin-bottom: 0px;
     }
     .vid_4vids_04 .wdg_mix_carrousa .general {
             margin-left: 0;
