@@ -1578,7 +1578,7 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     border: 4px solid #08673C!important;
 }
 .bg-esmas, #dock-stage-mobile ul li.bg-esmas.active span, #dock-stage ul li.bg-esmas.active span{
-    background: #6AA845!important;
+    background: #4972ce!important;
 }
 #dock-stage li.bg-esmas a img{
     border: 4px solid #6AA845!important;
@@ -1647,7 +1647,7 @@ header
     color: #AFBF24!important;
 }
 .bg-esmas-color_1{
-    color: #6AA845!important;
+    color: #4972ce!important;
 }
 .bg-esmas-color_2{
     color: #999999!important;
