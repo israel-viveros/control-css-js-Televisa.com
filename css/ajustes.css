@@ -1,4 +1,16 @@
 /*v3.0*/
+.td_home_main_01 .main .c7 .c7_1.left.bottom_space.hide-mobile{
+    margin-bottom: 35px!important;
+}
+.mix_1arts_07:last-child{
+        margin-bottom: 0;
+    }
+.td_home_main_01 .main > div.bottom_space {
+    margin-bottom: 30px!important;
+}    
+.c13_2.right.bottom_space{
+    margin-bottom: 30px!important;
+}    
 .str_pleca_01 .str_pleca_01_title .pleca_more{
     position: relative;
     /*    display: block;*/
@@ -59,6 +71,7 @@
     }
     .wdg_altasbajas_result_01 > ul{
         height: 141px;
+
     }
     .c5_2, .c9_1{
         width: 100%; 
@@ -131,7 +144,8 @@
         height: 340px;
     }
     .wdg_altasbajas_result_01 > ul{
-        height: 372px;
+        /* height: 372px; */ 
+        height: auto;
     }
 
     /*:::footer::::*/

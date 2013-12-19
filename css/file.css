@@ -4738,7 +4738,7 @@ header.nav_header_01 div.topnav {
     }
 	.mix_2arts_07 .container{
 		width:624px;
-		margin-bottom:36px;
+		margin-bottom:30px;
 	}
 	.mix_2arts_07 .separator{
 		background: url("http://i2.esmas.com/img/rga_televisa_2013/bg_cols.gif") repeat-y scroll 0 0 transparent;
@@ -7115,7 +7115,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 }@media screen and (min-width: 624px){
     /* START: carouseltypecarruse (Medium) */
     .btn_carru_prog_02{
-        margin-bottom:36px;
+        margin-bottom:33px;
         width:624px;
 		position: relative;
     }
@@ -9684,7 +9684,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 @media screen and (min-width: 948px){
     /* BEGIN: Global (Large) */
     .wdg_twitt_02{
-        margin-bottom: 33px;
+        margin-bottom: 30px;
 		max-width: 350px;
 		overflow:hidden;
     }
@@ -9703,6 +9703,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     }
 	.wdg_twitt_02 .wdg_carousa ul li div.wdg_twitt_02_block:nth-child(n+2){
 		border-bottom: 1px solid #ccc;
+		margin-bottom: 0;
 	}
 	.ie8 .wdg_twitt_02{
 		max-height: 350px !important;
@@ -13598,7 +13599,7 @@ and (orientation : portrait) {
     /* BEGIN:mix_3arts_02 (Medium)*/
     div.mix_3arts_02{
         width: 627px;
-        margin-bottom: 36px;
+        margin-bottom: 30px;
         overflow: hidden;
     }
     div.mix_3arts_02 .mix_1arts_09{
