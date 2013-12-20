@@ -122,7 +122,7 @@
 
 @media screen and (min-width: 624px) {
     .header1{
-    margin-bottom: 24px;
+    margin-bottom: 16!importantpx;
     min-height: 120px;
 }
     .wdg_goals_carru_01 > ul{

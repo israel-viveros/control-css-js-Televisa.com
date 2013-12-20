@@ -27,7 +27,8 @@
 		background-position: -271px -1px;
 	}
 	header.nav_header_01 div.topnav div.inner>a.menu.active {
-		background-position: -313px -1px;
+		/*correcion nav header mobile */
+		/*background-position: -313px -1px;*/
 	}
 	header.nav_header_01 div.topnav div.inner>a.menu span {
 		display: none;
