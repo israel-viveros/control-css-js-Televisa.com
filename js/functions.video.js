@@ -26,7 +26,7 @@ functionsVideo.outVideo = function(){
         var newHeightPlayer;
         if(widthDoc < 624) {
                newHeightPlayer = widthDoc / relation ;
-               parametros = "&w="+widthDoc+"&h="+newHeightPlayer+"&autoplay=false";
+               parametros = "&w="+widthDoc+"&h="+parseInt(newHeightPlayer)+"&autoplay=false";
         }
         /* Fin modificacion */
         parentTag.attr('src', urlVideo+idvideo+parametros);
