@@ -2069,11 +2069,11 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         text-align: center;
     }
     .ads_combo_01 .desktop_banner {
-        display: none;
+        display: block;
+		overflow:hidden;
     }
     .ads_combo_01 .tablet_banner_portrait{
         display:none;
-		overflow:hidden;
     }
     .ads_combo_01 .tablet_banner_landscape{
         display: none;
@@ -2274,7 +2274,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         text-align: center;
     }
     .ads_combo_01 .desktop_banner {
-        display: none;
+        display: block;
 		overflow:hidden;
     }
     .ads_combo_01 .tablet_banner_portrait{
