@@ -20,6 +20,15 @@ functionsVideo.outVideo = function(){
 		var urlVideo = "http://tvolucion.esmas.com/embed/embed.php?id=";        
         var idvideo = parentTag.data("id");        
         var parametros = "&w=620&h=345&autoplay=false"
+        /* Modificacion para ajustar player en mobile */
+        var relation = 1.777;
+        var widthDoc = $(document).width();
+        var newHeightPlayer;
+        if(widthDoc < 624) {
+               newHeightPlayer = widthDoc / relation ;
+               parametros = "&w="+widthDoc+"&h="+newHeightPlayer+"&autoplay=false";
+        }
+        /* Fin modificacion */
         parentTag.attr('src', urlVideo+idvideo+parametros);
 	}
         
