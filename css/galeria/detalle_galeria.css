@@ -470,12 +470,12 @@
 	div.img_galry_02  .image-container .controls .play
 		{
 		display: block;
-		visibility: hidden;
+		visibility: visible;
 		left: 0px !important;
 	}
 	div.img_galry_02  .image-container .controls .pause_mov, div.img_galry_02  .image-container .controls .camera {
 		display: none;
-		visibility: visible;
+		visibility: hidden;
 		left: 0px !important;
 	}
 	div.img_galry_02  .image-container{
