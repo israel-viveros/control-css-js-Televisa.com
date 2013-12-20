@@ -301,7 +301,8 @@ header.nav_header_01 div.topnav {
 		background: none;
 	}
 	header.nav_header_01 div.topnav div.inner>a.menu {
-		background: url(http://i2.esmas.com/img/rga_televisa_2013/global-sprites@2x.png) no-repeat 0 0;
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/global-sprites.png) no-repeat 0 0;
+		/*background: url(http://i2.esmas.com/img/rga_televisa_2013/global-sprites@2x.png) no-repeat 0 0;*/
 		background-size: 640px 146px;
 		background-position: -271px -1px;
 	}
