@@ -342,7 +342,7 @@ height: 31px;
 background: url(http://imagemockup.com/88/31/ads) no-repeat;
 }
 /**/
-.nav_header_01_match{float:left;padding:0 0 0 1.5em;width:18.75em}
+.nav_header_01_match{float:left;padding:0 0 0 1.5em;width:25em}
 .nav_header_01_match ul{border-top:1px solid #ccc}
 .nav_header_01_match ul li{border-bottom:1px solid #ccc;line-height:2.375em}
 .nav_header_01_match ul li:after{clear:both;content:"";display:block}
@@ -358,7 +358,7 @@ color:
 }
 .nav_header_01_match ul li .nav_header_01_name {
 font-size: .75em;
-width: 15em;
+width: 22em;
 }
 
 .nav_header_01_match ul li span.nav_header_01_name a{
