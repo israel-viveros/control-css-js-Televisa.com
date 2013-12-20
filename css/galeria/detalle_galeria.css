@@ -467,14 +467,14 @@
 	div.img_galry_02 div.gallery-controls {
 		display: none;
 	}
-	div.img_galry_02  .image-container .controls .pause_mov,div.img_galry_02  .image-container .controls .play
+	div.img_galry_02  .image-container .controls .play
 		{
-		display: none;
+		display: block;
 		visibility: hidden;
 		left: 0px !important;
 	}
-	div.img_galry_02  .image-container .controls .camera {
-		display: block;
+	div.img_galry_02  .image-container .controls .pause_mov, div.img_galry_02  .image-container .controls .camera {
+		display: none;
 		visibility: visible;
 		left: 0px !important;
 	}
