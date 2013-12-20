@@ -7946,10 +7946,15 @@ header.nav_header_01 div.topnav {
 	.vid_4vids_03 .wdg_mix_carrousa .general{
         max-height: 280px;
     }
-
     .vid_4vids_03{
-		margin-bottom: 12px;
+		margin-bottom: 0px;
     }
+	.c3_2{
+		margin-top: 36px;
+	}
+	div.img_galry_04 {
+		height:610px;	
+	}
     .vid_4vids_03 .bullets{
         display: none;
     }
@@ -8077,7 +8082,7 @@ header.nav_header_01 div.topnav {
         float: left;
         width: 137px;
         height: auto;
-        margin: 0 0 24px 25px;
+        margin: 0 0 0 25px;
     }
     .btn_6prog_05 .type1a .carrusel ul li h3 {
         font-size: 14px;
@@ -8249,7 +8254,7 @@ header.nav_header_01 div.topnav {
         padding-right: 0 !important;
     }
     .btn_6prog_05 .type1a .carrusel ul{
-        height: 156px !important;
+        height: auto !important;
     }
 	.btn_6prog_05 .type1a .carrusel ul li:first-child {
         margin: 0;
