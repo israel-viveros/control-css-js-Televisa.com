@@ -4556,7 +4556,7 @@ header.nav_header_01 div.topnav {
 	}
 	.mix_1arts_08b div .articleMedium div span {
 		color: #9ea31d;
-		font-size: 13px;
+		font-size: 14px;
 		font-style: italic;
 		font-weight: bold;
 		margin-bottom: 8px;
@@ -13364,6 +13364,7 @@ and (orientation : portrait) {
 	.mix_3arts_03 .mix_1arts_09 .mix_1arts_09_thumb li a strong {
 		padding:10px 0 5px 0;
                 text-transform: capitalize;
+                font-size: 14px;
 	}
 	
     .mix_3arts_03 strong.background-color-pleca1 {
