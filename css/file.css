@@ -4701,6 +4701,7 @@ header.nav_header_01 div.topnav {
 		border-top:none;
 		margin: 0px 0 0 0px;
 		padding: 0 0 12px 0;
+                text-transform: capitalize;
 	}
 	.mix_2arts_07 .mix_1arts_08 .articleMedium div .text1 a{
 		font-style:italic;
@@ -13269,6 +13270,7 @@ and (orientation : portrait) {
 		padding-top: 16px;
 		font-weight: bold;
 		line-height: 4px;
+                text-transform: capitalize;
 	}
 	.mix_3arts_03 h2 {
 	    float: none;
