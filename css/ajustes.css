@@ -410,6 +410,16 @@ color: #a31d21;
 .btn_6prog_03 .type1a .carrusel ul li:last-child {
        margin-right: 0 !important;
 }
+@media screen and (max-width: 623px) {
+    .c1_1{
+        margin-bottom: 36px;
+    }
+}
+@media screen and (min-width: 624px){
+    .c1_1{
+        margin-bottom: 36px;
+    }
+}
 @media screen and (min-width: 948px){
     .c11{
         margin-bottom: 36px;
