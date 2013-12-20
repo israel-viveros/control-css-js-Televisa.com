@@ -371,13 +371,15 @@ color: #a31d21;
        margin-bottom: 24px !important;
 }
 
-.c9_0 {
-       height: 588px !important;
-       margin-bottom: 0 !important;
-}
-
-.fix-c9_0 {
-    height: 645px !important;
+@media screen and (min-width: 948px){
+	.c9_0 {
+		height: 588px !important;
+		margin-bottom: 0 !important;
+	}
+	
+	.fix-c9_0 {
+		height: 645px !important;
+	}
 }
 
 .gsa-result {
