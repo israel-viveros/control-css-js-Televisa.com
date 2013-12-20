@@ -13245,7 +13245,7 @@ and (orientation : portrait) {
         display: none;
     }
     .btn_6prog_03 .type1a .title .flechas{
-        display: block !important;
+        display: none !important;
     }
     .ie10 .btn_6prog_03 .type1a .carrusel ul{
     	width: 947px !important;
