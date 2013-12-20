@@ -4560,6 +4560,7 @@ header.nav_header_01 div.topnav {
 		font-style: italic;
 		font-weight: bold;
 		margin-bottom: 8px;
+                text-transform: capitalize;
 	}
 	.mix_1arts_08b div .articleMedium a .sprite {
 		position: absolute;
