@@ -180,7 +180,7 @@ function loadGsa(rama, q, num_elem, field, cliente,site){
                         video_carrusel_1 += '<img width="84" height="84" src="'+metadata['thumbnail_url']+'" alt="'+metadata['title']+'"/>';
                     }
                     video_carrusel_1 += '</div>';
-                    video_carrusel_1 += '<a title="'+metadata['title']+'" href="'+metadata['URL']+'" class="left"> ';
+                    video_carrusel_1 += '<a title="'+metadata['title']+'" href="'+metadata['URL']+'" class="left" target="_blank"> ';
                     video_carrusel_1 += '<span class="program">'+metadata['title']+'</span>';
                     video_carrusel_1 += '<span class="channel textcolor-title4">'+metadata['pubDate']+'</span> ';
                     video_carrusel_1 += '</a>';
