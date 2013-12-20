@@ -157,6 +157,10 @@
     }
     #right-ad01, #right-ad02, #right-ad03, #right-ad04{
     display: block;
+	
+	div.fix_img_galry_04{
+		height: 685px !important;
+	}
 }
 }
 @media screen and (min-width: 624px){
