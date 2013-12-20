@@ -4763,6 +4763,7 @@ header.nav_header_01 div.topnav {
 		margin: -20px 0 0 0px;
 		padding: 20px 0px 8px 0px;
 		border-top:none;
+                text-transform: capitalize;
 	}
 	.mix_2arts_07 .mix_1arts_08 .articleMedium div .text1 a{
 		font-size: 14px;
@@ -13333,6 +13334,7 @@ and (orientation : portrait) {
 	.mix_3arts_03 .mix_1arts_09 .mix_1arts_09_thumb li a strong{
 		padding-left: 0px;
 		line-height: 15px;
+                text-transform: capitalize;
 	}
 	.mix_3arts_03 h2 {
         float: none;
@@ -13356,6 +13358,7 @@ and (orientation : portrait) {
 	}
 	.mix_3arts_03 .mix_1arts_09 .mix_1arts_09_thumb li a strong {
 		padding:10px 0 5px 0;
+                text-transform: capitalize;
 	}
 	
     .mix_3arts_03 strong.background-color-pleca1 {
@@ -13641,5 +13644,10 @@ and (orientation : portrait) {
     /* END: Global (Large) */
 }
 /*::::::::::::: mix_3arts_02::::::::::*/
+
+/*:::::::::: capitalize::::::*/
+.mix_carru_01b .type2b2_02 .articleBigModule_02 > .galleryCaption_02 div.topic{
+    text-transform: capitalize;
+}
 
 
