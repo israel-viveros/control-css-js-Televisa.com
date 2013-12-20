@@ -2565,30 +2565,58 @@ function setWidthCarr2(){
 }$(document).ready(function() {
     (function(T, $) {
         var onDocumentReady = function() {
-            var $parent = $('div.art_latestnews_01');        
+            var $parent = $('#top_6_coporativo');       
             var $clickListA = $parent.find('.art_latestnews_01_lasth');
             var $clickListB = $parent.find('.art_latestnews_01_morev');
             var $overLink = $parent.find('.art_latestnews_01_list1 li');
+            var $parent2 = $('.c9_1');       
+            var $clickListA2 = $parent2.find('.art_latestnews_01_lasth');
+            var $clickListB2 = $parent2.find('.art_latestnews_01_morev');
+            var $overLink2 = $parent2.find('.art_latestnews_01_list1 li');
+
             $clickListA.bind('click', function(evt) {
                 evt.preventDefault();
-                $('.art_latestnews_01_morev').removeClass("selected");
                 $(this).addClass("selected");
-                $('.art_latestnews_01_list1').show();
-                $('.art_latestnews_01_list2').hide();
+                $('#top_6_coporativo .art_latestnews_01_morev').removeClass("selected");
+                $('#top_6_coporativo .art_latestnews_01_list1').show();
+                $('#top_6_coporativo .art_latestnews_01_list2').hide();
             });
             $clickListB.bind('click', function(evt) {
                 evt.preventDefault();
                 $(this).addClass("selected");
-                $('.art_latestnews_01_lasth').removeClass("selected");
-                $('.art_latestnews_01_list1').hide();
-                $('.art_latestnews_01_list2').show();
+                $('#top_6_coporativo .art_latestnews_01_lasth').removeClass("selected");
+                $('#top_6_coporativo .art_latestnews_01_list1').hide();
+                $('#top_6_coporativo .art_latestnews_01_list2').show();
             });
+            $clickListA2.bind('click', function(evt) {
+                evt.preventDefault();
+                $(this).addClass("selected");
+                $('.c9_1 .art_latestnews_01_morev').removeClass("selected");
+                $('.c9_1 .art_latestnews_01_list1').show();
+                $('.c9_1 .art_latestnews_01_list2').hide();
+            });
+            $clickListB2.bind('click', function(evt) {
+                evt.preventDefault();
+                $(this).addClass("selected");
+                $('.c9_1 .art_latestnews_01_lasth').removeClass("selected");
+                $('.c9_1 .art_latestnews_01_list1').hide();
+                $('.c9_1 .art_latestnews_01_list2').show();
+            });
+
             if (T.getDeviceSize() == 'large') {
                 $overLink.bind('mouseover', function(evt) {
                     evt.preventDefault();
                     $(this).find('.art_latestnews_01_over').css("display","block");
                 });
                 $overLink.bind('mouseout', function(evt) {
+                    evt.preventDefault();
+                    $(this).find('.art_latestnews_01_over').css("display","none");
+                });   
+                $overLink2.bind('mouseover', function(evt) {
+                    evt.preventDefault();
+                    $(this).find('.art_latestnews_01_over').css("display","block");
+                });
+                $overLink2.bind('mouseout', function(evt) {
                     evt.preventDefault();
                     $(this).find('.art_latestnews_01_over').css("display","none");
                 });   
@@ -2602,10 +2630,22 @@ function setWidthCarr2(){
                     $overLink.bind('mouseout', function(evt) {
                         evt.preventDefault();
                         $(this).find('.art_latestnews_01_over').css("display","none");
+                    });  
+                    $overLink2.bind('mouseover', function(evt) {
+                        evt.preventDefault();
+                        $(this).find('.art_latestnews_01_over').css("display","block");
+                    });
+                    $overLink2.bind('mouseout', function(evt) {
+                        evt.preventDefault();
+                        $(this).find('.art_latestnews_01_over').css("display","none");
                     });   
                 }
                 if( $(window).width() <= 960 ){
                     $overLink.bind('mouseover', function(evt) {
+                        evt.preventDefault();
+                        $(this).find('.art_latestnews_01_over').css("display","none");
+                    });
+                    $overLink2.bind('mouseover', function(evt) {
                         evt.preventDefault();
                         $(this).find('.art_latestnews_01_over').css("display","none");
                     });
