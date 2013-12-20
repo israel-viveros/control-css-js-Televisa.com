@@ -117,5 +117,6 @@ setTimeout(function(){
 $(document).ready(function() {
 	 /***** Inicia asignacion de target a hipervinculos *****/
     $('a').attr('target','_blank');
+	$('.nav_header_01 .topnav .inner a:first-child').removeAttr('target')
 	 /***** asignacion de target a hipervinculos *****/
 });
