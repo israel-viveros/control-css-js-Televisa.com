@@ -157,5 +157,16 @@
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
-    margin-bottom: 15px;
+    position: relative;
+    top: -6px;
+}
+.TitleEdiStageContainerLarge a p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    position: relative;
+    top: -6px;
+    height: 44px;
+    overflow: hidden;
 }
