@@ -113,3 +113,9 @@ $(window).load( function () {
 setTimeout(function(){
             $(".StageSliderMundial ul.StageContainterLarge li").find(".descriptionStageContainerLarge").find("a").removeClass("ui-link");
         },3000);
+		
+$(document).ready(function() {
+	 /***** Inicia asignacion de target a hipervinculos *****/
+    $('a').attr('target','_blank');
+	 /***** asignacion de target a hipervinculos *****/
+});
