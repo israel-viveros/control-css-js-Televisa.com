@@ -1669,6 +1669,23 @@ header
 .bg-entretenimiento-color_2{
     color: #0DA598!important;
 }
-.bg-corporativo-color{
-    color: #154C7B!important;
+.bg-corporativo-color {
+       color: #45739A !important;
+}
+
+/* agregar en colores.css */
+.t_ent_p {
+       color: #E2B528;
+}
+
+.t_ent_s {
+       color: #0DA598;
+}
+
+.t_esm_p {
+       color: #4972CE;
+}
+
+.t_esm_s {
+       color: #999999;
 }
