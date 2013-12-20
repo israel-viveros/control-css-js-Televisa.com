@@ -50,17 +50,19 @@ body{
 }
 
 /* Verticals */
-.tn {color:#0078bf;}
+.tn {color:#0078C0;}
 .td {color:#A70A0B;}
 .te {color:#E2B528;}
 .tt {color:#F68428;}
-.tl {color:#6AA845;}
+.tl {color:#4972CE;}
+.tk {color:#3FB9B5;}
 
-.tn_bg {background-color:#0078bf;}
+.tn_bg {background-color:#0078C0;}
 .td_bg {background-color:#A70A0B;}
 .te_bg {background-color:#E2B528;}
 .tt_bg {background-color:#F68428;}
-.tl_bg {background-color:#6AA845;}
+.tl_bg {background-color:#4972CE;}
+.tk_bg {background-color:#3FB9B5;}
 
 
 /* Rojo */
@@ -1457,14 +1459,27 @@ body{
 /*:::::::::::::::::::::::::: COLORES TELEVISA rgba(21, 76, 123, 0.6)::::::::::::::::::::::::::::::::*/
 
 /*
-corporativo= corp : #154C7B
-
-
-television: #F68428
-noticieros: #0079c2
-ninos: #0DA598
-esmas: #6C3C9F
-entretenimiento: #E2B528
+Noticieros
+    Primario:   #0078C0
+    Secundario: #AFBF24
+Deportes
+    Primario:   #A70A0B
+    Secundario: #D6A256
+Entretenimiento
+    Primario:   #E2B528
+    Secundario: #0DA598
+Esmas
+    Primario:   #4972CE
+    Secundario: #999999
+Televisión
+    Primario:   #F68428
+    Secundario: #DCC224
+Niños
+    Primario:   #3FB9B5
+    Secundario: #F7D031
+Corporativo
+    Primario:   #154C7B
+    Secundario: #45739A
 */
 
 .background-color-corp,
@@ -1521,7 +1536,7 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     border: 3px solid #AFBF24!important;
 }
 .background-color-noticieros{
-    background-color: #0079c2 !important;    
+    background-color: #0078C0 !important;    
 }
 .c9_1 .art_latestnews_01_lasth.selected {
     /*background: 
@@ -1567,7 +1582,7 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     border: 4px solid #154C7B!important;
 }
 #dock-stage li.bg-noticieros a img{
-    border: 4px solid #0079c2!important;
+    border: 4px solid #0078C0!important;
 }
 
 .bg-television, #dock-stage-mobile ul li.bg-television.active span, #dock-stage ul li.bg-television.active span{
@@ -1587,7 +1602,7 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     background: #4972ce!important;
 }
 #dock-stage li.bg-esmas a img{
-    border: 4px solid #6AA845!important;
+    border: 4px solid #4972CE!important;
 }
 
 .bg-ninos, #dock-stage-mobile ul li.bg-ninos.active span, #dock-stage ul li.bg-ninos.active span{
@@ -1600,7 +1615,7 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     /*background: #E2B53A!important;*/background: #E2B528!important;
 }
 #dock-stage li.bg-entretenimiento a img{
-    border: 4px solid #E2B53A!important;
+    border: 4px solid #E2B528!important;
 }
 .bg-deportes, #dock-stage-mobile ul li.bg-deportes.active span, #dock-stage ul li.bg-deportes.active span{ 
     background: #A70A0B!important;
@@ -1673,7 +1688,7 @@ header
     color: #0DA598!important;
 }
 .bg-corporativo-color{
-       color: #154C7B !important;
+       color: #45739A !important;
 }
 .bg-corporativo-color_1 {
        color: #154C7B !important;
