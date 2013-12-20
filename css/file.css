@@ -7378,6 +7378,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         font-weight:bold;
         color: #D9A961;
         line-height:20px;
+        text-transform: capitalize;
     }
 }@media screen and (min-width: 624px){
     /* BEGIN: verticalhero (Medium)*/
@@ -13562,6 +13563,7 @@ and (orientation : portrait) {
         font-size: 14px;
         line-height: 24px;
         padding:0!important;
+        text-transform: capitalize;
     }
     
     .mix_1arts_09 .mix_1arts_09_thumb li a h3 {
