@@ -59,11 +59,11 @@ $(function() {
 
 $(document).ready(function() {
     /****** Inicia contador de notas m?s le?das para RGA_top6_2013 *****/
-    var contador = $(".art_latestnews_01_list1").children().size();
+    var contador = $("#top_6_coporativo .art_latestnews_01_list1").children().size();
 
     if (contador > 0) {
         for (var i = 1; i <= contador; i++) {
-            $(".art_latestnews_01_list1 li:nth-child(" + i + ") div a span").text(i + ".");
+            $("#top_6_coporativo .art_latestnews_01_list1 li:nth-child(" + i + ") div a span").text(i + ".");
         }
         ;
     } else {
