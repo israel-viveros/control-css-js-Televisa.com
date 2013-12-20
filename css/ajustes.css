@@ -137,6 +137,15 @@
     #right-ad01, #right-ad02, #right-ad03, #right-ad04{
     display: none;
     }
+	.c1 .banner_template .large_banner div {
+		margin:0 auto;
+		text-align:center;
+	}
+	.c1 .ads_combo_01 .desktop_banner .large_banner div {
+		float:none !important;
+		margin:0 auto;
+		text-align:center;
+	}
 }
 
 @media screen and (min-width: 948px) {
@@ -160,6 +169,15 @@
 	}
 	.fix_img_galry_04{
 		height: 685px !important;
+	}
+	.c1 .banner_template .large_banner div {
+		margin:none;
+		text-align:none;
+	}
+	.c1 .ads_combo_01 .desktop_banner .large_banner div {
+		float:none;
+		margin:none;
+		text-align:none;
 	}
 }
 @media screen and (min-width: 624px){
