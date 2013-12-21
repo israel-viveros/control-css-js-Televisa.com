@@ -442,3 +442,7 @@ color: #a31d21;
         margin-bottom: 0;
     }
 }
+
+.vid_player_02_txtdetail.topspace {
+   margin-top: 10px;
+}
