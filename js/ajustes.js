@@ -16,16 +16,18 @@ headerFix.iconsSearch = function(){
     var inputSearch = $("input.search_term");
     inputSearch.keydown(function(tecla) {   
         if (tecla.keyCode === 13) {     
-                window.open('http://result.televisa.com/universal/#'+inputSearch.val(),'_blank');
-                inputSearch.val("");
+                //window.open('http://result.televisa.com/universal/#'+inputSearch.val(),'_blank');
+                //inputSearch.val("");
+				$('.site_search').submit();
         }
     });
 
     $("button.search_submit").click(function(event) {
         console.log("cliked");
         if(inputSearch.val() != ""){
-            window.open('http://result.televisa.com/universal/#'+inputSearch.val(),'_blank');
-            inputSearch.val("");
+            //window.open('http://result.televisa.com/universal/#'+inputSearch.val(),'_blank');
+            //inputSearch.val("");
+			$('.site_search').submit();
         }
     });
 }
