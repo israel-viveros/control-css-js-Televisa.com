@@ -6217,12 +6217,12 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         text-align: left;
     }
     .art_latestnews_01 > div:first-child .selected {
-        background: #A70A0B;
+        background: #154c7b;
         box-shadow: inset 0 0 0 #ddd;
     }
     .art_latestnews_01 > div:first-child .selected a {
         color: #fff;
-		font-weight: normal;
+		font-weight: bold;
     }
     .art_latestnews_01 > div:first-child .selected .art_latestnews_01_arrow {
         display: block;
@@ -6243,7 +6243,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         width: 100%;
         display: block;
         color: #a0a0a0;
-		font-weight: normal;
+		font-weight: bold;
     }
     .art_latestnews_01 > div:first-child > div .art_latestnews_01_arrow {
         width: 0;
@@ -6272,13 +6272,13 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     .ie7 .art_latestnews_01 > ul > li {
         padding: 0;
     }
-    .art_latestnews_01 .art_latestnews_01_list2 li div div.mix_1arts_07{
+    .art_latestnews_01 .art_latestnews_01_list2 li div div.mix_1arts_07, .art_latestnews_01 .art_latestnews_01_list2_ li div div.mix_1arts_07{
         border-top: none;
     }
-    .art_latestnews_01 .art_latestnews_01_list2 li div.mix_1arts_07{
+    .art_latestnews_01 .art_latestnews_01_list2 li div.mix_1arts_07, .art_latestnews_01 .art_latestnews_01_list2_ li div.mix_1arts_07{
         border-top: none;
     }
-    div.art_latestnews_01 ul.art_latestnews_01_list2 li .mix_1arts_07 {
+    div.art_latestnews_01 ul.art_latestnews_01_list2 li .mix_1arts_07, div.art_latestnews_01 ul.art_latestnews_01_list2_ li .mix_1arts_07 {
         border-bottom: none;
     }
     .art_latestnews_01 > ul > li > div > a {
@@ -6292,40 +6292,40 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         border-right: 1px solid #ccc;
         float: left;
         font-size: 16px;
-        margin-top: 25px;
+        margin-top: 20px;
     }
-    .art_latestnews_01 .art_latestnews_01_list1 p  {
+    .art_latestnews_01 .art_latestnews_01_list1 p, .art_latestnews_01 .art_latestnews_01_list1_ p  {
         float: left;
         width: 197px;
         font-size: 14px;
         padding-left: 24px;
         font-weight: bold;
         padding-top: 19px;
-        /*padding-bottom: 18px;*/padding-bottom: 7px;
-        padding-right: 15px; height:52px; overflow:hidden;
+        padding-bottom: 18px;
+        padding-right: 15px;
     }
-    .ie8 .art_latestnews_01 .art_latestnews_01_list1 p  {
+    .ie8 .art_latestnews_01 .art_latestnews_01_list1 p, .ie8 .art_latestnews_01 .art_latestnews_01_list1_ p  {
         width: 190px;
         font-size: 13px;
     }
-    .ie9 .art_latestnews_01 .art_latestnews_01_list1 p {
+    .ie9 .art_latestnews_01 .art_latestnews_01_list1 p, .ie9 .art_latestnews_01 .art_latestnews_01_list1_ p {
         padding-top: 16px;
         padding-bottom: 16px;
         padding-right: 15px;
     }
-    div.art_latestnews_01 ul.art_latestnews_01_list2 {
+    div.art_latestnews_01 ul.art_latestnews_01_list2, div.art_latestnews_01 ul.art_latestnews_01_list2_ {
         display: none;
     }
-    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07{
+    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07, .art_latestnews_01 ul.art_latestnews_01_list2_ li div.mix_1arts_07{
         margin-bottom: -12px;
         margin-top: -15px;
     }
-    .ie7 .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07{
+    .ie7 .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07, .ie7 .art_latestnews_01 ul.art_latestnews_01_list2_ li div.mix_1arts_07{
         margin-bottom: 0px;
         margin-top: 0px;
     }
 
-    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07 ul li a h3{
+    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07 ul li a h3, .art_latestnews_01 ul.art_latestnews_01_list2_ li div.mix_1arts_07 ul li a h3{
         padding-top: 3px;
         *padding-top: 0em;
         *margin-top:-15px;
@@ -6347,38 +6347,41 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         width: 300px;
         margin-bottom: 36px;
     }
-    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07{
+    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07, .art_latestnews_01 ul.art_latestnews_01_list2_ li div.mix_1arts_07{
         margin-bottom: 0px;
         margin-top: 0px;
     }
-    div.art_latestnews_01 ul.art_latestnews_01_list2 li.art_latestnews_01_liz {
+    div.art_latestnews_01 ul.art_latestnews_01_list2 li.art_latestnews_01_liz, div.art_latestnews_01 ul.art_latestnews_01_list2_ li.art_latestnews_01_liz {
         margin-top: 0px;
         padding-top: 10px;
     }
-    .ie9 .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07 ul li a p{
+    .ie9 .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07 ul li a p, .ie9 .art_latestnews_01 ul.art_latestnews_01_list2_ li div.mix_1arts_07 ul li a p{
         margin-bottom: -20px;
     }
     .art_latestnews_01 > div:first-child > div {
         line-height: 32px;
     }
 
-    ul.art_latestnews_01_list1 li {
+    ul.art_latestnews_01_list1 li, ul.art_latestnews_01_list1_ li {
         padding: 0;
     }
 
-    ul.art_latestnews_01_list2 li{
+    ul.art_latestnews_01_list2 li, ul.art_latestnews_01_list2_ li{
         padding: 10px 0;
     }
-    .ie7 ul.art_latestnews_01_list2 li{
+    .ie7 ul.art_latestnews_01_list2 li, .ie7 ul.art_latestnews_01_list2_ li{
         padding: 5px 0;
     }
-    .ie7 .art_latestnews_01_list2 .art_latestnews_01_liz{
+    .ie7 .art_latestnews_01_list2 .art_latestnews_01_liz, .ie7 .art_latestnews_01_list2_ .art_latestnews_01_liz{
         margin-top: -200px;
     }
     .art_latestnews_01_over{
         display: none;
     }
     div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
+        background-color: rgba(235,235,235,0.6);
+    }
+    div.art_latestnews_01 ul.art_latestnews_01_list1_ li .art_latestnews_01_elements a p:hover{
         background-color: rgba(235,235,235,0.6);
     }
     /* END:art_latestnews_01 (Medium)*/
@@ -6389,7 +6392,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     .art_latestnews_01 > ul > li {
         border-bottom: 1px solid #ccc;
     }
-    div.art_latestnews_01 ul.art_latestnews_01_list2 li .mix_1arts_07 {
+    div.art_latestnews_01 ul.art_latestnews_01_list2 li .mix_1arts_07, div.art_latestnews_01 ul.art_latestnews_01_list2_ li .mix_1arts_07 {
         border-bottom: none;
     }
     .art_latestnews_01_lia,.art_latestnews_01_lib,.art_latestnews_01_lic{
@@ -6398,10 +6401,19 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
         background-color: rgba(235,235,235,0.6);
     }
+    div.art_latestnews_01 ul.art_latestnews_01_list1_ li .art_latestnews_01_elements a p:hover{
+        background-color: rgba(235,235,235,0.6);
+    }
     .ie7 div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60EBEBEB,endColorstr=#60EBEBEB); 
     }
+    .ie7 div.art_latestnews_01 ul.art_latestnews_01_list1_ li .art_latestnews_01_elements a p:hover{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60EBEBEB,endColorstr=#60EBEBEB); 
+    }
     .ie8 div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60EBEBEB,endColorstr=#60EBEBEB); 
+    }
+    .ie8 div.art_latestnews_01 ul.art_latestnews_01_list1_ li .art_latestnews_01_elements a p:hover{
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60EBEBEB,endColorstr=#60EBEBEB); 
     }
     .art_latestnews_01 .art_latestnews_01_over{
@@ -6452,7 +6464,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         top:0px; 
         right:0px;
     }
-    .ie7 .art_latestnews_01_list2 .art_latestnews_01_liz{
+    .ie7 .art_latestnews_01_list2 .art_latestnews_01_liz, .ie7 .art_latestnews_01_list2_ .art_latestnews_01_liz{
         margin-top: -200px;
     }
 
