@@ -455,14 +455,14 @@ color: #a31d21;
 
 .c2 div.img_galry_04 a.td_bg {
        background: none repeat scroll 0 0 #0078BF !important;
-       bottom: 65px;
+       bottom: 64px;
        left: 30px;
        top: auto !important;
 }
 
 .img_galry_04 div.vid_player_01_whtbkg {
    background-color: rgba(255, 255, 255, 0.85);
-   bottom: 5px;
+   bottom: 4px;
    display: block;
    height: 40px;
    margin-left: 30px;
