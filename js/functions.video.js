@@ -36,7 +36,7 @@ functionsVideo.getHeight = function(){
 
 functionsVideo.outVideo = function(){        
        var parentTag = $(".VideoPlayerTelevisacom");
-       parentTag.css('display', 'none');
+       
        if(parentTag.length){                
                //var urlVideo = "http://tvolucion.esmas.com/embed/embed_ampp.php?id=";        
                var urlVideo = "http://tvolucion.esmas.com/embed/embed.php?id=";        
@@ -52,6 +52,7 @@ functionsVideo.outVideo = function(){
               //parametros = "&w="+widthDoc+"&h="+parseInt(newHeightPlayer)+"&autoplay=false";
                           parametros = "&w="+widthDoc+"&h="+parseInt(newHeightPlayer)+"&autoplay=true";
        }
+       parentTag.css('display', 'none');
        /* Fin modificacion */
        //parentTag.attr('src', urlVideo+idvideo+parametros);
                $('div.img_galry_04 .image-container a.td_bg.play').click(function() {
