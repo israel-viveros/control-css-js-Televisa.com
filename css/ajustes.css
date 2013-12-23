@@ -446,15 +446,29 @@ color: #a31d21;
 .vid_player_02_txtdetail.topspace {
    margin-top: 10px;
 }
+
+
 /* Player video */
+#videostage > img {
+   width: 100%;
+}
+
+.c2 div.img_galry_04 a.td_bg {
+       background: none repeat scroll 0 0 #0078BF !important;
+       bottom: 65px;
+       left: 30px;
+       top: auto !important;
+}
+
 .img_galry_04 div.vid_player_01_whtbkg {
    background-color: rgba(255, 255, 255, 0.85);
+   bottom: 5px;
    display: block;
    height: 40px;
    margin-left: 30px;
-   margin-top: 0;
    padding: 10px 25px;
-   position: relative;
+   position: absolute !important;
+   width: 90%;
 }
 
 .img_galry_04 .vid_player_01_black {
@@ -464,3 +478,4 @@ color: #a31d21;
    font-weight: bold;
    margin-right: 40px;
 }
+/* Fin player */
