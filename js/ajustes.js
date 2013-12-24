@@ -122,3 +122,86 @@ $(document).ready(function() {
 	$('.nav_header_01 .topnav .inner a:first-child').removeAttr('target')
 	 /***** asignacion de target a hipervinculos *****/
 });
+
+/* Function Hacer pÃƒÂ¡gina de Inicio */
+function makeThisHomePage()
+{
+	var nombre = navigator.userAgent;
+	/* alert(nombre); */
+	var navInfo = window.navigator.appVersion.toLowerCase();
+	/* alert(navInfo); */
+	var ch=nombre.indexOf("Chrome");
+	var ie=nombre.indexOf("MSIE");
+	var op=nombre.indexOf("Opera");
+	var ff=nombre.indexOf("Firefox");
+	var sa=nombre.indexOf("Safari");
+	var caller = 'http://www.televisa.com';
+
+	/* Windows */
+	if(ie!=-1){
+		caller.style.behavior='url(#default#homepage)';
+		caller.setHomePage(caller); 
+	}
+	
+	/* Firefox */
+	if(ff!=-1){
+		if(navInfo.indexOf('linux') != -1)
+		{
+			/* Firefox para Linux */
+		}else if(navInfo.indexOf('mac') != -1) 
+		{
+			/* Firefox para MAC */
+			alert("1. En el menu FIREFOX selecciona PREFERENCIAS\n2. Da clic en GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}else{
+			/* if(navInfo.indexOf('win') != -1) // Firefox Windows y otros */
+			alert("1. En el menu HERRAMIENTAS selecciona OPCIONES \n2. Da clic en GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}
+	}
+
+	/* Opera */
+	if(op!=-1){
+		if(navInfo.indexOf('linux') != -1)
+		{
+			/* Opera para Linux */
+		}else if(navInfo.indexOf('mac') != -1) 
+		{
+			/* Opera para MAC */
+			alert("1. En el menu OPERA selecciona PREFERENCIAS\n2. Da clic en el ícono GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}else{
+			/* if(navInfo.indexOf('win') != -1) // Opera Windows y otros */
+			alert("1. En el MENU selecciona OPCIONES\n2. Da clic en PREFERENCIAS\n3. Da clic en GENERAL\n4. En la sección de página de inicio escribe: www.televisa.com\n5. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}
+	}
+
+	/* Chrome */
+	if(ch!=-1){
+		if(navInfo.indexOf('linux') != -1)
+		{
+			/* Chrome para Linux */
+		}else if(navInfo.indexOf('mac') != -1) 
+                    //makeThisHomePage()
+		{
+			/* Chrome para MAC */
+			alert("1. En el ícono de PERSONALIZAR selecciona PREFERENCIAS\n2. En la sección de página de inicio escribe: www.televisa.com\n3. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}else{
+			/* if(navInfo.indexOf('win') != -1) // Chrome Windows y otros */
+			alert("1. En el ícono de PERSONALIZAR selecciona OPCIONES\n2. En la sección de página de inicio escribe: www.televisa.com\n3. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}
+	}
+
+	/* Safari */
+	if(sa!=-1&&ch==-1){
+		if(navInfo.indexOf('linux') != -1)
+		{
+			/* Safari para Linux */
+		}else if(navInfo.indexOf('mac') != -1) 
+		{
+			/* Safari para MAC */
+			alert("1. En el menu SAFARI selecciona PREFERENCIAS\n2. Da clic en el ícono PRINCIPAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}else{
+			/* if(navInfo.indexOf('win') != -1) // Safari Windows y otros */
+			alert("1. En el menu SAFARI selecciona PREFERENCIAS\n2. Da clic en el ícono GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+		}
+	}
+	
+}
