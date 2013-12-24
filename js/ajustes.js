@@ -151,10 +151,10 @@ function makeThisHomePage()
 		}else if(navInfo.indexOf('mac') != -1) 
 		{
 			/* Firefox para MAC */
-			alert("1. En el menu FIREFOX selecciona PREFERENCIAS\n2. Da clic en GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el menu FIREFOX selecciona PREFERENCIAS\n2. Da clic en GENERAL\n3. En la secci\u00d3n de p\u00e1gina de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y listo!");
 		}else{
 			/* if(navInfo.indexOf('win') != -1) // Firefox Windows y otros */
-			alert("1. En el menu HERRAMIENTAS selecciona OPCIONES \n2. Da clic en GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el menu HERRAMIENTAS selecciona OPCIONES \n2. Da clic en GENERAL\n3. En la secci\u00d3n de p\u00e1gina de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y listo!");
 		}
 	}
 
@@ -166,10 +166,10 @@ function makeThisHomePage()
 		}else if(navInfo.indexOf('mac') != -1) 
 		{
 			/* Opera para MAC */
-			alert("1. En el menu OPERA selecciona PREFERENCIAS\n2. Da clic en el ícono GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el menu OPERA selecciona PREFERENCIAS\n2. Da clic en el \u00edcono GENERAL\n3. En la secci\u00d3n de p\u00e1gina de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y listo!");
 		}else{
 			/* if(navInfo.indexOf('win') != -1) // Opera Windows y otros */
-			alert("1. En el MENU selecciona OPCIONES\n2. Da clic en PREFERENCIAS\n3. Da clic en GENERAL\n4. En la sección de página de inicio escribe: www.televisa.com\n5. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el MENU selecciona OPCIONES\n2. Da clic en PREFERENCIAS\n3. Da clic en GENERAL\n4. En la secci\u00d3n de p\u00e1gina de inicio escribe: www.televisa.com\n5. Da clic en OK o cierra la pantalla emergente y listo!");
 		}
 	}
 
@@ -182,10 +182,10 @@ function makeThisHomePage()
                     //makeThisHomePage()
 		{
 			/* Chrome para MAC */
-			alert("1. En el ícono de PERSONALIZAR selecciona PREFERENCIAS\n2. En la sección de página de inicio escribe: www.televisa.com\n3. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el \u00edcono de PERSONALIZAR selecciona PREFERENCIAS\n2. En la secci\u00d3n de p\u00e1gina de inicio escribe: www.televisa.com\n3. Da clic en OK o cierra la pantalla emergente y listo!");
 		}else{
 			/* if(navInfo.indexOf('win') != -1) // Chrome Windows y otros */
-			alert("1. En el ícono de PERSONALIZAR selecciona OPCIONES\n2. En la sección de página de inicio escribe: www.televisa.com\n3. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el \u00edcono de PERSONALIZAR selecciona OPCIONES\n2. En la secci\u00d3n de p\u00e1gina de inicio escribe: www.televisa.com\n3. Da clic en OK o cierra la pantalla emergente y listo!");
 		}
 	}
 
@@ -197,10 +197,10 @@ function makeThisHomePage()
 		}else if(navInfo.indexOf('mac') != -1) 
 		{
 			/* Safari para MAC */
-			alert("1. En el menu SAFARI selecciona PREFERENCIAS\n2. Da clic en el ícono PRINCIPAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el menu SAFARI selecciona PREFERENCIAS\n2. Da clic en el \u00edcono PRINCIPAL\n3. En la secci\u00f3n de p\u00e1gina de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y listo!");
 		}else{
 			/* if(navInfo.indexOf('win') != -1) // Safari Windows y otros */
-			alert("1. En el menu SAFARI selecciona PREFERENCIAS\n2. Da clic en el ícono GENERAL\n3. En la sección de página de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y ¡listo!");
+			alert("1. En el menu SAFARI selecciona PREFERENCIAS\n2. Da clic en el \u00edcono GENERAL\n3. En la secci\u00f3n de p\u00e1gina de inicio escribe: www.televisa.com\n4. Da clic en OK o cierra la pantalla emergente y listo!");
 		}
 	}
 	
