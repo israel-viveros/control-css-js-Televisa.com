@@ -1,4 +1,4 @@
-/*v4.0*/
+/*v5.0*/
 .td_home_main_01 .main .c7 .c7_1.left.bottom_space.hide-mobile{
     margin-bottom: 35px!important;
 }
@@ -479,3 +479,14 @@ color: #a31d21;
    margin-right: 40px;
 }
 /* Fin player */
+
+@media screen and (max-width: 623px){
+    #ban01_televisa, #ban02_televisa, #ban04_televisa, #ban06_televisa {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 624px){
+    #ban01_televisa, #ban02_televisa, #ban04_televisa, #ban06_televisa {
+        text-align: center;
+    }
+}
