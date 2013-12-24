@@ -1,5 +1,5 @@
 /*
-	version: 1.0.1;
+	version: 1.0.2;
 */
 /*BEGIN: img_galry_02 / desktop */
 @media screen and (min-width: 624px) { /*Version Desktop*/	
@@ -96,7 +96,7 @@
 	}
 	
 	div.img_galry_02 a.td_bg {
-		background-color: rgba(167, 10, 11, 0.6);
+		background-color: rgba(21, 76, 123, 0.6);
 		/*background-color:#86b519;*/		
 		color: #FFF;
 		display: block;
@@ -511,7 +511,7 @@
 		line-height: 24px
 	}
 	div.img_galry_02 a.td_bg {
-		background-color: rgba(167, 10, 11, 0.6);		
+		background-color: rgba(21, 76, 123, 0.6);		
 		color: #FFF;
 		display: block;
 		height: 26px;
