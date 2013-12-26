@@ -3268,7 +3268,8 @@ header.nav_header_01 div.topnav {
 		overflow: hidden;
 	}
 	.wdg_goals_carru_01 .degraded{
-		/*display:block;*/display:none;
+		display:block;
+		/*display:none;*/
 		bottom:50px;
 	}
 	.wdg_goals_carru_01 > ul {
@@ -3316,7 +3317,7 @@ header.nav_header_01 div.topnav {
       filter: alpha(opacity=80);
     }
 	.wdg_goals_carru_01 .degraded{
-		display:none;
+		/*display:none;*/
 	}
 	 .wdg_goals_carru_01 > div .full-timetable {
 	 	background:#E6E6E6; 	
