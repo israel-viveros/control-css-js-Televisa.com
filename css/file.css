@@ -6339,6 +6339,12 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 	.art_latestnews_01_lia,.art_latestnews_01_lib,.art_latestnews_01_lic{
         display: none;
     }
+    
+    .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07 ul.articles li a p{
+        font-size: 14px;
+        font-weight: bold;
+        padding-right: 15px;
+    }
     /* END:mostread (Small)*/
 }
 @media screen and (min-width: 624px){
