@@ -8373,3 +8373,10 @@ margin-bottom: 2px !important;
 #mejoresVideos .gsa-result .btn_6prog_02 .type1a .carrusel ul li a img {
 	height: 77px;
 }
+
+@media screen and (max-width: 623px) {
+	.c1 .ads_combo_01 .desktop_banner .large_banner div {
+		float: none !important;
+		text-align: center;
+	}
+}
