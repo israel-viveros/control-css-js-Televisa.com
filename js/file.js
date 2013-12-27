@@ -160,11 +160,11 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
         },
         
         initMainNav : function() {
-            $('header.nav_header_01 a:not(header.nav_header_01 nav.social a)').hover(
-                function(){
-                    nav_header.closeSocialNav();
-                }
-            );
+            //$('header.nav_header_01 a:not(header.nav_header_01 nav.social a)').hover(
+            //    function(){
+            //        nav_header.closeSocialNav();
+            //    }
+            //);
             $('header.nav_header_01 li').hover(function(){
                 $('.header.nav_header_01 .mas-deportes .tvsa-caret-down').show();
             });
