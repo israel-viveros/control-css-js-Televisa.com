@@ -13369,24 +13369,26 @@ and (orientation : portrait) {
         font-weight: bold;
         line-height: 21px;
         padding: 0;
-        width: 98% !important; height:60px;
+        width: 98% !important;
+        height: auto;
+        max-height:60px;
     }
 	div.mix_3arts_02 div.mix_3arts_02_last div.mix_1arts_09{
-		padding: 0px 0px 0 12px !important;
+		padding: 0px 0px 0 10px !important;
 	}
 	.mix_3arts_03 .mix_3arts_02_first  .mix_1arts_09{
-		padding-bottom:30px!important;
+		/*padding-bottom:30px!important;*/
 	}
 	.mix_3arts_03 .mix_3arts_02_middle .mix_1arts_09{
-		padding-bottom:30px;
+		/*padding-bottom:30px;*/
 	}
 	.mix_3arts_03 .mix_3arts_02_last .mix_1arts_09{
-		padding-bottom:30px;
+		/*padding-bottom:30px;*/
 	}
 	.mix_3arts_03 .mix_1arts_09 .mix_1arts_09_thumb li a strong {
 		padding:10px 0 5px 0;
-                text-transform: capitalize;
-                font-size: 14px;
+        text-transform: capitalize;
+        font-size: 14px;
 	}
 	
     .mix_3arts_03 strong.background-color-pleca1 {
@@ -13644,7 +13646,7 @@ and (orientation : portrait) {
     }
     div.mix_3arts_02 div.mix_1arts_09 {
         float:left;
-        padding: 0px 12px 15px 12px;
+        padding: 0px 12px 10px 12px;
         border-right: 1px solid #CCC;
     }
     div.mix_3arts_02 div.mix_3arts_02_last div.mix_1arts_09 {
