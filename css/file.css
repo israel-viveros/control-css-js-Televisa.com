@@ -3271,14 +3271,15 @@ header.nav_header_01 div.topnav {
 	.wdg_goals_carru_01 .degraded{
 		display:block;
 		/*display:none;*/
-		bottom:50px;
+		bottom:55px;
 	}
 	.wdg_goals_carru_01 > ul {
 	    height: 322px; /*tama?o original*/
 /*	    height: 141px;*/
 	}
 	 .wdg_goals_carru_01 > div .full-timetable {
-       	background:#d6a256;       		 	
+       	/*background:#d6a256;*/
+		background: rgba(0, 0, 0, 0);       		 	
 	 	height: 32px;
 	 	line-height:32px;
 	 	margin-left: 200px;
@@ -3321,7 +3322,8 @@ header.nav_header_01 div.topnav {
 		/*display:none;*/
 	}
 	 .wdg_goals_carru_01 > div .full-timetable {
-	 	background:#E6E6E6; 	
+	 	/*background:#E6E6E6;*/
+		background: rgba(0, 0, 0, 0);	
 	 	height:28px;
 	 	line-height:28px;
 	 	margin-left: 85px;
