@@ -523,6 +523,7 @@ header.nav_header_01 div.topnav {
 		border-right: 1px solid #dadada;
 		height: 35px;
 		line-height: 35px;
+		margin-left: -4px;
 	}
 	header.nav_header_01 div.mainnav nav.main {
 		position: absolute;

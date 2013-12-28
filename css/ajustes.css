@@ -492,12 +492,13 @@ color: #a31d21;
     .c13_3.right{
         margin-bottom: 18px;
     }
-    .typecarruse .carrusel{
-        margin-top: 16px;
-    }
+    
 }
 @media screen and (min-width: 624px){
     #ban01_televisa, #ban02_televisa, #ban04_televisa, #ban06_televisa {
         text-align: center;
+    }
+    .typecarruse .carrusel{
+        margin-top: 16px;
     }
 }
