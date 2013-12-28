@@ -1,4 +1,3 @@
-/*v5.0*/
 .td_home_main_01 .main .c7 .c7_1.left.bottom_space.hide-mobile{
     margin-bottom: 35px!important;
 }
@@ -492,6 +491,9 @@ color: #a31d21;
     }
     .c13_3.right{
         margin-bottom: 18px;
+    }
+    .typecarruse .carrusel{
+        margin-top: 16px;
     }
 }
 @media screen and (min-width: 624px){
