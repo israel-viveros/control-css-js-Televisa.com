@@ -502,3 +502,21 @@ color: #a31d21;
         margin-top: 16px;
     }
 }
+@media screen and (min-width: 624px) and (max-width: 947px) {
+	.c1_1 {
+		margin-bottom:36px !important;
+		margin-top:8px !important;
+	}
+	#ban02_televisa, #ban04_televisa {
+		margin: 0 auto !important;	
+	}
+	.banner_template {
+		margin: 4px 0 36px !important;
+	}
+	.td_home_main_01 .main > div.bottom_space {
+		margin-bottom: 36px !important;
+	}
+	.wdg_altasbajas_result_01 .degraded {
+		bottom:50px !important;
+	}
+}
