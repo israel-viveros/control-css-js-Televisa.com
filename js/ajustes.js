@@ -87,15 +87,15 @@ $(window).load( function () {
         for (var i = 1; i <= cuentaTw; i++) {
             armaHTML += '<div class="wdg_twitt_02_block one">';
             armaHTML += '<div class="wdg_twitt_02_img">';
-            armaHTML += '<a href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a').attr("title") +'"><img src="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a img').attr("src") +'" alt="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a img').attr("alt") +'"></a></div>';
+            armaHTML += '<a target="_blank" href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a').attr("title") +'"><img src="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a img').attr("src") +'" alt="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_img a img').attr("alt") +'"></a></div>';
             armaHTML += '<div class="wdg_twitt_02_txt">';
-            armaHTML += '<a href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a').attr("title") +'">';
+            armaHTML += '<a target="_blank" href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a').attr("title") +'">';
             armaHTML += '<span id="s1" class="title textcolor-title2 text-color-corp">'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a #s1').text() +'</span><span id="s2" class="cta_twitter textcolor-title4">'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a #s2').text() +'</span>';
             armaHTML += '<p>'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt a p').text() +'</p></a>';
             armaHTML += '<span class="wdg_twitt_02_blue">'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue span').text();
-            armaHTML += '<a href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(1)').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(1)').attr("title") +'">Reply</a> -';
-            armaHTML += '<a href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(2)').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(2)').attr("title") +'">Retweet</a> -';
-            armaHTML += '<a href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(3)').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(3)').attr("title") +'">Favorito</a></span></div></div>';
+            armaHTML += '<a target="_blank" href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(1)').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(1)').attr("title") +'">Reply</a> -';
+            armaHTML += '<a target="_blank" href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(2)').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(2)').attr("title") +'">Retweet</a> -';
+            armaHTML += '<a target="_blank" href="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(3)').attr("href") +'" title="'+ $('#tweets :nth-child(' + i + ') .wdg_twitt_02_txt .wdg_twitt_02_blue a:nth-child(3)').attr("title") +'">Favorito</a></span></div></div>';
 
             if ( i == 2 || i == 4 ) {
                 armaHTML += '</li><li>';
