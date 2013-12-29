@@ -3271,7 +3271,7 @@ header.nav_header_01 div.topnav {
 	.wdg_goals_carru_01 .degraded{
 		display:block;
 		/*display:none;*/
-		bottom:55px;
+		bottom:50px;
 	}
 	.wdg_goals_carru_01 > ul {
 	    height: 322px; /*tama?o original*/
