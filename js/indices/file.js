@@ -1269,11 +1269,11 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
             
             $('header.nav_header_01 div.mainnav nav.social a.toggle').click(function(){
                 nav_header.closeSearch();
-                if ($(this).hasClass('open')) {
-                    nav_header.closeSocialNav();
-                } else {
-                    nav_header.openSocialNav(this);
-                }
+                //if ($(this).hasClass('open')) {
+                //    nav_header.closeSocialNav();
+                //} else {
+                //    nav_header.openSocialNav(this);
+                //}
                 return false;
             });
             
@@ -1320,7 +1320,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 	        	$('form.site_search').addClass('open').find("input.search_term:eq(0)").show().animate({width:'180px'},150,'easeInOutExpo',function(){
 	            }).focus();
         	}
-            nav_header.closeSocialNav();
+            //nav_header.closeSocialNav();
         },
         
         closeSearch : function() {
