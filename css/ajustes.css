@@ -520,3 +520,19 @@ color: #a31d21;
 		bottom:50px !important;
 	}
 }
+/* Dispositivos vista retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 623px) , ( min-resolution : 192dpi) and (max-width: 623px) {
+	/* Logo Deportes */
+	header.nav_header_01 div.topnav div.inner>a.televisa span.mobile-logo {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/logo_TVSA-header_MV.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position: 0px 0px;
+		height:30px;
+		width:120px;
+		margin-top:10px;
+		overflow: hidden;
+	}
+	header.nav_header_01 div.topnav div.inner > a.televisa span:last-child {
+		display: none;
+	}
+}
