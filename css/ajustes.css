@@ -520,3 +520,60 @@ color: #a31d21;
 		bottom:50px !important;
 	}
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 623px) , ( min-resolution : 192dpi) and (max-width: 623px) {
+	header.nav_header_01 div.topnav div.inner>a.televisa span.mobile-logo {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/logo_TVSA-header_MV.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position: 0px 0px;
+		height:30px;
+		width:120px;
+		margin-top:10px;
+		overflow: hidden;
+	}
+	header.nav_header_01 div.topnav div.inner > a.televisa span:last-child {
+		display: none;
+	}
+	.nav_corft_01_sprite {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/logo_TVSA-header_MV.png) no-repeat scroll 0 0;
+		background-size: 160px auto !important;
+		background-position: 0px 0px !important;
+		height:40px !important;
+		width:45px !important;
+		margin-top:10px;
+		overflow: hidden;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 624px) , ( min-resolution : 192dpi) and (min-width: 624px) {
+	header.nav_header_01 div.topnav a.televisa span {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/sprite_logos_televisa_MV.png) no-repeat scroll 0 0;
+		background-size: 148px auto !important;
+		background-position: -83px -160px !important;
+		height: 56px;
+	}
+	.nav_corft_01_sprite {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/logo_TVSA-header_MV.png) no-repeat scroll 0 0;
+		background-size: 140px auto !important;
+		background-position: 0px 0px !important;
+		height:25px !important;
+		width:35px !important;
+		margin-top:10px;
+		overflow: hidden;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 948px) , ( min-resolution : 192dpi) and (min-width: 948px) {
+	header.nav_header_01 div.topnav a.televisa span {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/sprite_logos_televisa_MV.png) no-repeat scroll 0 0;
+		background-size: 147px auto !important;
+		background-position: -1px -160px !important;
+		height: 65px;
+	}
+	.nav_corft_01_sprite {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/logo_TVSA-header_MV.png) no-repeat scroll 0 0;
+		background-size: 120px auto !important;
+		background-position: 0px 0px !important;
+		height:25px !important;
+		width:30px !important;
+		margin-top:10px;
+		overflow: hidden;
+	}
+}
