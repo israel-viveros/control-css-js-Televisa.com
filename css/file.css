@@ -6897,6 +6897,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
        margin:0;
        padding:0;
        display:block;
+       overflow: hidden;
     }
     .btn_carru_prog_02 .typecarruse .carrusel ul li span.desc {
        display:block;
