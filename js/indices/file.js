@@ -1343,6 +1343,10 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 })(jQuery);
 
 $(document).ready(function() {	
+    var buttons = $('.navegacion_fotos li');
+	var numButtons = buttons.length;
+	var currentButton = 0;
+	
     $(".mejores_fotos").eq(0).fadeIn(400);
     $(".navegacion_fotos").find("ul li ").removeClass("actived");
     $(".navegacion_fotos").find("ul li ").eq(0).addClass("actived");
@@ -1356,9 +1360,23 @@ $(document).ready(function() {
         
         $(".navegacion_fotos").find("ul li ").removeClass("actived");
         $(this).addClass("actived");
-        
+        currentButton = op;
         //alert(op);
     })
+	
+	var nextButton = function() {
+		currentButton++;
+		if(currentButton>numButtons-1)
+			currentButton=0;    
+		var button = $(buttons[currentButton]);
+		var op = button.attr("rel");
+		$(".mejores_fotos").fadeOut(400);
+		$(".mejores_fotos").eq(op).fadeIn(400);
+		$(".navegacion_fotos").find("ul li ").removeClass("actived");
+		button.addClass("actived");
+	}
+	
+	setInterval(nextButton,5000);
     
     $(".navegacion_fotos").swipe( {        
 		swipe:function(event, direction, distance, duration, fingerCount) {           
