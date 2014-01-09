@@ -5219,6 +5219,7 @@ header.nav_header_01 div.topnav {
 		position: relative;
 		height: 35px;
 		border-bottom: 1px solid #c4c4c4;
+		border-top: 1px solid #c4c4c4;
 		background: #efefef; /* Old browsers */
 		background: -moz-linear-gradient(top, #efefef 66%, #ffffff 100%);
 		/* FF3.6+ */
