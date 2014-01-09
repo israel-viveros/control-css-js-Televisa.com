@@ -3217,7 +3217,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
     .nav_footer_01 .white-row div.wrapper div.column ul li.icon-social {
         font-weight: bold;
         color: black;
-        font-style: italic;
+        font-style: normal;
         line-height:20px;
     }
     
