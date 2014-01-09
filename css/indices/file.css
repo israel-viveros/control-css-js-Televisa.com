@@ -5996,7 +5996,8 @@ header.nav_header_01 div.topnav {
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.categories
 		{
 		float: left;
-		width: 168px;
+		padding-left:24px;
+		width: 144px;
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.featured
 		{
