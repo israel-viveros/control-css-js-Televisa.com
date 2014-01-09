@@ -6039,6 +6039,8 @@ header.nav_header_01 div.topnav {
 		margin-top: -24px;
 		display: inline-block;
 		padding: 12px 0;
+		width:276px;
+		height:121px;
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.big-news small.topic,header.nav_header_01 div.collapsable-verticals div.inner>div div.big-news strong.title
 		{
