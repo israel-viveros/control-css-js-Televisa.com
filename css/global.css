@@ -2258,7 +2258,7 @@ a.active .sprite.dropdown {
     margin-bottom: 15px;
     }
 .bottom_space{
-    /*margin-bottom: 32px!important;*/  margin-bottom: 15px!important;
+    margin-bottom: 24px!important;
 }
 .top_space{
     margin-bottom: 24px!important;
