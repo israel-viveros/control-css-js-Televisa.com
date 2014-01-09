@@ -5240,11 +5240,13 @@ header.nav_header_01 div.topnav {
 		height: 35px;
 	}
 	header.nav_header_01 div.mainnav ul li {
+		background: url("http://i.televisa.com/televisa/noticieros/clientlibs/nav_header_01/img/header/right-shadow-mobile.png") no-repeat scroll right top rgba(0, 0, 0, 0);
 		display: inline-block;
 		border: 0;
 		border-right: 1px solid #dadada;
 		height: 35px;
 		line-height: 35px;
+		float:left;
 	}
 	header.nav_header_01 div.mainnav nav.main {
 		position: absolute;
@@ -5263,9 +5265,9 @@ header.nav_header_01 div.topnav {
 		color: #494a4c;
 		font-size: 11px;
 		border: 0;
-		border-top: 1px solid #efefef;
-		border-right: 1px solid #eaeaec;
-		border-left: 1px solid #f3f3f3;
+		border-top: 0px solid #efefef;
+		border-right: 0px solid #eaeaec;
+		border-left: 0px solid #f3f3f3;
 		text-shadow: 1px 1px 2px #FFF;
 		filter: dropshadow(color = #FFF, offx = 1, offy = 1);
 	}
@@ -5458,7 +5460,7 @@ header.nav_header_01 div.topnav {
 		float: right;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li a {
-		height: 34px;
+		height: 36px;
 		padding: 0 8px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station a span {
