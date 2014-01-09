@@ -4548,9 +4548,13 @@ and (orientation : portrait) {
     }
 
     .nav_corft_01 footer .blue-row ul li a {
-        font-size: 12px;
+        font-size: 14px;
         padding: 4px 0 10px 0;
     }
+	
+	.nav_corft_01 footer .blue-row .blueSections > li ul.blueSections-list li a {
+		font-size: 12px;
+	}
     
     .nav_corft_01 a.show,
     .nav_corft_01 a.hide {
