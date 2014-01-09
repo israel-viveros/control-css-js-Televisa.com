@@ -8,6 +8,7 @@ table {
 
 header.nav_header_01 div.topnav nav ul li {
 	display: inline;
+	float:left;
 }
 
 header.nav_header_01 div.topnav nav ul li a {
@@ -248,6 +249,7 @@ header.nav_header_01 div.topnav {
 	}
 	header.nav_header_01 div.topnav nav ul li {
 		display: block;
+		float: none;
 	}
 	header.nav_header_01 div.topnav nav ul li a {
 		display: block;

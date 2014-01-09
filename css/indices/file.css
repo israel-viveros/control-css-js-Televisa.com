@@ -4783,6 +4783,7 @@ and (orientation : portrait) {
 	}
 	header.nav_header_01 div.topnav nav ul li {
 		display: block;
+		float:none;
 	}
 	header.nav_header_01 div.topnav nav ul li a {
 		display: block;
@@ -4869,11 +4870,24 @@ table {
 
 header.nav_header_01 div.topnav nav ul li {
 	display: inline;
+	float:left;
 }
 
 header.nav_header_01 div.topnav nav ul li a {
 	display: inline-block;
 	color: #FFF;
+}
+
+@media screen and (max-width: 623px) {
+	header.nav_header_01 div.topnav nav ul li {
+		display: block;
+		float:none;
+	}
+	header.nav_header_01 div.topnav nav ul li a {
+		display: block;
+		color: #FFF;
+		/* text-shadow: -1px -1px 4px #0b2f4f; */
+	}
 }
 
 hr.clearboth {
