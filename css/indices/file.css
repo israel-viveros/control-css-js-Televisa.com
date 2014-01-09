@@ -3226,7 +3226,8 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
     }
     
     .nav_footer_01 .white-row div.wrapper a:hover {
-        color:#A70A0B;
+        color:#666;
+		text-decoration:underline;
     }
 
     .nav_footer_01 .white-row .column ul.videopodcast,

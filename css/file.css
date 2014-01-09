@@ -11627,7 +11627,8 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     }
     
     .nav_footer_01 .white-row div.wrapper a:hover {
-        color:#A70A0B;
+        color:#666;
+		text-decoration:underline;
     }
 
     .nav_footer_01 .white-row .column ul.videopodcast,
