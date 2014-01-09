@@ -499,7 +499,7 @@ color: #a31d21;
         text-align: center;
     }
     .typecarruse .carrusel{
-        margin-top: 16px;
+        margin-top: 0px;
     }
 }
 @media screen and (min-width: 624px) and (max-width: 947px) {
