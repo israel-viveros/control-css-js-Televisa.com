@@ -13275,6 +13275,7 @@ and (orientation : portrait) {
 @media screen and (min-width: 948px){  
     .btn_6prog_03 {
         height:207px;
+		margin-bottom: 36px;
     }
     .btn_6prog_03 .bullets{
         display: none;
@@ -13684,7 +13685,7 @@ and (orientation : portrait) {
 
 @media screen and (min-width: 948px){ 
 	.c4 .c4_2 .mix_2arts_07 .container.separator{
-		margin-bottom: 12px;
+		margin-bottom: 36px;
 	}
 
     /* BEGIN: Global (Large) */
