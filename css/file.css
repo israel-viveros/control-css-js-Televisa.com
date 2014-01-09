@@ -6307,6 +6307,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     .art_latestnews_01 .art_latestnews_01_list1 p, .art_latestnews_01 .art_latestnews_01_list1_ p  {
         float: left;
         width: 197px;
+		height: 36px;
         font-size: 14px;
         padding-left: 24px;
         font-weight: bold;
@@ -7310,7 +7311,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 		max-width: 948px;
     }
     .btn_carru_prog_02 .title {
-        margin:9px 0 12px;
+        margin:9px 0 24px;
     }
 	.btn_carru_prog_02 .typecarruse{
 		height:178px;

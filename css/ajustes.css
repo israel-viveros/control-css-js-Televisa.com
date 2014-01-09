@@ -27,16 +27,16 @@
     font-weight: bold;
 }
 #top_6_coporativo > ul > li > div > a > span {
-    color: 
-        #D9A961;
+    color: #D9A961;
     font-weight: bold;
-    padding: 0 12px 20px 5px;
-    border-right: 1px solid 
-        #ccc;
+    padding: 8px 12px 8px 5px;
+    border-right: 1px solid #ccc;
     float: left;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 11px;
+	margin-bottom: 10px;
     width: 42px;
+	height: 36px;
     text-align: center;
     vertical-align: middle;
     display: block;
