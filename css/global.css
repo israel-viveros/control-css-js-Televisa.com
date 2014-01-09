@@ -2355,9 +2355,13 @@ a.active .sprite.dropdown {
 		display: none;
 	}
 	
+	.banner_template div {
+	    margin: 0 !important;
+	}
+	
 	.banner_template{
     	width: 948px !important;
-		margin-bottom: 31px;
+		margin-bottom: 36px;
 		margin-left: 0px;
     }
 }

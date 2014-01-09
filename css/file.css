@@ -7157,7 +7157,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 }@media screen and (min-width: 624px){
     /* START: carouseltypecarruse (Medium) */
     .btn_carru_prog_02{
-        margin-bottom:33px;
+        margin-bottom:36px;
         width:624px;
 		position: relative;
     }
@@ -7314,7 +7314,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         margin:9px 0 24px;
     }
 	.btn_carru_prog_02 .typecarruse{
-		height:172px;
+		height:171px;
 		margin-top:-34px;
         float: left;
 	}
