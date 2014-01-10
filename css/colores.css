@@ -1526,11 +1526,10 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
         #F68428!important;
 }
 #stage_carru_01  .articleBigModule_02 ul.galleryThumbs li.active span.border, #stage_carru_01  .articleBigModule_02 .galleryThumbs li a:hover span.border{
-    border: 3px solid 
-        #F68428!important;
+    border: 3px solid #DCC224!important;
 }
 #stage_carru_02  .articleBigModule_02 ul.galleryThumbs li.active span.border, #stage_carru_02 .articleBigModule_02 .galleryThumbs li a:hover span.border{
-    border: 3px solid  #A31D21!important;
+    border: 3px solid  #D6A256!important;
 }
 #stage_carru_03  .articleBigModule_02 ul.galleryThumbs li.active span.border, #stage_carru_03 .articleBigModule_02 .galleryThumbs li a:hover span.border{
     border: 3px solid #AFBF24!important;
