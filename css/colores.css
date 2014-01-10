@@ -78,7 +78,7 @@ body{
 
 /* Blanco */
 .textcolor-title3{
-    color: #ffffff !important; font-weight:bold;
+    color: #ffffff !important; font-weight:bold; font-size:14px;
 }
 
 /* Gris obscuro */
