@@ -1521,10 +1521,6 @@ c3_2 .art_latestnews_01 .art_latestnews_01_link{
     background: none repeat scroll 0 0 rgba(246, 132, 40, 0.6)!important;
 }
 
-.c5_2 .wdg_goals_carru_01 .controls .bginactive, .c5_2 .wdg_goals_carru_01 .controls .bgactive {
-    background-color: 
-        #F68428!important;
-}
 #stage_carru_01  .articleBigModule_02 ul.galleryThumbs li.active span.border, #stage_carru_01  .articleBigModule_02 .galleryThumbs li a:hover span.border{
     border: 3px solid #DCC224!important;
 }

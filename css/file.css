@@ -3227,6 +3227,7 @@ header.nav_header_01 div.topnav {
     {
         margin-bottom: 0px !important;
     }
+	
 	.wdg_goals_carru_01 .controls .bgactive{
 		background-color:#A70A0B;
 	}
@@ -3234,12 +3235,27 @@ header.nav_header_01 div.topnav {
 		background-color:#BF6163;
 	}
 	
+	/*Seccion En Video*/
+	.c5_2 .wdg_goals_carru_01 .controls .bgactive{
+		background-color:#F68428;
+	}
+	.c5_2 .wdg_goals_carru_01 .controls .bginactive{
+		background-color:#F2AD79;
+	}
+	
 	.wdg_goals_carru_01 .controls .bgactive i{
 		color:#FFF;
 	}
-	
 	.wdg_goals_carru_01 .controls .bginactive i{
 		color:#DBA5A5;
+	}
+	
+	/*Seccion En Video*/
+	.c5_2 .wdg_goals_carru_01 .controls .bgactive i{
+		color:#FFF;
+	}
+	.c5_2 .wdg_goals_carru_01 .controls .bginactive i{
+		color:#EFCCB3;
 	}
     
     /*BEGIN: sprite*/    	
