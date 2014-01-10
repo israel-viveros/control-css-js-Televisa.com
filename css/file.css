@@ -6356,6 +6356,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         display: none;
     }
     
+	.art_latestnews_01 ul.art_latestnews_01_list2_ li div.mix_1arts_07 ul.articles li a p,
     .art_latestnews_01 ul.art_latestnews_01_list2 li div.mix_1arts_07 ul.articles li a p{
         font-size: 14px;
         font-weight: bold;
