@@ -2943,6 +2943,7 @@ header.nav_header_01 div.topnav {
         background-color: rgba(235,235,235,0.6);
         border-bottom: 1px solid #d3d3d3;
         box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+		color:#8F8F8F;
     }  
     .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul li:hover{
         background-color: rgba(235,235,235,0.9);  
@@ -2950,8 +2951,9 @@ header.nav_header_01 div.topnav {
     .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul li p{
         margin-left: 20px;
         line-height: 34px;
-        font-style: italic;
+        font-style: normal;
         font-weight: bold;
+		font-size:12px;
     }
     .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer{
         clear: both;
