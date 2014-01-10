@@ -7205,7 +7205,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
    
 	/*Dropdown*/
 	.btn_carru_prog_02 .pleca{
-		border-bottom: 1px solid #ccc;
+		border-bottom: 0px solid #ccc;
 		clear: both;
 		position: relative;
 		z-index:10;
