@@ -1376,7 +1376,7 @@ $(document).ready(function() {
 		button.addClass("actived");
 	}
 	
-	setInterval(nextButton,5000);
+	setInterval(nextButton,10000);
     
     $(".navegacion_fotos").swipe( {        
 		swipe:function(event, direction, distance, duration, fingerCount) {           
