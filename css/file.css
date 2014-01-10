@@ -7886,7 +7886,9 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         font-weight: bold;
         padding-bottom: 0px;
         padding-right: 40px;  
-        line-height: 18px;  
+        line-height: 18px;
+		font-style:italic;
+		text-transform:capitalize;
     }
 
     .mix_1arts_07 ul li a span.icon {
