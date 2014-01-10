@@ -13707,6 +13707,7 @@ and (orientation : portrait) {
 /*:::::::::: capitalize::::::*/
 .mix_carru_01b .type2b2_02 .articleBigModule_02 > .galleryCaption_02 div.topic{
     text-transform: capitalize;
+	margin-bottom:10px;
 }
 
 
