@@ -13021,7 +13021,7 @@ and (orientation : portrait) {
     .btn_6prog_03 .type1a {
         overflow: hidden;
         width: 100%;
-		height:207px;
+		height:auto;
     }
     .btn_6prog_03 .type1a div {
         width: 100%;
@@ -13060,14 +13060,14 @@ and (orientation : portrait) {
     .btn_6prog_03 .type1a .carrusel {
         width: 100%;
         overflow: hidden;
-		height: 185px;
+		height: auto;
     }
     .btn_6prog_03 .type1a .carrusel ul {
         float: none;
         margin: 0;
         margin-top: 12px;
         width: 1000px;
-        height: 173px;
+        height: auto;
     }
     .btn_6prog_03 .type1a .carrusel ul:before,
     .btn_6prog_03 .type1a .carrusel ul:after {
@@ -13281,7 +13281,7 @@ and (orientation : portrait) {
 
 @media screen and (min-width: 948px){  
     .btn_6prog_03 {
-        height:207px;
+        height:auto;
 		margin-bottom: 36px;
     }
     .btn_6prog_03 .bullets{
