@@ -3180,12 +3180,12 @@ header.nav_header_01 div.topnav {
         width: 74%;
         position: relative;
         float: right;
-        height: 33px;        
+        height: 35px;        
     }
     .wdg_goals_carru_01 .wdg_goals_carru_012_dropdowncontent
     {
-        background-color: #E1E1E1;
-        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+        background-color: #E6E6E6;
+        box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1) inset;
         clear: both;
         cursor: pointer;
         height: 100%;
