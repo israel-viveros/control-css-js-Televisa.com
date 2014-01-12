@@ -195,7 +195,7 @@
     .colum-seccion{
         height: 141px;
         overflow: hidden;
-        border-left: 1px solid #CCC;
+        border-left: 1px solid #DADADA;
     }
     
     header.nav_header_01 div.mainnav ul li.active > a, header.nav_header_01 div.mainnav ul li a:active, header.nav_header_01 div.mainnav ul li a:focus, header.nav_header_01 div.mainnav ul li.active > a {
@@ -243,7 +243,7 @@
         display:none;
     } 
     .colum-seccion{
-        border-left: 1px solid #CCC;
+        border-left: 1px solid #DADADA;
         height: 370px;
     }
     .column{
