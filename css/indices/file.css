@@ -1551,6 +1551,7 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         padding-top: 24px;
         margin-left: 30px;
         margin-right: 30px;
+		height: 168px;
     }
     .img_galry_04 .txt1 {
         float: left;
