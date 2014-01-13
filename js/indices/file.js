@@ -1196,6 +1196,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
             $('header.nav_header_01 div.collapsable-verticals div.'+c).animate({height:0},header.speed,'easeInOutExpo', function(){
                 $(this).hide();
                 cols.removeClass('open');
+				nav_header.activePushdown = false;
             });
             $('header.nav_header_01 div.topnav ul li').removeClass('active');
         },
