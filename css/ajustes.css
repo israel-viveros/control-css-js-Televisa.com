@@ -232,9 +232,14 @@
     }
     header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-twitter{
         display: none;
+		overflow:hidden;
+    }
+	header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-twitter li iframe{
+		width:150px !important;
     }
     header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-facebook{
         display: none;
+		overflow:hidden;
     }
 }
 
@@ -256,9 +261,14 @@
     }
     header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-twitter{
         display: none;
+		overflow:hidden;
+    }
+	header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-twitter iframe{
+		width:150px !important;
     }
     header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-facebook{
         display: none;
+		overflow:hidden;
     }
     #btn_social_footer{
         display: none!important;
