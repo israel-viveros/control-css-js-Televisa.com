@@ -1841,10 +1841,10 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
     div.fix_img_galry_04 .txt1{
         float:left;
         width: 240px;
-        height: 185px;
+        height: 175px;
         padding-right:10px;
         margin-right:10px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
     div.img_galry_04 .txt2{
         margin-bottom:20px;
