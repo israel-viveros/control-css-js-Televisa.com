@@ -2623,9 +2623,27 @@ header.nav_header_01 div.topnav {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+	div.str_pleca_01_title strong p,
+    div.str_pleca_01_title h2 p,
+    div.str_pleca_01_title h3 p {
+    
+        text-decoration: none;
+        line-height: 40px;
+        display: block;
+        padding:0 0 0 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
     .ie9 div.str_pleca_01_title strong a,
     .ie9 div.str_pleca_01_title h2 a,
     .ie9 div.str_pleca_01_title h3 a {  
+        *background-position-x: right 10px;
+        *background-position-y: 5px;
+    }
+	.ie9 div.str_pleca_01_title strong p,
+    .ie9 div.str_pleca_01_title h2 p,
+    .ie9 div.str_pleca_01_title h3 p {  
         *background-position-x: right 10px;
         *background-position-y: 5px;
     }
@@ -2676,9 +2694,20 @@ header.nav_header_01 div.topnav {
         padding:0 0 0 24px;
         line-height: 30px;
     }
+	div.str_pleca_01_title strong p,
+    div.str_pleca_01_title h2 p,
+    div.str_pleca_01_title h3 p {
+        padding:0 0 0 24px;
+        line-height: 30px;
+    }
     div.str_pleca_01_title strong a span.icon,
     div.str_pleca_01_title h2 a span.icon,
     div.str_pleca_01_title h3 a span.icon {
+        display: none;
+    }
+	 div.str_pleca_01_title strong p span.icon,
+    div.str_pleca_01_title h2 p span.icon,
+    div.str_pleca_01_title h3 p span.icon {
         display: none;
     }
     /* END: Global (Medium) */
