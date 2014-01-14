@@ -118,6 +118,7 @@
     position: absolute;
     top: 0;
     left: 0;
+	cursor:pointer !important;
 }
 .TitleStageContainerLarge{
     font-family: 'Trebuchet MS', Arial, sans-serif;

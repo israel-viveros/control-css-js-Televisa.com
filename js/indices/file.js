@@ -1768,3 +1768,10 @@ $(function() {
         LugarSite.where();
     }    
 });
+
+$(document).ready(function() {	
+	$('.content-stage-description').click(function(e) {
+		var url = $('.TitleEdiStageContainerLarge a',this).attr('href');
+		window.location.href = url;
+	});
+});
