@@ -1,5 +1,5 @@
 .td_home_main_01 .main .c7 .c7_1.left.bottom_space.hide-mobile{
-    margin-bottom: 35px!important;
+    margin-bottom: 36px!important;
 }
 .mix_1arts_07:last-child{
         margin-bottom: 0;
@@ -508,6 +508,7 @@ color: #a31d21;
 @media screen and (min-width: 624px){
     #ban01_televisa, #ban02_televisa, #ban04_televisa, #ban06_televisa {
         text-align: center;
+		margin:0;
     }
     .typecarruse .carrusel{
         margin-top: 0px;
