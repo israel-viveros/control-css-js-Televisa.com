@@ -9525,6 +9525,18 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 		padding-left: 20px;
 		text-decoration: none;
 	}
+	.wdg_twitt_02_title strong p {
+		background: url(http://i2.esmas.com/img/rga_televisa_2013/mobile-arrow-sprites.png) no-repeat 98% 6px;
+		background-size: 12px 20px;
+		background-position: right 2px;
+	 *background-position: right 2px;
+		color: #fff;
+		display: block;
+		height: 32px;
+		line-height: 31px;
+		padding-left: 20px;
+		text-decoration: none;
+	}
 	.wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel {
 		overflow:hidden;
 		width: 310px;
@@ -9535,7 +9547,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 		overflow: hidden;
 	}
 	.wdg_twitt_02 .wdg_carousa div ul {
-		width: 57px;
+		width: 70px;
 		margin: 0px 0 5px;
 		float: right;
 	}
@@ -9727,7 +9739,15 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         background-position: right 2px;
         *background-position: right 2px;   
     }
+	div.wdg_twitt_02_title strong p {
+        background-image: none;
+        background-position: right 2px;
+        *background-position: right 2px;   
+    }
     div.wdg_twitt_02_title strong a span.icon {
+        display: none;
+    }
+	div.wdg_twitt_02_title strong p span.icon {
         display: none;
     }
     /* END: Global (Medium) */
@@ -13206,6 +13226,18 @@ and (orientation : portrait) {
 		height:31px;
         line-height: 31px;
     }
+	.btn_6prog_03 .type1a .title h3 p {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+		height:31px;
+        line-height: 31px;
+    }
     .btn_6prog_03 .bullets{
         display: none;
         width: 100%;
@@ -13308,7 +13340,14 @@ and (orientation : portrait) {
 		height:24px;
         line-height: 24px;
 	}
+	.btn_6prog_03 .type1a .title h3 p{
+		height:24px;
+        line-height: 24px;
+	}
     .btn_6prog_03 div.title h3 a span.icon {
+        display: none;
+    }
+	.btn_6prog_03 div.title h3 p span.icon {
         display: none;
     }
 	.btn_6prog_03 .tvsa-caret-up,
