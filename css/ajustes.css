@@ -405,12 +405,13 @@ color: #a31d21;
 
 @media screen and (min-width: 948px){
 	.c9_0 {
-		height: 588px !important;
+		height: auto !important;
 		margin-bottom: 0 !important;
+		overflow: hidden;
 	}
 	
 	.fix-c9_0 {
-		height: 675px !important;
+		height: auto !important;
 	}
 	
 	.vid_4vids_04 .wdg_mix_carrousa .fix-general{
