@@ -591,3 +591,14 @@ color: #a31d21;
 		overflow: hidden;
 	}
 }
+
+.sub-nav-social-facebook .fb-like span {
+    height: 22px !important;
+    width: 135px !important;
+}
+
+.sub-nav-social-facebook .fb-like iframe {
+    height: 25px !important;
+    width: 135px !important;
+	padding-top: 2px !important;
+}
