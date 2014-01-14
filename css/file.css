@@ -13334,7 +13334,10 @@ and (orientation : portrait) {
     .btn_6prog_03 div.title h3 a {
         background-image: none !important;
         padding-left:24px;
-		
+    }
+	.btn_6prog_03 div.title h3 p {
+        background-image: none !important;
+        padding-left:24px;
     }
 	.btn_6prog_03 .type1a .title h3 a{
 		height:24px;
