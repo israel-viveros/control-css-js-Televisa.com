@@ -13343,10 +13343,10 @@ and (orientation : portrait) {
 		height:24px;
         line-height: 24px;
 	}
-	.btn_6prog_03 .type1a .title h3 p{
+	/*.btn_6prog_03 .type1a .title h3 p{
 		height:24px;
         line-height: 24px;
-	}
+	}*/
     .btn_6prog_03 div.title h3 a span.icon {
         display: none;
     }
