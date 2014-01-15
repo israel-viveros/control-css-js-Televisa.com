@@ -502,12 +502,12 @@
 @media only screen and (device-width: 768px) {
         .btn_6prog_02 .type1a div ul li a{
             padding-right: 0 !important;
-            background-color: red;
         }
         .btn_6prog_02 .type1a .carrusel ul{
             height: 165px !important;
         }
-    }@media screen and (min-width: 948px){
+}
+@media screen and (min-width: 948px){
     
     .btn_6prog_02 {
         border-bottom: 1px solid #CCC;
