@@ -680,3 +680,6 @@ header.nav_header_01 div.collapsable-verticals div.inner > div div.categories a:
 .envivo_content a:hover h2 span{
 	text-decoration:underline!important;	
 }
+.btn_carru_prog_02 .typecarruse .carrusel ul li span.title:hover{
+	text-decoration:underline!important;	
+}
