@@ -603,3 +603,80 @@ color: #a31d21;
     width: 135px !important;
 	padding-top: 2px !important;
 }
+
+/*Estados Hover*/
+.content-stage-description:hover > .TitleEdiStageContainerLarge a,
+.content-stage-description:hover > .SummaryStageContainerLarge a{
+	text-decoration:underline!important;
+}
+.mix_1arts_09_thumb h2:hover,
+.mix_1arts_09_thumb h3:hover {
+	text-decoration:underline!important;	
+}
+.galleryCaption_02 h2:hover {
+	text-decoration:underline!important;
+}
+.articleMedium > div h3:hover,
+.articleMedium > div h4:hover{
+	text-decoration:underline!important;
+}
+.articleBigModule .floatRight:hover h3,
+.articleBigModule .floatRight:hover p {
+	text-decoration:underline!important;
+}
+.mix_1arts_07 .articles h3:hover{
+	text-decoration:underline!important;
+}
+.wdg_goals_carru_01 .result1:hover .wdg_goals_carru_012_dropdowncontent,
+.wdg_goals_carru_01 .result2:hover .wdg_goals_carru_012_dropdowncontent{
+	background-color:#D1D1D1!important;
+}
+.wdg_altasbajas_result_01 .lineaResultado:hover{
+	background-color:#D1D1D1!important;
+}
+.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block:hover{
+	background-color:#D1D1D1!important;
+	box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1)!important;
+}
+.pleca_more a:hover {
+	color:#555656!important;	
+}
+.big-news .figcaption strong:hover {
+	text-decoration:underline!important;
+}
+.small-news .figcaption strong:hover {
+	text-decoration:underline!important;
+}
+.nav_header_01_match ul li:hover {
+	background-color:#E4E4E4!important;
+}
+header.nav_header_01 div.collapsable-verticals div.inner > div div.filtering a:hover{
+	opacity:0.4!important;
+}
+header.nav_header_01 div.collapsable-verticals div.inner > div div.categories a:hover{
+	text-decoration:underline!important;
+}
+.img_galry_04 .txt2 h4 a:hover{
+	text-decoration:underline!important;
+}
+.vid_4vids_03 .izq1 .two a:hover,
+.vid_4vids_03 .izq .two a:hover{
+	text-decoration:underline!important;
+}
+.vid_4vids_04 .izq1 .two a:hover,
+.vid_4vids_04 .izq .two a:hover{
+	text-decoration:underline!important;
+}
+.navegacion_fotos ul li.actived:hover{
+	opacity:0.6!important;
+}
+.btn_6prog_03 .type1a .carrusel ul li h4 a:hover{
+	text-decoration:underline!important;	
+}
+.btn_6prog_05 .type1a .carrusel ul li h3 a:hover,
+.btn_6prog_02 .type1a .carrusel ul li h3 a:hover{
+	text-decoration:underline!important;	
+}
+.envivo_content a:hover h2 span{
+	text-decoration:underline!important;	
+}

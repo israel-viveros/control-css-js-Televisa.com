@@ -8343,7 +8343,6 @@ header.nav_header_01 div.topnav {
 @media only screen and (device-width: 768px) {
         .btn_6prog_05 .type1a div ul li a{
             padding-right: 0 !important;
-            background-color: red;
         }
         .btn_6prog_05 .type1a .carrusel ul{
             height: 165px !important;
