@@ -823,9 +823,9 @@ $(window).load(function(){
         
 		$('.wdg_altasbajas_result_01 .controls .next').removeClass('bgactive').addClass('bginactive');
 		
-        $('.wdg_goals_carru_01 .deg').scroll(function() {
-			$wgc_list = $('.wdg_goals_carru_01 .deg li').size();
-			$wgc_altura_li = $('.wdg_goals_carru_01 .deg li').outerHeight();
+         $('.wdg_goals_carru_01 .deg').scroll(function() {
+			$wgc_list = $('li',this).size();
+			$wgc_altura_li = $('li',this).outerHeight();
 			$wgc_altura = $wgc_altura_li * $wgc_list;
             $wgc_scrollTop = parseInt($(this).scrollTop()) + parseInt($(this).height());
             //console.log('Movimiento: '+$wgc_scrollTop+' Altura_tot: '+$wgc_altura +' Elementos: '+ $wgc_list+' Cada uno: '+$wgc_altura_li);
