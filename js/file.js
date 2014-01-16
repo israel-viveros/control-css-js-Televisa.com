@@ -836,7 +836,7 @@ $(window).load(function(){
 					$(this).siblings('.controls').children('.prev').removeClass('bginactive');
 					$(this).siblings('.controls').children('.prev').addClass('bgactive');
 				}
-                if($wgc_scrollTop == $wgc_altura-1){
+                if($wgc_scrollTop >= $wgc_altura-5){
 					 $(this).siblings('.degradado').css("visibility","hidden");
 					 $(this).siblings('.controls').children('.next').addClass('bginactive');
 					 $(this).siblings('.controls').children('.next').removeClass('bgactive');
