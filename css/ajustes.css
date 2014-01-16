@@ -605,8 +605,8 @@ color: #a31d21;
 }
 
 /*Estados Hover*/
-.content-stage-description:hover > .TitleEdiStageContainerLarge a,
-.content-stage-description:hover > .SummaryStageContainerLarge a{
+.content-stage-description:hover > .InnerContainer .TitleEdiStageContainerLarge a,
+.content-stage-description:hover > .InnerContainer .SummaryStageContainerLarge a{
 	text-decoration:underline!important;
 }
 .mix_1arts_09_thumb h2:hover,
