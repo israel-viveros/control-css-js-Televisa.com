@@ -116,12 +116,12 @@ setTimeout(function(){
             $(".StageSliderMundial ul.StageContainterLarge li").find(".descriptionStageContainerLarge").find("a").removeClass("ui-link");
         },3000);
 		
-//$(document).ready(function() {
+$(document).ready(function() {
 	 /***** Inicia asignacion de target a hipervinculos *****/
-     //$('a').attr('target','_blank');
-	 //$('.nav_header_01 .topnav .inner a:first-child').removeAttr('target')
+    $('a').attr('target','_self');
+	$('.nav_header_01 .topnav .inner a:first-child').removeAttr('target')
 	 /***** asignacion de target a hipervinculos *****/
-//});
+});
 
 /* Function Hacer pÃƒÂ¡gina de Inicio */
 function makeThisHomePage()

@@ -3736,6 +3736,6 @@ $(document).ready(function() {
 	$('.content-stage-description').click(function(e) {
 		e.preventDefault();
 		var url = $('.TitleEdiStageContainerLarge a',this).attr('href');
-		window.open(url,'_blank');
+		window.open(url,'_self');
 	});
 });
