@@ -1166,8 +1166,11 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 							nav_header.closeCollapsible(e, $collapsable, $collapsables, c);
 						} else {
 							// show different collapsible
+							$('header.nav_header_01 div.collapsable-verticals div.inner').attr('style','height:'+th+'px');
 							$('header.nav_header_01 div.collapsable-verticals div.collapsable-content.open').css({height:0}).hide().removeClass('open');
-							$collapsable.addClass('open').css({height:0}).show().animate({height:th+'px'},header.speed,'easeInOutExpo');
+							$collapsable.addClass('open').css({height:0}).show().animate({height:th+'px'},header.speed,'easeInOutExpo',function(){
+								$('header.nav_header_01 div.collapsable-verticals div.inner').removeAttr('style');	
+							});
 							nav_header.activePushdown = false;
 						}
 					} else {
