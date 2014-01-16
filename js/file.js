@@ -821,28 +821,29 @@ $(window).load(function(){
             }); 
         });
         
-
-        $wgc_list = $('.wdg_goals_carru_01 .deg li').size();
-        $wgc_altura_li = $('.wdg_goals_carru_01 .deg li').outerHeight();
-        $wgc_altura = $wgc_altura_li * $wgc_list;
+		$('.wdg_altasbajas_result_01 .controls .next').removeClass('bgactive').addClass('bginactive');
+		
         $('.wdg_goals_carru_01 .deg').scroll(function() {
+			$wgc_list = $('.wdg_goals_carru_01 .deg li').size();
+			$wgc_altura_li = $('.wdg_goals_carru_01 .deg li').outerHeight();
+			$wgc_altura = $wgc_altura_li * $wgc_list;
             $wgc_scrollTop = parseInt($(this).scrollTop()) + parseInt($(this).height());
             //console.log('Movimiento: '+$wgc_scrollTop+' Altura_tot: '+$wgc_altura +' Elementos: '+ $wgc_list+' Cada uno: '+$wgc_altura_li);
                 if($(this).scrollTop() == 0){
-                        $(this).siblings('.controls').children('.prev').addClass('bginactive');
-                        $(this).siblings('.controls').children('.prev').removeClass('bgactive');
-                    }else{
-                        $(this).siblings('.controls').children('.prev').removeClass('bginactive');
-                        $(this).siblings('.controls').children('.prev').addClass('bgactive');
-                    }
-                if($wgc_scrollTop == $wgc_altura){
-                 $(this).siblings('.degradado').css("visibility","hidden");
-                 $(this).siblings('.controls').children('.next').addClass('bginactive');
-                 $(this).siblings('.controls').children('.next').removeClass('bgactive');
+                	$(this).siblings('.controls').children('.prev').addClass('bginactive');
+					$(this).siblings('.controls').children('.prev').removeClass('bgactive');
+				}else{
+					$(this).siblings('.controls').children('.prev').removeClass('bginactive');
+					$(this).siblings('.controls').children('.prev').addClass('bgactive');
+				}
+                if($wgc_scrollTop == $wgc_altura-1){
+					 $(this).siblings('.degradado').css("visibility","hidden");
+					 $(this).siblings('.controls').children('.next').addClass('bginactive');
+					 $(this).siblings('.controls').children('.next').removeClass('bgactive');
                 }else{
-                 $(this).siblings('.degradado').css("visibility","visible");
-                 $(this).siblings('.controls').children('.next').removeClass('bginactive');
-                 $(this).siblings('.controls').children('.next').addClass('bgactive');
+					 $(this).siblings('.degradado').css("visibility","visible");
+					 $(this).siblings('.controls').children('.next').removeClass('bginactive');
+					 $(this).siblings('.controls').children('.next').addClass('bgactive');
                 }
             }); 
 
@@ -2745,6 +2746,7 @@ $(document).ready(function() {
                     var ulWidth = (elements * 325) - 38;
                     
                     
+
                     
                     /*calculo n??mero de bullets tablet*/
                     n_bullets_tablet = elements / 2;
