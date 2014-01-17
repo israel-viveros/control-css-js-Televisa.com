@@ -820,8 +820,6 @@ $(window).load(function(){
                 }, 500);
             }); 
         });
-        
-		$('.wdg_altasbajas_result_01 .controls .next').removeClass('bgactive').addClass('bginactive');
 		
          $('.wdg_goals_carru_01 .deg').scroll(function() {
 			$wgc_list = $('li',this).size();
@@ -3150,8 +3148,13 @@ $(document).ready(function(){
                 if ($.browser.msie ){$war1_altura = 470;}
                 else{$war1_altura = $(this).height()}
                 
-                
-                if($war1_position >= $war1_altura) {
+				$wgc_list = $('.wdg_altasbajas_result_01_block',this).size();
+				$wgc_altura_li = $('.wdg_altasbajas_result_01_block',this).height();
+				$wgc_altura = $wgc_altura_li * $wgc_list;
+				$wgc_scrollTop = parseInt($(this).scrollTop()) + parseInt($(this).height());
+				                
+				//if($wgc_scrollTop >= $wgc_altura-5){
+                if($wgc_scrollTop >= $wgc_altura-15) {
                     $(this).siblings('.degraded').css("visibility","hidden");
                     //$(this).siblings('.controls').children('.next').children('.tvsa-caret-down').css('color','#000');
                     
