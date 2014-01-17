@@ -371,6 +371,21 @@
         background-size: 12px 20px;
 		margin-top: 0px;
     }
+	.btn_6prog_02 .type1a .title h2 p {
+        font-size: 14px;
+        padding-left:24px;
+        text-decoration: none;
+        color: #fff;
+        height: 32px;
+        display: block;
+        line-height: 40px;
+        background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+		margin-top: 0px;
+    }
     .btn_6prog_02 .bullets{
         display: block;
         width: 100%;
@@ -453,13 +468,24 @@
         line-height: 24px !important;
 		line-height:32px;
     }
+	.btn_6prog_02 div.title h2 p {
+        background-image: none !important;
+        padding: 7px 16px 5px 22px;
+        line-height: 24px !important;
+		line-height:32px;
+    }
 	.btn_6prog_02 .type1a .title h2 a {
+		margin-top:-2px;
+	}
+	.btn_6prog_02 .type1a .title h2 p {
 		margin-top:-2px;
 	}
     .btn_6prog_02 div.title h2 a span.icon {
         display: none;
     }
-
+	.btn_6prog_02 div.title h2 p span.icon {
+        display: none;
+    }
     .btn_6prog_02 .bullets ul li:nth-of-type(4),
     .btn_6prog_02 .bullets ul li:nth-of-type(5),
     .btn_6prog_02 .bullets ul li:nth-of-type(6){
@@ -826,12 +852,32 @@
 		font-weight:bold; 
         
     }
+	.vid_4vids_04_title .one p {
+        text-decoration: none;
+        color: #fff;
+        height: 24px;
+        display: block;
+        padding: 5px 0 5px 22px;
+        background-size: 12px 20px;
+        background-position: right 2px\9;
+        *background-position: right 2px;
+		font-weight:bold; 
+        
+    }
 	div.vid_4vids_04_title .one a {
         background-image: none;
         background-position: right 2px\9;
         *background-position: right 2px;   
     }
+	div.vid_4vids_04_title .one p {
+        background-image: none;
+        background-position: right 2px\9;
+        *background-position: right 2px;   
+    }
 	div.vid_4vids_04_title .one a span.icon {
+        display: none;
+    }
+	div.vid_4vids_04_title .one p span.icon {
         display: none;
     }
     /*START: carouseltype1a (Small)*/
@@ -891,6 +937,10 @@
     }
 	
 	.vid_4vids_04 .wdg_mix_carrousa a {
+		float:left;
+	}
+	
+	.vid_4vids_04 .wdg_mix_carrousa p {
 		float:left;
 	}
 
@@ -7482,12 +7532,32 @@ header.nav_header_01 div.topnav {
 		font-weight:bold; 
         
     }
+	 .vid_4vids_03_title .one p {
+        text-decoration: none;
+        color: #fff;
+        height: 24px;
+        display: block;
+        padding: 5px 0 5px 22px;
+        background-size: 12px 20px;
+        background-position: right 2px\9;
+        *background-position: right 2px;
+		font-weight:bold; 
+        
+    }
 	div.vid_4vids_03_title .one a {
         background-image: none;
         background-position: right 2px\9;
         *background-position: right 2px;   
     }
+	div.vid_4vids_03_title .one p {
+        background-image: none;
+        background-position: right 2px\9;
+        *background-position: right 2px;   
+    }
 	div.vid_4vids_03_title .one a span.icon {
+        display: none;
+    }
+	div.vid_4vids_03_title .one p span.icon {
         display: none;
     }
     /*START: carouseltype1a (Small)*/
@@ -8210,6 +8280,21 @@ header.nav_header_01 div.topnav {
         background-size: 12px 20px;
 		margin-top: 0px;
     }
+	.btn_6prog_05 .type1a .title h2 p {
+        font-size: 14px;
+        padding-left:24px;
+        text-decoration: none;
+        color: #fff;
+        height: 32px;
+        display: block;
+        line-height: 40px;
+        background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+		margin-top: 0px;
+    }
     .btn_6prog_05 .bullets{
         display: block;
         width: 100%;
@@ -8294,13 +8379,24 @@ header.nav_header_01 div.topnav {
         line-height: 24px !important;
 		line-height:32px;
     }
+	 .btn_6prog_05 div.title h2 p {
+        background-image: none !important;
+        padding: 7px 16px 5px 22px;
+        line-height: 24px !important;
+		line-height:32px;
+    }
 	.btn_6prog_05 .type1a .title h2 a {
+		margin-top:-2px;
+	}
+	.btn_6prog_05 .type1a .title h2 p {
 		margin-top:-2px;
 	}
     .btn_6prog_05 div.title h2 a span.icon {
         display: none;
     }
-
+	.btn_6prog_05 div.title h2 p span.icon {
+        display: none;
+    }
     .btn_6prog_05 .bullets ul li:nth-of-type(4),
     .btn_6prog_05 .bullets ul li:nth-of-type(5),
     .btn_6prog_05 .bullets ul li:nth-of-type(6){
