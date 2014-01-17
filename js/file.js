@@ -825,7 +825,7 @@ $(window).load(function(){
 		
          $('.wdg_goals_carru_01 .deg').scroll(function() {
 			$wgc_list = $('li',this).size();
-			$wgc_altura_li = $('li',this).outerHeight();
+			$wgc_altura_li = $('li',this).height();
 			$wgc_altura = $wgc_altura_li * $wgc_list;
             $wgc_scrollTop = parseInt($(this).scrollTop()) + parseInt($(this).height());
             //console.log('Movimiento: '+$wgc_scrollTop+' Altura_tot: '+$wgc_altura +' Elementos: '+ $wgc_list+' Cada uno: '+$wgc_altura_li);
