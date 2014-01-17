@@ -4,13 +4,13 @@ headerFix.iconsSearch = function(){
     var objLink = $(".mainnav nav ul li.social:nth-child(1) a");
     var clicLink = objLink.attr('href');
     objLink.click(function(event) { 
-        window.open(clicLink,'_blank');
+        window.open(clicLink,'_self');
     });
 
     var objLink2 = $(".mainnav nav ul li.social:nth-child(2) a");
     var clicLink2 = objLink2.attr('href');
     objLink2.click(function(event) {    
-        window.open(clicLink2,'_blank');
+        window.open(clicLink2,'_self');
     });
 
     var inputSearch = $("input.search_term");
