@@ -627,7 +627,13 @@ color: #a31d21;
 .articleBigModule .floatRight:hover p {
 	text-decoration:underline!important;
 }
-.mix_1arts_07 .articles h3:hover{
+.c3_2 .mix_1arts_07 .articles p:hover{
+	text-decoration:underline!important;
+}
+.c9_1 .mix_1arts_07 .articles p:hover{
+	text-decoration:underline!important;
+}
+.c11_2 .mix_1arts_07 .articles h3:hover{
 	text-decoration:underline!important;
 }
 .wdg_goals_carru_01 .result1:hover .wdg_goals_carru_012_dropdowncontent,
