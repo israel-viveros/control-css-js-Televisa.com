@@ -122,7 +122,7 @@
 @media screen and (min-width: 624px) {
     .header1{
     margin-bottom: 16!importantpx;
-    min-height: 120px;
+    min-height: 112px;
 }
     .wdg_goals_carru_01 > ul{
         height: 141px;
@@ -511,7 +511,7 @@ color: #a31d21;
 @media screen and (min-width: 624px){
     #ban01_televisa, #ban02_televisa, #ban04_televisa, #ban06_televisa {
         text-align: center;
-		margin:0;
+		margin: 0 auto !important;	
     }
     .typecarruse .carrusel{
         margin-top: 0px;
