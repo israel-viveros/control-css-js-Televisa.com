@@ -493,6 +493,9 @@ color: #a31d21;
 @media screen and (max-width: 623px){
     #ban01_televisa, #ban02_televisa, #ban04_televisa, #ban06_televisa {
         text-align: center;
+		width:100%;
+		max-width:600px;
+		height:90px;
     }
     .td_home_main_01 .main > div.bottom_space{
         margin: 7px 0px 5px!important;
