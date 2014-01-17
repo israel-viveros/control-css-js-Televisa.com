@@ -254,13 +254,13 @@
 			/*Anchura........*/
 			//alert($(window).width());			
             if( $(window).width() > 960  ){
-				$('.carrusel-sizes').width('956px');
+				$('.carrusel-sizes').width('900px');
 			}
 			if( $(window).width() >= 624 && $(window).width() <= 960  ){
-				$('.carrusel-sizes').width('956px');			
+				$('.carrusel-sizes').width('900px');			
 			}
 			if( $(window).width() < 624 ){
-				$('.carrusel-sizes').width('956px');
+				$('.carrusel-sizes').width('900px');
 				//$('.carrusel-sizes').width($(window).width());
 			}
 			/*Default*/
@@ -329,12 +329,12 @@
                 e.preventDefault();
 				if( $(window).width() >= 624 && $(window).width() <= 960  ){
 					$parent.animate({
-						'scrollLeft': $parent.scrollLeft() - 325
+						'scrollLeft': $parent.scrollLeft() - 300
 					}, animationDelay);
 				}else
 				{
 					$parent.animate({
-						'scrollLeft': $parent.scrollLeft() - 325
+						'scrollLeft': $parent.scrollLeft() - 300
 					}, animationDelay);
 					
 				}
@@ -345,12 +345,12 @@
                 e.preventDefault();
 				if( $(window).width() >= 624 && $(window).width() <= 960  ){
 					$parent.animate({
-						'scrollLeft': $parent.scrollLeft() + 325
+						'scrollLeft': $parent.scrollLeft() + 300
 					}, 500);
 				}else
 				{
 					$parent.animate({
-                    'scrollLeft': $parent.scrollLeft() + 325
+                    'scrollLeft': $parent.scrollLeft() + 300
                 	}, 500);
 				}
             });
@@ -376,12 +376,12 @@
         swipe:function(event, direction, distance, duration, fingerCount) {           
            if (direction==="right") {            
             $(this).animate({
-                        'scrollLeft': $(this).scrollLeft() - 320
+                        'scrollLeft': $(this).scrollLeft() - 300
                     }, 500);
            }//
            if (direction==="left") {            
             $(this).animate({
-                        'scrollLeft': $(this).scrollLeft() + 320
+                        'scrollLeft': $(this).scrollLeft() + 300
                     }, 500);
            }
         },        
