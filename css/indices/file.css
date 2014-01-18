@@ -8246,6 +8246,7 @@ header.nav_header_01 div.topnav {
         font-size: 14px;
         line-height: 16px;
         width: 136px;
+		max-height:48px;
     }
     .btn_6prog_05 .type1a .carrusel ul li h3 a {
         color: black;
