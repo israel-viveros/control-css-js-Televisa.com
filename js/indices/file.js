@@ -323,36 +323,49 @@
                     $(this).parent().addClass('showArrows');
                 }
             }
-
+			var anim_wdg_carousa = false;
             // Support the click event on arrows
             $parent.parent().find('a.wdg_carousa_left').click(function(e) {
                 e.preventDefault();
-				if( $(window).width() >= 624 && $(window).width() <= 960  ){
-					$parent.animate({
-						'scrollLeft': $parent.scrollLeft() - 300
-					}, animationDelay);
-				}else
-				{
-					$parent.animate({
-						'scrollLeft': $parent.scrollLeft() - 300
-					}, animationDelay);
-					
+				if(!anim_wdg_carousa){
+					if( $(window).width() >= 624 && $(window).width() <= 960  ){
+						$parent.animate({
+							'scrollLeft': $parent.scrollLeft() - 300
+						}, animationDelay, function() {
+							anim_wdg_carousa = false;	
+						});
+					}else
+					{
+						$parent.animate({
+							'scrollLeft': $parent.scrollLeft() - 300
+						}, animationDelay, function() {
+							anim_wdg_carousa = false;	
+						});
+						
+					}
+					anim_wdg_carousa = true;
 				}
-                        
             });
 
             $parent.parent().find('a.wdg_carousa_right').click(function(e) {
                 e.preventDefault();
-				if( $(window).width() >= 624 && $(window).width() <= 960  ){
-					$parent.animate({
+				if(!anim_wdg_carousa){
+					if( $(window).width() >= 624 && $(window).width() <= 960  ){
+						$parent.animate({
+							'scrollLeft': $parent.scrollLeft() + 300
+						}, 500, function() {
+							anim_wdg_carousa = false;	
+						});
+					}else
+					{
+						$parent.animate({
 						'scrollLeft': $parent.scrollLeft() + 300
-					}, 500);
-				}else
-				{
-					$parent.animate({
-                    'scrollLeft': $parent.scrollLeft() + 300
-                	}, 500);
+						}, 500, function() {
+							anim_wdg_carousa = false;	
+						});
+					}
 				}
+				anim_wdg_carousa = true;
             });
 
         });
