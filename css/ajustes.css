@@ -692,3 +692,9 @@ header.nav_header_01 div.collapsable-verticals div.inner > div div.categories a:
 .btn_carru_prog_02 .typecarruse .carrusel ul li span.title:hover{
 	text-decoration:underline!important;	
 }*/
+header.nav_header_01 div.collapsable-verticals div.inner > div strong.maintitle:hover{
+	text-decoration:underline;
+}
+header.nav_header_01 div.collapsable-verticals div.inner > div i{
+	text-decoration:none;
+}
