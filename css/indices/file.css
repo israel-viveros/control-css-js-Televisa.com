@@ -1650,6 +1650,10 @@ div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}@media s
         font-weight: bold;
         font-style: italic;
         color: #A70A0B;
+    }  
+	.img_galry_04 .txt2 h4 {
+        height:65px;
+		overflow:hidden;
     }   
     /*Contenedor*/
     div.img_galry_04 {
