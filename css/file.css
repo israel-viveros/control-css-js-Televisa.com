@@ -2757,14 +2757,14 @@ header.nav_header_01 div.topnav {
 
     .wdg_goals_carru_01 > ul li {
         display: block;
-		/*height: 45px;*/height:56px;
+		height:57px;
 		overflow: hidden;
         position: relative;
 		border-bottom:1px solid #CCC;
     }
     @-moz-document url-prefix() {
 	  		.wdg_goals_carru_01 > ul li{
-	    		height: 45px;
+	    		height: 57px;
 	  		}
  	}
  	::made-up-pseudo-element, .wdg_goals_carru_01 > ul li{
@@ -7954,7 +7954,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         padding-right: 40px;  
         line-height: 18px;
 		font-style:normal;
-		text-transform:capitalize;
+		text-transform:none;
     }
 
     .mix_1arts_07 ul li a span.icon {
