@@ -149,8 +149,11 @@
 
 @media screen and (min-width: 948px) {
     .wdg_goals_carru_01 > ul{
-        height: 340px;
+        height: 348px;
     }
+	.wdg_goals_carru_01 .degraded {
+		display:none;	
+	}
     .wdg_altasbajas_result_01 > ul{
         height: 372px; 
         /*height: auto;*/
@@ -415,7 +418,7 @@ color: #a31d21;
 	}
 	
 	.vid_4vids_04 .wdg_mix_carrousa .fix-general{
-		height: 325px !important;
+		height: 315px !important;
 	}
 }
 

@@ -1216,7 +1216,7 @@
 	}
 	.vid_4vids_04 a.ventana {
 		width:auto;
-		height:auto;
+		height:104px;
 		overflow:hidden;
 		position:relative;
 		display:inline-block;
@@ -7689,7 +7689,7 @@ header.nav_header_01 div.topnav {
     }
     .vid_4vids_03 .wdg_mix_carrousa .general {
         width: 105%;
-		height:268px;
+		height:258px;
         overflow: auto;
     }
 
@@ -7914,7 +7914,7 @@ header.nav_header_01 div.topnav {
 	}
 	.vid_4vids_03 a.ventana {
 		width:auto;
-		height:auto;
+		height:77px;
 		overflow:hidden;
 		position:relative;
 		display:inline-block;
