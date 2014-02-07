@@ -238,7 +238,7 @@
 		overflow:hidden;
     }
 	header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-twitter li iframe{
-		width:150px !important;
+		width:160px !important;
     }
     header.nav_header_01 div.mainnav nav.social ul.sub-nav-social-facebook{
         display: none;
@@ -600,7 +600,7 @@ color: #a31d21;
 }
 
 .sub-nav-social-facebook .fb-like span {
-    height: 22px !important;
+    height: 34px !important;
     width: 135px !important;
 }
 
