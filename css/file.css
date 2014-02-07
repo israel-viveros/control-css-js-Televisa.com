@@ -6415,7 +6415,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         *padding-top: 0em;
         *margin-top:-15px;
         color:#AFBF24;
-        
+		text-transform:capitalize;
     }
     .art_latestnews_01_over{
         display: none;
