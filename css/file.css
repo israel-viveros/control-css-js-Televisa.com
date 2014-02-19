@@ -13180,7 +13180,7 @@ and (orientation : portrait) {
     .btn_6prog_03 .type1a .carrusel ul li h4 {
         font-size: 14px;
         line-height: 16px;
-		margin-bottom: 4px;
+		margin-bottom: 0;
     }
     .btn_6prog_03 .type1a .carrusel ul li h4 a {
         color: black;
