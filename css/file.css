@@ -3252,7 +3252,7 @@ header.nav_header_01 div.topnav {
         position: relative;
         text-align: center;
         color: black;
-        font-size: 13px;
+        font-size: 14px;
         padding: 7px 0px;
         padding-right:6px;
         
@@ -6316,7 +6316,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         width: 50%;
         text-align: center;
         line-height: 41px;
-        font-size: 13px;
+        font-size: 14px;
         position: relative;
         background-color: #E1E1E1;
         box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
