@@ -7330,6 +7330,16 @@ header.nav_header_01 div.topnav {
         width: 948px;
         height: 38px;
     }
+	.navegacion_videos ul{
+        width: 950px;
+        height: 38px;
+    }
+	@media screen and (max-width: 947px) {
+		.navegacion_videos ul{
+			width: 790px;
+			height: 38px;
+		}
+	}
     .navegacion_fotos ul li{
         width: 158px;
         height: 38px;
@@ -7340,6 +7350,18 @@ header.nav_header_01 div.topnav {
         float: left;
         text-align: center;   
     }
+	@media screen and (min-width: 948px) {
+		.navegacion_videos ul li{
+			width: 189px;
+			height: 38px;
+			display: inline-block;
+			background: url(http://i2.esmas.com/img/rga_televisa_2013/fondoNormal.png);
+			background-position: top;
+			background-repeat: no-repeat;
+			float: left;
+			text-align: center; 
+		}
+	}
 	@media screen and (max-width: 947px) {
        .navegacion_fotos ul li:first-child{
             background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenu.png) no-repeat;
@@ -7393,6 +7415,28 @@ header.nav_header_01 div.topnav {
 	.navegacion_fotos ul li.actived a{
         color: #fff;
     }
+	@media screen and (min-width: 948px) {
+		.navegacion_videos ul li.television_nav.actived{
+			background: url(http://i2.esmas.com/img/rga_televisa_2013/televisionActivo.png);
+			background-position: top;
+		}
+		.navegacion_videos ul li.deportes_nav.actived{
+			background: url(http://i2.esmas.com/img/rga_televisa_2013/deportesActivo.png);
+			background-position: top;
+		}
+		.navegacion_videos ul li.noticieros_nav.actived{
+			background: url(http://i2.esmas.com/img/rga_televisa_2013/noticierosActivo.png);
+			background-position: top;
+		}
+		.navegacion_videos ul li.entretenimiento_nav.actived{
+			background: url(http://i2.esmas.com/img/rga_televisa_2013/entretenimientoActivo.png);
+			background-position: top;
+		}
+		.navegacion_videos ul li.ninos_nav.actived{
+			background: url(http://i2.esmas.com/img/rga_televisa_2013/ninosActivo.png);
+			background-position: top;
+		}
+	}
 	@media screen and (max-width: 947px) {
         .navegacion_fotos ul li.television_nav.actived{
             background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 3%, rgba(255, 255, 255, 0) 25%), url(http://i2.esmas.com/img/rga_televisa_2013/indiceMenuActivoTelevision.png) no-repeat;
