@@ -715,7 +715,7 @@ header.nav_header_01 div.collapsable-verticals div.inner > div i{
 .esmas_safe_simple_poll_box .visible_ts textarea{height:44px!important; width:279px!important; margin:1px 10px 5px 10px!important; background:#F5F5F5!important; border:none!important; overflow:hidden!important; }
 
 .esmas_safe_simple_poll_box .visible_ts .btn_enviar{background:url(http://i2.esmas.com/comunidades/img/polls/enviarBTN.gif) no-repeat!important; border:none!important; width:65px!important; height:20px!important; float:right!important;  }
-.esmas_safe_simple_poll_box ul.share_poll_tim_social li.poll_text_share div{font:italic 14px Trebuchet MS,Arial,sans-serif!important; color:#8F8F8F!important; width:200px!important; line-height:32px!important; padding-left:5px!important; _width:198px!important;}
+.esmas_safe_simple_poll_box ul.share_poll_tim_social li.poll_text_share div{font:italic 14px Trebuchet MS,Arial,sans-serif!important; color:#8F8F8F!important; width:200px!important; line-height:45px!important; padding-left:5px!important; _width:198px!important;}
 .ts_poll_cont{background:none!important; border-top:1px #58595B dotted!important;}
 
 @media screen and (min-width:39em){
