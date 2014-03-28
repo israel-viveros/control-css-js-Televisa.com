@@ -701,22 +701,22 @@ header.nav_header_01 div.collapsable-verticals div.inner > div strong.maintitle:
 header.nav_header_01 div.collapsable-verticals div.inner > div i{
 	text-decoration:none;
 }
-.btn_poll_facebook_on, .btn_poll_twitter_on,.btn_poll_facebook_off, .btn_poll_twitter_off {width:45px; border:none; height:45px;margin:0;padding:0;}
-.btn_poll_facebook_on{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_fb_on.png) no-repeat; background-position:24px 12px; background-size: 17px;}
-.btn_poll_twitter_on{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_tw_on.png) no-repeat; background-position:8px 12px; background-size: 17px; position:absolute;margin-left:45px;}
-.btn_poll_facebook_off{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_fb_on.png) no-repeat; background-position:24px 12px; background-size: 17px;}
-.btn_poll_twitter_off{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_tw_on.png) no-repeat; background-position:8px 12px; background-size: 17px; position:absolute;margin-left:45px;}
-.invisible_ts{display:none;}
-.visible_ts{display:block;}
+.btn_poll_facebook_on, .btn_poll_twitter_on,.btn_poll_facebook_off, .btn_poll_twitter_off {width:45px!important; border:none!important; height:45px!important; margin:0!important; padding:0!important;}
+.btn_poll_facebook_on{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_fb_on.png) no-repeat!important; background-position:24px 12px!important; background-size: 17px!important;}
+.btn_poll_twitter_on{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_tw_on.png) no-repeat!important; background-position:8px 12px!important; background-size: 17px!important; position:absolute!important; margin-left:45px!important;}
+.btn_poll_facebook_off{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_fb_on.png) no-repeat!important; background-position:24px 12px!important; background-size: 17px!important;}
+.btn_poll_twitter_off{background:url(http://i2.esmas.com/img/rga_televisa_2013/bg_tw_on.png) no-repeat!important; background-position:8px 12px!important; background-size: 17px!important; position:absolute!important; margin-left:45px!important;}
+.invisible_ts{display:none!important;}
+.visible_ts{display:block!important;}
 				
-.share_poll_tim_social { height: 45px; margin: 0 auto; overflow: hidden; text-align: left; list-style: none outside none; margin: 0; padding: 0;  overflow:hidden;    width: 300px; }
-.share_poll_tim_social li {padding-left: 5px; float: left; list-style: none outside none; margin: 0; padding: 0; height:45px;  overflow:hidden;}
-.esmas_safe_simple_poll_box .visible_ts {    background: url(http://i2.esmas.com/comunidades/img/polls/bt_wt.gif) no-repeat scroll center 15px transparent;    height: 71px;}
-.esmas_safe_simple_poll_box .visible_ts textarea{height:44px; width:279px; margin:1px 10px 5px 10px; background:#F5F5F5; border:none; overflow:hidden; }
+.share_poll_tim_social { height: 45px!important; margin: 0 auto!important; overflow: hidden!important; text-align: left!important; list-style: none outside none!important; margin: 0!important; padding: 0!important; overflow:hidden!important; width: 300px!important; }
+.share_poll_tim_social li {padding-left: 5px!important; float: left!important; list-style: none outside none!important; margin: 0!important; padding: 0!important; height:45px!important; overflow:hidden!important;}
+.esmas_safe_simple_poll_box .visible_ts {    background: url(http://i2.esmas.com/comunidades/img/polls/bt_wt.gif) no-repeat scroll center 15px transparent!important; height: 71px!important;}
+.esmas_safe_simple_poll_box .visible_ts textarea{height:44px!important; width:279px!important; margin:1px 10px 5px 10px!important; background:#F5F5F5!important; border:none!important; overflow:hidden!important; }
 
-.esmas_safe_simple_poll_box .visible_ts .btn_enviar{background:url(http://i2.esmas.com/comunidades/img/polls/enviarBTN.gif) no-repeat; border:none; width:65px; height:20px; float:right;  }
-.esmas_safe_simple_poll_box ul.share_poll_tim_social li.poll_text_share div{font:italic 14px Trebuchet MS,Arial,sans-serif; color:#8F8F8F; width:200px; line-height:32px; padding-left:5px; _width:198px;}
-.ts_poll_cont{background:none; border-top:1px #58595B dotted;}
+.esmas_safe_simple_poll_box .visible_ts .btn_enviar{background:url(http://i2.esmas.com/comunidades/img/polls/enviarBTN.gif) no-repeat!important; border:none!important; width:65px!important; height:20px!important; float:right!important;  }
+.esmas_safe_simple_poll_box ul.share_poll_tim_social li.poll_text_share div{font:italic 14px Trebuchet MS,Arial,sans-serif!important; color:#8F8F8F!important; width:200px!important; line-height:32px!important; padding-left:5px!important; _width:198px!important;}
+.ts_poll_cont{background:none!important; border-top:1px #58595B dotted!important;}
 
 @media screen and (min-width:39em){
 	div#MXMHome p, div#external p{
