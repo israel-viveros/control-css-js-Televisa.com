@@ -1,4 +1,4 @@
-.mix_2arts_07 .mix_1arts_08 div .articleMedium div h4/* all devices */
+.mix_carru_01b .galleryCaption_02 .caption.mix_2arts_07 .mix_1arts_08 div .articleMedium div h4/* all devices */
 table {
 	border-collapse: separate;
 	border-collapse: collapse;
@@ -3960,6 +3960,10 @@ header.nav_header_01 div.topnav {
 	}
 }
 @media screen and (max-width: 623px) {
+	.mix_carru_01b .galleryCaption_02 .caption{
+		height:85px;
+		overflow:hidden;
+    }
     .mix_carru_01b .type2b2_02 .articleBigModule_02 .galleryThumbs {
         display:none;
     }
