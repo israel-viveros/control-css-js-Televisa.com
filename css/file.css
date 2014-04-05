@@ -6385,7 +6385,7 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     .art_latestnews_01 .art_latestnews_01_list1 p, .art_latestnews_01 .art_latestnews_01_list1_ p  {
         float: left;
         width: 197px;
-		height: 40px;
+		height: auto;
         font-size: 14px;
         padding-left: 24px;
         font-weight: bold;
