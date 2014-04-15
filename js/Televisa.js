@@ -102,7 +102,7 @@ var Televisa = (function ($, Modernizr) {
         }
 
         // Load FB asynchronously to stop IE7 from BLOWING UP.
-        window.fbAsyncInit = function() {
+        /*window.fbAsyncInit = function() {
             if (FB) {
                 FB.init({
                     appId      : '126915557457520', // App ID
@@ -114,7 +114,7 @@ var Televisa = (function ($, Modernizr) {
 
                 // Additional initialization code here
             }
-        };
+        };*/
 
         // Load the SDK Asynchronously
         (function(d){
