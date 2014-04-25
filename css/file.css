@@ -4775,7 +4775,7 @@ header.nav_header_01 div.topnav {
 	}
 	.mix_2arts_07 img,
 	.mix_2arts_07 .mix_1arts_08 div .articleMedium a .sprite {
-		display:none;
+		display:block;
 	}
 	.mix_2arts_07 .mix_1arts_08 .articleMedium div {
 		background-color: transparent;
