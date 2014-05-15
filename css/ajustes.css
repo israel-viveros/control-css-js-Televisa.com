@@ -730,3 +730,13 @@ header.nav_header_01 div.collapsable-verticals div.inner > div i{
 }
 
 .share_poll_tim_social input {cursor: pointer;}
+
+#noexplore {
+    background-color: #888;
+    z-index: 10000;
+    width: 100%;
+    line-height: 50px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
