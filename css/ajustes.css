@@ -498,7 +498,7 @@ color: #a31d21;
         text-align: center;
 		width:100%;
 		max-width:600px;
-		height:90px;
+		height:auto;
     }
     .td_home_main_01 .main > div.bottom_space{
         margin: 7px 0px 5px!important;
