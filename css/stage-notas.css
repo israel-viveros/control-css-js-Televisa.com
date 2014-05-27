@@ -188,7 +188,10 @@
 @media screen and (max-width:623px){
     .TitleEdiStageContainerLarge a h1,
     .TitleEdiStageContainerLarge a p{
+		top: 0;
         padding: 0 18px;
     }
-
-    }
+	.TitleEdiStageContainerLarge a p{
+		line-height: 22px;
+	}
+}
